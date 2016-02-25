@@ -1,0 +1,157 @@
+2015-06-22 22:29:10,433 2584 WARNING openstack_auth.forms Login failed for user "admin".
+2015-06-22 22:29:36,410 2583 INFO openstack_auth.forms Login successful for user "admin".
+2015-06-22 22:29:59,641 2583 INFO openstack_auth.views Logging out user "admin".
+2015-06-22 22:29:59,714 2583 INFO openstack_auth.views Deleted token 47fa3810ca74441fa6523bf838651abe
+2015-06-22 22:30:19,291 2582 INFO openstack_auth.forms Login successful for user "demo".
+2015-06-22 22:32:02,486 2583 INFO openstack_auth.views Logging out user "demo".
+2015-06-22 22:32:02,579 2583 INFO openstack_auth.views Could not delete token
+2015-06-22 22:32:15,547 2584 INFO openstack_auth.forms Login successful for user "admin".
+2015-06-22 22:33:10,666 2583 INFO openstack_auth.views Logging out user "".
+2015-06-22 22:33:18,742 2582 INFO openstack_auth.forms Login successful for user "admin".
+2015-06-22 22:34:41,193 2582 INFO openstack_auth.views Logging out user "admin".
+2015-06-22 22:34:41,261 2582 INFO openstack_auth.views Deleted token aaa446a0398a4a1db9a81e0a582fdf21
+2015-06-22 22:34:48,440 2584 INFO openstack_auth.forms Login successful for user "demo".
+2015-06-22 22:35:06,405 2582 INFO horizon.tables.actions Scheduled termination of Instance: "test"
+2015-09-30 21:11:19,847 3273 INFO openstack_auth.forms Login successful for user "admin".
+2015-09-30 21:12:14,079 3274 INFO horizon.tables.actions Enabled Service: "compute1"
+2015-09-30 21:12:19,579 3275 INFO horizon.tables.actions Enabled Service: "compute2"
+2015-09-30 22:06:26,037 2526 INFO openstack_auth.views Logging out user "admin".
+2015-09-30 22:06:26,193 2526 INFO openstack_auth.views Deleted token e1ced3d932704cee953fa45578e89541
+2015-09-30 22:06:51,648 2525 INFO openstack_auth.forms Login successful for user "admin".
+2015-09-30 22:07:56,932 2525 INFO horizon.tables.actions Enabled Service: "compute1"
+2015-09-30 22:10:05,096 2525 INFO openstack_auth.views Logging out user "admin".
+2015-09-30 22:10:05,119 2525 INFO openstack_auth.views Could not delete token
+2015-09-30 22:21:12,753 2637 INFO openstack_auth.forms Login successful for user "admin".
+2015-09-30 22:39:25,671 2639 INFO openstack_dashboard.dashboards.identity.users.forms Creating user with name "acme_d"
+2015-09-30 22:40:26,891 2637 INFO openstack_auth.views Logging out user "admin".
+2015-09-30 22:40:27,049 2637 INFO openstack_auth.views Deleted token 754f2d4d8f004066929ea3c731684fc8
+2015-09-30 22:40:34,680 2637 INFO openstack_auth.forms Login successful for user "acme_d".
+2015-10-01 02:06:01,073 6851 INFO openstack_auth.forms Login successful for user "admin".
+2015-10-01 02:56:38,792 6850 INFO openstack_auth.views Logging out user "admin".
+2015-10-01 02:56:38,903 6850 INFO openstack_auth.views Deleted token 8bec107834584c0986533fbdbe89989e
+2015-10-01 02:56:46,753 6849 INFO openstack_auth.forms Login successful for user "admin".
+2015-10-01 02:58:29,168 6849 INFO openstack_auth.forms Login successful for user "acme_d".
+2015-10-01 03:35:18,627 2702 INFO openstack_auth.views Logging out user "acme_d".
+2015-10-01 03:35:18,626 2702 INFO openstack_auth.views Logging out user "admin".
+2015-10-01 03:35:22,046 2702 INFO openstack_auth.views Could not delete token
+2015-10-01 03:35:22,142 2702 INFO openstack_auth.views Deleted token 14a5b6209abf445d932bf78321a14e41
+2015-10-01 03:35:53,533 2704 INFO openstack_auth.forms Login successful for user "acme_d".
+2015-10-01 03:35:59,660 2704 WARNING openstack_auth.forms Login failed for user "admin".
+2015-10-01 03:36:05,769 2702 INFO openstack_auth.forms Login successful for user "admin".
+2015-10-01 03:36:34,333 2702 INFO horizon.tables.actions Scheduled termination of Instance: "aaa"
+2015-10-01 03:51:50,134 2702 INFO horizon.tables.actions Permission denied to scheduled termination of instance: "aaa"
+2015-10-01 03:55:06,030 2703 INFO horizon.tables.actions Deleted Project: "acme_delete"
+2015-10-01 03:55:18,630 2702 INFO horizon.tables.actions Deleted User: "acme_d"
+2015-10-01 03:56:02,285 2702 WARNING horizon.exceptions Recoverable error: No available console found.
+2015-10-02 23:23:19,238 20537 INFO openstack_auth.forms Login successful for user "admin".
+2015-10-02 23:57:58,283 20537 INFO openstack_auth.views Logging out user "admin".
+2015-10-02 23:57:58,400 20537 INFO openstack_auth.views Deleted token 84c9f2309744431886f2be45e1a5bb6c
+2015-10-02 23:58:08,342 20536 INFO openstack_auth.forms Login successful for user "admin".
+2015-10-04 15:36:41,425 4905 WARNING django.request Not Found: /dashboard/login
+2015-10-04 20:48:13,644 3803 INFO openstack_auth.forms Login successful for user "admin".
+2015-10-04 20:58:08,689 3802 INFO openstack_auth.forms Login successful for user "admin".
+2015-10-04 21:03:19,565 3804 INFO horizon.tables.actions Deleted Project: "acme_inc"
+2015-10-04 21:14:54,470 3803 INFO openstack_dashboard.dashboards.identity.users.forms Creating user with name "aliceanderson"
+2015-10-04 21:15:57,897 3804 INFO openstack_dashboard.dashboards.identity.users.forms Creating user with name "bobbarker"
+2015-10-04 21:17:25,362 3802 INFO openstack_auth.views Logging out user "admin".
+2015-10-04 21:17:25,451 3802 INFO openstack_auth.views Deleted token b646aadec5304e479c9ff20858e0ea5c
+2015-10-04 21:17:44,821 3803 INFO openstack_auth.forms Login successful for user "aliceanderson".
+2015-10-04 21:24:59,585 3803 INFO openstack_auth.views Logging out user "aliceanderson".
+2015-10-04 21:24:59,638 3803 INFO openstack_auth.views Could not delete token
+2015-10-04 21:38:36,024 3802 INFO openstack_auth.forms Login successful for user "bobbarker".
+2015-10-04 21:48:02,537 3802 INFO openstack_auth.views Logging out user "bobbarker".
+2015-10-04 21:48:02,597 3802 INFO openstack_auth.views Could not delete token
+2015-10-04 21:48:37,115 3802 INFO openstack_auth.forms Login successful for user "admin".
+2015-10-04 21:50:04,981 3802 INFO horizon.tables.actions Scheduled termination of Instance: "acme_vm2"
+2015-10-04 21:50:05,179 3802 INFO horizon.tables.actions Scheduled termination of Instance: "acme_vm1"
+2015-10-04 21:50:06,118 3802 INFO horizon.tables.actions Scheduled termination of Instance: "vnc-test"
+2015-10-04 22:16:16,440 3804 INFO openstack_auth.views Logging out user "admin".
+2015-10-04 22:16:16,513 3804 INFO openstack_auth.views Deleted token 041edc488ac3400bbeb3780fbf92bfbc
+2015-10-04 22:16:35,191 3804 WARNING openstack_auth.forms Login failed for user "chestercopperpot".
+2015-10-04 22:16:56,322 3804 WARNING openstack_auth.forms Login failed for user "chestercopperpot".
+2015-10-04 22:18:25,896 3804 INFO openstack_auth.forms Login successful for user "chestercopperpot".
+2015-10-04 22:18:35,922 3804 WARNING django.request Forbidden (CSRF token missing or incorrect.): /dashboard/auth/login/
+2015-10-04 22:18:39,710 3804 WARNING django.request Forbidden (CSRF token missing or incorrect.): /dashboard/auth/login/
+2015-10-04 22:44:03,318 3804 INFO openstack_auth.forms Login successful for user "admin".
+2015-10-04 22:44:15,232 3802 INFO horizon.tables.actions Deleted User: "bobbarker"
+2015-10-04 22:44:15,292 3802 INFO horizon.tables.actions Deleted User: "chestercopperpot"
+2015-10-04 22:44:15,350 3802 INFO horizon.tables.actions Deleted User: "aliceanderson"
+2015-10-04 22:44:24,722 3802 INFO horizon.tables.actions Deleted Project: "acme_inc"
+2015-10-04 22:44:24,789 3802 INFO horizon.tables.actions Deleted Project: "vault_tek"
+2015-10-04 22:46:23,933 3804 INFO openstack_auth.views Logging out user "chestercopperpot".
+2015-10-04 22:46:23,964 3804 INFO openstack_auth.views Could not delete token
+2015-10-16 15:17:41,456 2569 INFO openstack_auth.forms Login successful for user "admin".
+2015-10-16 15:18:16,742 2569 INFO horizon.tables.actions Deleted Flavor: "custom.shrimpy"
+2016-02-22 20:23:40,760 5380 WARNING openstack_auth.forms Login failed for user "yuan-ming".
+2016-02-22 20:23:48,451 5381 WARNING openstack_auth.forms Login failed for user "yuan-ming".
+2016-02-22 20:23:57,778 5380 INFO openstack_auth.forms Login successful for user "admin".
+2016-02-22 21:00:40,116 5381 INFO openstack_auth.views Logging out user "admin".
+2016-02-22 21:00:40,197 5381 INFO openstack_auth.views Deleted token cfcb749a620b4566bb7ec0a08fb17c91
+2016-02-22 21:00:50,065 5379 INFO openstack_auth.forms Login successful for user "admin".
+2016-02-22 21:11:48,399 5379 INFO openstack_dashboard.dashboards.identity.users.forms Creating user with name "aliceanderson "
+2016-02-22 21:12:27,850 5379 INFO openstack_dashboard.dashboards.identity.users.forms Creating user with name "bobbarker"
+2016-02-22 21:12:37,728 5379 INFO openstack_auth.views Logging out user "".
+2016-02-22 21:12:38,366 5381 INFO openstack_auth.views Logging out user "admin".
+2016-02-22 21:12:38,432 5381 INFO openstack_auth.views Deleted token b2fbe35dc89843028f0eff051361f441
+2016-02-22 21:12:52,254 5380 WARNING openstack_auth.forms Login failed for user "alicewnderson".
+2016-02-22 21:13:16,756 5379 INFO openstack_auth.forms Login successful for user "aliceanderson".
+2016-02-22 21:21:46,509 5379 INFO openstack_auth.views Logging out user "aliceanderson".
+2016-02-22 21:21:46,567 5379 INFO openstack_auth.views Could not delete token
+2016-02-22 21:22:31,157 5381 INFO openstack_auth.forms Login successful for user "bobbarker".
+2016-02-22 21:33:26,795 5379 INFO openstack_auth.views Logging out user "bobbarker".
+2016-02-22 21:33:26,854 5379 INFO openstack_auth.views Could not delete token
+2016-02-22 21:33:38,632 5380 INFO openstack_auth.forms Login successful for user "admin".
+2016-02-22 21:35:40,460 5379 INFO horizon.tables.actions Scheduled termination of Instance: "acme_vm2"
+2016-02-22 21:35:40,911 5379 INFO horizon.tables.actions Scheduled termination of Instance: "acme_vm1"
+2016-02-22 21:36:14,324 5381 INFO openstack_auth.views Logging out user "admin".
+2016-02-22 21:36:14,393 5381 INFO openstack_auth.views Deleted token ba783894dc0e494ea7999ab0135a869b
+2016-02-22 21:36:51,604 5380 INFO openstack_auth.forms Login successful for user "bobbarker".
+2016-02-22 21:46:45,544 5380 INFO openstack_auth.views Logging out user "bobbarker".
+2016-02-22 21:46:45,600 5380 INFO openstack_auth.views Could not delete token
+2016-02-22 21:47:02,577 5380 INFO openstack_auth.forms Login successful for user "chestercopperpot".
+2016-02-22 21:47:58,212 5379 INFO openstack_auth.forms Login successful for user "chestercopperpot".
+2016-02-22 21:48:21,033 5379 INFO openstack_auth.forms Login successful for user "chestercopperpot".
+2016-02-22 21:48:30,509 5381 INFO openstack_auth.forms Login successful for user "admin".
+2016-02-22 22:09:06,711 5380 INFO openstack_auth.views Logging out user "admin".
+2016-02-22 22:09:06,788 5380 INFO openstack_auth.views Deleted token 641f06a5e48642cf81a5e9fff2e641a8
+2016-02-22 22:09:23,336 5379 INFO openstack_auth.forms Login successful for user "gandalf".
+2016-02-23 21:09:45,997 2581 INFO openstack_auth.forms Login successful for user "chestercopperpot".
+2016-02-23 22:18:07,696 2582 WARNING openstack_auth.forms Login failed for user "chestercopperpot".
+2016-02-23 22:18:24,969 2580 INFO openstack_auth.forms Login successful for user "chestercopperpot".
+2016-02-24 20:02:25,070 2682 INFO openstack_auth.forms Login successful for user "chestercopperpot".
+2016-02-24 20:03:13,746 2682 INFO openstack_auth.views Logging out user "".
+2016-02-24 20:03:14,440 2680 INFO openstack_auth.views Logging out user "chestercopperpot".
+2016-02-24 20:03:14,503 2680 INFO openstack_auth.views Could not delete token
+2016-02-24 20:03:24,201 2680 INFO openstack_auth.forms Login successful for user "admin".
+2016-02-24 20:04:40,577 2680 INFO openstack_auth.views Logging out user "admin".
+2016-02-24 20:04:40,639 2680 INFO openstack_auth.views Deleted token 9eb54d4d77594e49b1c53ed150775242
+2016-02-24 20:04:54,802 2681 INFO openstack_auth.forms Login successful for user "aliceanderson".
+2016-02-24 20:15:52,791 2680 INFO openstack_auth.views Logging out user "aliceanderson".
+2016-02-24 20:15:52,848 2680 INFO openstack_auth.views Could not delete token
+2016-02-24 20:16:11,802 2681 INFO openstack_auth.forms Login successful for user "chestercopperpot".
+2016-02-24 20:27:56,512 2680 INFO openstack_auth.views Logging out user "chestercopperpot".
+2016-02-24 20:27:56,573 2680 INFO openstack_auth.views Could not delete token
+2016-02-24 20:28:02,699 2681 INFO openstack_auth.forms Login successful for user "admin".
+2016-02-24 20:28:46,340 2682 INFO openstack_auth.views Logging out user "admin".
+2016-02-24 20:28:46,433 2682 INFO openstack_auth.views Deleted token 918ced2cd11342df8e722769b4242b06
+2016-02-24 20:29:05,315 2680 INFO openstack_auth.forms Login successful for user "aliceanderson".
+2016-02-24 20:29:22,953 2681 INFO openstack_auth.views Logging out user "aliceanderson".
+2016-02-24 20:29:22,999 2681 INFO openstack_auth.views Could not delete token
+2016-02-24 20:29:53,416 2680 INFO openstack_auth.forms Login successful for user "bobbarker".
+2016-02-24 20:30:15,010 2680 INFO openstack_auth.views Logging out user "bobbarker".
+2016-02-24 20:30:15,067 2680 INFO openstack_auth.views Could not delete token
+2016-02-24 20:30:24,219 2680 WARNING openstack_auth.forms Login failed for user "chesterpopperpop".
+2016-02-24 20:30:38,033 2681 WARNING openstack_auth.forms Login failed for user "chestercopperpop".
+2016-02-24 20:31:01,423 2680 WARNING openstack_auth.forms Login failed for user "chestercopperpop".
+2016-02-24 20:31:15,187 2681 INFO openstack_auth.forms Login successful for user "chestercopperpot".
+2016-02-25 20:01:13,676 2591 INFO openstack_auth.forms Login successful for user "admin".
+2016-02-25 20:05:29,500 2592 INFO openstack_auth.views Logging out user "".
+2016-02-25 20:05:29,550 2592 INFO openstack_auth.views Logging out user "".
+2016-02-25 20:06:01,047 2591 INFO openstack_auth.views Logging out user "admin".
+2016-02-25 20:06:01,154 2591 INFO openstack_auth.views Deleted token 8f25a338ad684f6a8bd398387af90368
+2016-02-25 20:06:18,927 2590 INFO openstack_auth.views Logging out user "admin".
+2016-02-25 20:06:18,952 2590 INFO openstack_auth.views Could not delete token
+2016-02-25 20:06:43,557 2592 INFO openstack_auth.forms Login successful for user "chestercopperpot".
+2016-02-25 20:46:59,893 2590 INFO openstack_auth.views Logging out user "chestercopperpot".
+2016-02-25 20:46:59,957 2590 INFO openstack_auth.views Could not delete token
+2016-02-25 21:53:16,420 15834 INFO openstack_auth.forms Login successful for user "admin".

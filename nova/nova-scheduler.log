@@ -2595,3 +2595,5 @@
 2016-02-25 22:39:26.898 997 INFO nova.scheduler.host_manager [req-2f52eb0b-f636-4758-ae61-acd1f269e101 - - - - -] Successfully synced instances from host 'compute2.localdomain'.
 2016-02-25 22:41:14.929 997 INFO nova.scheduler.host_manager [req-b85fd345-8b13-4720-a2ec-03de1b1894b6 - - - - -] Successfully synced instances from host 'compute1.localdomain'.
 2016-02-25 22:41:27.898 997 INFO nova.scheduler.host_manager [req-d8df00af-b263-4afa-9d7b-168077a84bf3 - - - - -] Successfully synced instances from host 'compute2.localdomain'.
+2016-02-25 22:43:18.929 997 INFO nova.scheduler.host_manager [req-0e551dbf-0d24-49ae-8574-334e17ad5706 - - - - -] Successfully synced instances from host 'compute1.localdomain'.
+2016-02-25 22:43:28.891 997 INFO nova.scheduler.host_manager [req-f544ce5c-1561-4236-b217-a3c13cefae37 - - - - -] Successfully synced instances from host 'compute2.localdomain'.

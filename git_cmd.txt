@@ -1,5 +1,5 @@
-cp /var/log/neutron/* /root/myopenstack/neutron
-cp /var/log/horizon/* root/myopenstack/horizon
+cp /var/log/neutron/* /root/myopenstack/neutron/
+cp /var/log/horizon/* /root/myopenstack/horizon/
 cp /var/log/nova/* /root/myopenstack/nova/
 cp /var/log/keystone/* /root/myopenstack/keystone/
 cp /var/log/swift/* /root/myopenstack/swift/

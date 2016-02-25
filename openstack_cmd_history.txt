@@ -736,3 +736,10 @@
   736  vi git_cmd.txt
   737  ls -ltr
   738  ./git_cmd.txt
+  739  ls -ltr
+  740  cd horizon
+  741  ls -ltr
+  742  cd ..
+  743  vi git_cmd.txt
+  744  ls -ltr
+  745  ./git_cmd.txt
