@@ -1,3 +1,5 @@
+cp /var/log/neutron/* /root/myopenstack/neutron
+cp /var/log/horizon/* root/myopenstack/horizon
 cp /var/log/nova/* /root/myopenstack/nova/
 cp /var/log/keystone/* /root/myopenstack/keystone/
 cp /var/log/swift/* /root/myopenstack/swift/
@@ -12,6 +14,8 @@ git add keystone/
 git add cinder/
 git add glance/
 git add rabbitmq/
+git add neutron/
+git add horizon/
 git commit -m "This is supposed to add all files"
 git remote remove origin
 git remote add origin  https://github.com/richuy/Richard_Chu_Openstack.git

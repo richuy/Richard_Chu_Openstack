@@ -1001,3 +1001,12 @@ Stderr: u'  Volume group "cinder-volumes" not found\n  Cannot process volume gro
 2016-02-25 22:30:45.300 2711 INFO cinder.volume.manager [req-9bab475d-8a2c-4c28-b28c-5509c69d0b31 - - - - -] Updating volume status
 2016-02-25 22:31:45.302 2711 INFO cinder.volume.manager [req-810b4a80-bbf6-4e36-9b33-8fa0357d08a2 - - - - -] Updating volume status
 2016-02-25 22:32:45.303 2711 INFO cinder.volume.manager [req-60edb50c-fdcc-478a-af5b-ab14efb44ff0 - - - - -] Updating volume status
+2016-02-25 22:33:45.304 2711 INFO cinder.volume.manager [req-ca1d923b-0857-4db8-860b-e216f957a12c - - - - -] Updating volume status
+2016-02-25 22:34:45.303 2711 INFO cinder.volume.manager [req-3a16f0bd-360e-4c7b-a508-d482362cea6e - - - - -] Updating volume status
+2016-02-25 22:35:45.304 2711 INFO cinder.volume.manager [req-216a0c89-0441-4b1c-9433-6a65116bcf8c - - - - -] Updating volume status
+2016-02-25 22:36:45.305 2711 INFO cinder.volume.manager [req-0f5bcdc5-fd5f-4477-ae46-393a2eb2fae6 - - - - -] Updating volume status
+2016-02-25 22:37:45.305 2711 INFO cinder.volume.manager [req-6ce6d155-13d1-423e-bff1-822bd2307cc8 - - - - -] Updating volume status
+2016-02-25 22:38:45.302 2711 INFO cinder.volume.manager [req-fdb8af5a-b133-4438-9280-05c9e7c7d4bb - - - - -] Updating volume status
+2016-02-25 22:39:45.293 2711 INFO cinder.volume.manager [req-b7453fb4-b270-4b4e-89f7-e805753e5b08 - - - - -] Updating volume status
+2016-02-25 22:40:45.305 2711 INFO cinder.volume.manager [req-0ba593b0-9ec2-482c-8258-806f9408095a - - - - -] Updating volume status
+2016-02-25 22:41:45.306 2711 INFO cinder.volume.manager [req-b043f740-3b4c-42bf-a393-a2a5ea909a11 - - - - -] Updating volume status

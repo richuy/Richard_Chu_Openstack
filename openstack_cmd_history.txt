@@ -714,3 +714,25 @@
   714  vi git_cmd.txt
   715  ls -tlr
   716  ./git_cmd.txt
+  717  more git_cmd.txt
+  718  ls -ltr
+  719  rm nova*log
+  720  rm keystone*log
+  721  ls -ltr
+  722  rm server.log
+  723  rm key*gz
+  724  ls -ltr
+  725  cd /var/log
+  726  ls -ltr
+  727  cd /root/my*
+  728  ls -ltr
+  729  mkdir neutron
+  730  mkdir horizon
+  731  ls -ltr
+  732  rn nova nova_log
+  733  ls -ltr
+  734  rm keystone.log*
+  735  ls -ltr
+  736  vi git_cmd.txt
+  737  ls -ltr
+  738  ./git_cmd.txt
