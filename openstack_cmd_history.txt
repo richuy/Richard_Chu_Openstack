@@ -583,3 +583,45 @@
   583  history
   584  cat history > openstack_cmd_history.txt
   585  history > openstack_cmd_history.txt
+  586  ls -ltr
+  587  cat opens*
+  588  more openstack_cmd*
+  589  git remote remove origin
+  590  ls -ltr
+  591  cat openst* | grep -i git
+  592  git remote add origin  https://github.com/richuy/Richard_Chu_Openstack.git
+  593    git remote remove origin 
+  594  pwd
+  595  cd openstack
+  596  cd myopen*
+  597  ls-ltr
+  598  ls -ltr
+  599  cd ..
+  600  ls -ltr
+  601  mv openstack* myopenstack
+  602  cd myope*
+  603  ls -ltr
+  604  cat open* | grep -i git
+  605  git remote remove origin
+  606  git remote add origin  https://github.com/richuy/Richard_Chu_Openstack.git
+  607  git push origin master
+  608  cinder list
+  609  ls -ltr
+  610  cat open* | grep -i
+  611  cat open* | grep -i git
+  612  git add *.*
+  613  git commit -m "This is supposed to add all files"
+  614  git remote add origin  https://github.com/richuy/Richard_Chu_Openstack.git
+  615  git remote remove origin
+  616  git remote add origin  https://github.com/richuy/Richard_Chu_Openstack.git
+  617  git push origin master
+  618  exit
+  619  cd /etc/
+  620  ls -ltr
+  621  mroe yum.conf
+  622  more yum.conf
+  623  su centos
+  624  ls -ltr
+  625  cd /root/my*
+  626  ls -ltr
+  627  history > openstack_cmd_history.txt
