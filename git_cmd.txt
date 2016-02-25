@@ -1,3 +1,4 @@
+history > openstack_cmd_history.txt
 git add *.*
 git commit -m "This is supposed to add all files"
 git remote remove origin

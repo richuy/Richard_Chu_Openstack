@@ -625,3 +625,23 @@
   625  cd /root/my*
   626  ls -ltr
   627  history > openstack_cmd_history.txt
+  628  ls -ltr
+  629  git status
+  630  more open*  | grep git
+  631  git push origin master
+  632  git add *.*
+  633   git commit -m "This is supposed to add all files"
+  634  vi git_cmd.txt
+  635  ls -ltr
+  636  chmod 777 git_cmd.txt
+  637  ./git_cmd.txt 
+  638  l
+  639  ls -ltr
+  640  vi git_cmd.txt
+  641  ls -ltr
+  642  ./git_cmd.txt
+  643  vi git_cmd.txt
+  644  ls -ltr
+  645  vi git*
+  646  ls -ltr
+  647  ./git_cmd.txt
