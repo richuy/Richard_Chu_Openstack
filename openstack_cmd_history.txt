@@ -684,3 +684,33 @@
   684  vi git_cmd*
   685  ls -ltr
   686  ./git_cmd.txt
+  687  ls -ltr
+  688  cd  nova
+  689  ls -ltr
+  690  cd ../rabbitmq
+  691  ls -ltr
+  692  cd ..
+  693  ls -ltr
+  694  git branch
+  695  git branch nova
+  696  git branch
+  697  git branch keystone
+  698  ls -ltr
+  699  ls
+  700  pwd
+  701  ls -ltr
+  702  more git_cmd.txt
+  703  history
+  704  history | grep git
+  705  git status
+  706  git add cinder/
+  707  git add glance/
+  708  git add keystone/
+  709  git add nova/
+  710  git add rabbitmq/
+  711  git add swift/
+  712  git status
+  713  ls -ltr
+  714  vi git_cmd.txt
+  715  ls -tlr
+  716  ./git_cmd.txt

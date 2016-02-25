@@ -1,0 +1,3297 @@
+
+=INFO REPORT==== 4-Oct-2015::15:40:57 ===
+Starting RabbitMQ 3.3.5 on Erlang R16B03-1
+Copyright (C) 2007-2014 GoPivotal, Inc.
+Licensed under the MPL.  See http://www.rabbitmq.com/
+
+=INFO REPORT==== 4-Oct-2015::15:40:57 ===
+node           : rabbit@controller
+home dir       : /var/lib/rabbitmq
+config file(s) : /etc/rabbitmq/rabbitmq.config
+cookie hash    : EYWjNeB+FI1hYD0l+wWVbg==
+log            : /var/log/rabbitmq/rabbit@controller.log
+sasl log       : /var/log/rabbitmq/rabbit@controller-sasl.log
+database dir   : /var/lib/rabbitmq/mnesia/rabbit@controller
+
+=INFO REPORT==== 4-Oct-2015::15:40:57 ===
+Limiting to approx 16284 file handles (14653 sockets)
+
+=INFO REPORT==== 4-Oct-2015::15:40:58 ===
+Memory limit set to 3193MB of 7984MB total.
+
+=INFO REPORT==== 4-Oct-2015::15:40:58 ===
+Disk free limit set to 50MB
+
+=INFO REPORT==== 4-Oct-2015::15:40:58 ===
+msg_store_transient: using rabbit_msg_store_ets_index to provide index
+
+=INFO REPORT==== 4-Oct-2015::15:40:58 ===
+msg_store_persistent: using rabbit_msg_store_ets_index to provide index
+
+=INFO REPORT==== 4-Oct-2015::15:40:58 ===
+started TCP Listener on [::]:5672
+
+=INFO REPORT==== 4-Oct-2015::15:40:58 ===
+accepting AMQP connection <0.204.0> (192.168.0.10:54281 -> 192.168.0.10:5672)
+
+=INFO REPORT==== 4-Oct-2015::15:40:58 ===
+accepting AMQP connection <0.208.0> (192.168.0.12:54927 -> 192.168.0.10:5672)
+
+=INFO REPORT==== 4-Oct-2015::15:40:58 ===
+accepting AMQP connection <0.211.0> (192.168.0.11:46480 -> 192.168.0.10:5672)
+
+=INFO REPORT==== 4-Oct-2015::15:40:58 ===
+Server startup complete; 0 plugins started.
+
+=INFO REPORT==== 4-Oct-2015::15:40:58 ===
+accepting AMQP connection <0.222.0> (192.168.0.11:46481 -> 192.168.0.10:5672)
+
+=INFO REPORT==== 4-Oct-2015::15:40:58 ===
+accepting AMQP connection <0.253.0> (192.168.0.12:54928 -> 192.168.0.10:5672)
+
+=INFO REPORT==== 4-Oct-2015::15:40:58 ===
+accepting AMQP connection <0.269.0> (192.168.0.13:59531 -> 192.168.0.10:5672)
+
+=INFO REPORT==== 4-Oct-2015::15:40:58 ===
+accepting AMQP connection <0.272.0> (192.168.0.12:54929 -> 192.168.0.10:5672)
+
+=INFO REPORT==== 4-Oct-2015::15:40:58 ===
+accepting AMQP connection <0.276.0> (192.168.0.13:59532 -> 192.168.0.10:5672)
+
+=INFO REPORT==== 4-Oct-2015::15:40:58 ===
+accepting AMQP connection <0.286.0> (192.168.0.11:46482 -> 192.168.0.10:5672)
+
+=INFO REPORT==== 4-Oct-2015::15:40:58 ===
+accepting AMQP connection <0.300.0> (192.168.0.11:46483 -> 192.168.0.10:5672)
+
+=INFO REPORT==== 4-Oct-2015::15:40:58 ===
+accepting AMQP connection <0.314.0> (192.168.0.11:46484 -> 192.168.0.10:5672)
+
+=INFO REPORT==== 4-Oct-2015::15:40:58 ===
+accepting AMQP connection <0.319.0> (192.168.0.11:46485 -> 192.168.0.10:5672)
+
+=INFO REPORT==== 4-Oct-2015::15:40:58 ===
+accepting AMQP connection <0.323.0> (192.168.0.12:54930 -> 192.168.0.10:5672)
+
+=INFO REPORT==== 4-Oct-2015::15:40:58 ===
+accepting AMQP connection <0.363.0> (192.168.0.12:54931 -> 192.168.0.10:5672)
+
+=INFO REPORT==== 4-Oct-2015::15:40:58 ===
+accepting AMQP connection <0.366.0> (192.168.0.12:54932 -> 192.168.0.10:5672)
+
+=INFO REPORT==== 4-Oct-2015::15:40:58 ===
+accepting AMQP connection <0.369.0> (192.168.0.13:59533 -> 192.168.0.10:5672)
+
+=INFO REPORT==== 4-Oct-2015::15:40:58 ===
+accepting AMQP connection <0.384.0> (192.168.0.13:59534 -> 192.168.0.10:5672)
+
+=INFO REPORT==== 4-Oct-2015::15:40:58 ===
+accepting AMQP connection <0.404.0> (192.168.0.11:46486 -> 192.168.0.10:5672)
+
+=INFO REPORT==== 4-Oct-2015::15:40:58 ===
+accepting AMQP connection <0.409.0> (192.168.0.13:59535 -> 192.168.0.10:5672)
+
+=INFO REPORT==== 4-Oct-2015::15:40:58 ===
+accepting AMQP connection <0.417.0> (192.168.0.13:59536 -> 192.168.0.10:5672)
+
+=INFO REPORT==== 4-Oct-2015::15:40:58 ===
+accepting AMQP connection <0.432.0> (192.168.0.11:46487 -> 192.168.0.10:5672)
+
+=INFO REPORT==== 4-Oct-2015::15:40:58 ===
+accepting AMQP connection <0.435.0> (192.168.0.11:46488 -> 192.168.0.10:5672)
+
+=INFO REPORT==== 4-Oct-2015::15:40:58 ===
+accepting AMQP connection <0.448.0> (192.168.0.11:46489 -> 192.168.0.10:5672)
+
+=INFO REPORT==== 4-Oct-2015::15:40:58 ===
+accepting AMQP connection <0.470.0> (192.168.0.13:59537 -> 192.168.0.10:5672)
+
+=INFO REPORT==== 4-Oct-2015::15:40:58 ===
+accepting AMQP connection <0.475.0> (192.168.0.13:59538 -> 192.168.0.10:5672)
+
+=INFO REPORT==== 4-Oct-2015::15:40:58 ===
+accepting AMQP connection <0.481.0> (192.168.0.11:46490 -> 192.168.0.10:5672)
+
+=INFO REPORT==== 4-Oct-2015::15:40:58 ===
+accepting AMQP connection <0.485.0> (192.168.0.11:46491 -> 192.168.0.10:5672)
+
+=INFO REPORT==== 4-Oct-2015::15:40:58 ===
+accepting AMQP connection <0.488.0> (192.168.0.13:59539 -> 192.168.0.10:5672)
+
+=INFO REPORT==== 4-Oct-2015::15:40:58 ===
+accepting AMQP connection <0.523.0> (192.168.0.10:54282 -> 192.168.0.10:5672)
+
+=INFO REPORT==== 4-Oct-2015::15:40:58 ===
+accepting AMQP connection <0.544.0> (192.168.0.12:54933 -> 192.168.0.10:5672)
+
+=INFO REPORT==== 4-Oct-2015::15:40:58 ===
+accepting AMQP connection <0.547.0> (192.168.0.10:54283 -> 192.168.0.10:5672)
+
+=INFO REPORT==== 4-Oct-2015::15:40:58 ===
+accepting AMQP connection <0.550.0> (192.168.0.12:54934 -> 192.168.0.10:5672)
+
+=INFO REPORT==== 4-Oct-2015::15:40:58 ===
+accepting AMQP connection <0.558.0> (192.168.0.12:54935 -> 192.168.0.10:5672)
+
+=INFO REPORT==== 4-Oct-2015::15:40:58 ===
+accepting AMQP connection <0.575.0> (192.168.0.11:46492 -> 192.168.0.10:5672)
+
+=INFO REPORT==== 4-Oct-2015::15:40:58 ===
+accepting AMQP connection <0.578.0> (192.168.0.11:46493 -> 192.168.0.10:5672)
+
+=INFO REPORT==== 4-Oct-2015::15:40:58 ===
+accepting AMQP connection <0.584.0> (192.168.0.12:54936 -> 192.168.0.10:5672)
+
+=INFO REPORT==== 4-Oct-2015::15:40:59 ===
+accepting AMQP connection <0.588.0> (192.168.0.11:46494 -> 192.168.0.10:5672)
+
+=INFO REPORT==== 4-Oct-2015::15:40:59 ===
+accepting AMQP connection <0.592.0> (192.168.0.12:54937 -> 192.168.0.10:5672)
+
+=INFO REPORT==== 4-Oct-2015::15:40:59 ===
+accepting AMQP connection <0.615.0> (192.168.0.12:54938 -> 192.168.0.10:5672)
+
+=INFO REPORT==== 4-Oct-2015::15:40:59 ===
+accepting AMQP connection <0.655.0> (192.168.0.10:54284 -> 192.168.0.10:5672)
+
+=INFO REPORT==== 4-Oct-2015::15:40:59 ===
+accepting AMQP connection <0.671.0> (192.168.0.11:46495 -> 192.168.0.10:5672)
+
+=INFO REPORT==== 4-Oct-2015::15:40:59 ===
+accepting AMQP connection <0.674.0> (192.168.0.13:59540 -> 192.168.0.10:5672)
+
+=INFO REPORT==== 4-Oct-2015::15:40:59 ===
+accepting AMQP connection <0.697.0> (192.168.0.12:54939 -> 192.168.0.10:5672)
+
+=INFO REPORT==== 4-Oct-2015::15:40:59 ===
+accepting AMQP connection <0.700.0> (192.168.0.11:46496 -> 192.168.0.10:5672)
+
+=INFO REPORT==== 4-Oct-2015::15:40:59 ===
+accepting AMQP connection <0.733.0> (192.168.0.13:59541 -> 192.168.0.10:5672)
+
+=INFO REPORT==== 4-Oct-2015::15:40:59 ===
+accepting AMQP connection <0.736.0> (192.168.0.13:59542 -> 192.168.0.10:5672)
+
+=INFO REPORT==== 4-Oct-2015::15:40:59 ===
+accepting AMQP connection <0.739.0> (192.168.0.13:59543 -> 192.168.0.10:5672)
+
+=INFO REPORT==== 4-Oct-2015::15:41:06 ===
+accepting AMQP connection <0.769.0> (192.168.0.10:54299 -> 192.168.0.10:5672)
+
+=INFO REPORT==== 4-Oct-2015::15:41:07 ===
+accepting AMQP connection <0.781.0> (192.168.0.10:54300 -> 192.168.0.10:5672)
+
+=INFO REPORT==== 4-Oct-2015::15:41:07 ===
+accepting AMQP connection <0.793.0> (192.168.0.10:54301 -> 192.168.0.10:5672)
+
+=INFO REPORT==== 4-Oct-2015::15:41:07 ===
+accepting AMQP connection <0.803.0> (192.168.0.10:54302 -> 192.168.0.10:5672)
+
+=INFO REPORT==== 4-Oct-2015::15:41:07 ===
+accepting AMQP connection <0.806.0> (192.168.0.10:54303 -> 192.168.0.10:5672)
+
+=INFO REPORT==== 4-Oct-2015::15:41:07 ===
+accepting AMQP connection <0.827.0> (192.168.0.10:54304 -> 192.168.0.10:5672)
+
+=INFO REPORT==== 4-Oct-2015::15:41:07 ===
+accepting AMQP connection <0.837.0> (192.168.0.10:54305 -> 192.168.0.10:5672)
+
+=INFO REPORT==== 4-Oct-2015::15:41:08 ===
+accepting AMQP connection <0.852.0> (192.168.0.10:54306 -> 192.168.0.10:5672)
+
+=INFO REPORT==== 4-Oct-2015::15:41:09 ===
+accepting AMQP connection <0.869.0> (192.168.0.10:54307 -> 192.168.0.10:5672)
+
+=INFO REPORT==== 4-Oct-2015::15:41:12 ===
+accepting AMQP connection <0.882.0> (192.168.0.10:54314 -> 192.168.0.10:5672)
+
+=INFO REPORT==== 4-Oct-2015::15:41:13 ===
+accepting AMQP connection <0.894.0> (192.168.0.10:54318 -> 192.168.0.10:5672)
+
+=INFO REPORT==== 4-Oct-2015::15:41:13 ===
+accepting AMQP connection <0.906.0> (192.168.0.10:54321 -> 192.168.0.10:5672)
+
+=INFO REPORT==== 4-Oct-2015::15:41:13 ===
+accepting AMQP connection <0.914.0> (192.168.0.10:54322 -> 192.168.0.10:5672)
+
+=INFO REPORT==== 4-Oct-2015::15:41:13 ===
+accepting AMQP connection <0.928.0> (192.168.0.10:54323 -> 192.168.0.10:5672)
+
+=INFO REPORT==== 4-Oct-2015::15:41:13 ===
+accepting AMQP connection <0.931.0> (192.168.0.10:54324 -> 192.168.0.10:5672)
+
+=INFO REPORT==== 4-Oct-2015::15:41:13 ===
+accepting AMQP connection <0.940.0> (192.168.0.10:54325 -> 192.168.0.10:5672)
+
+=INFO REPORT==== 4-Oct-2015::15:41:13 ===
+accepting AMQP connection <0.958.0> (192.168.0.10:54326 -> 192.168.0.10:5672)
+
+=INFO REPORT==== 4-Oct-2015::15:41:14 ===
+accepting AMQP connection <0.973.0> (192.168.0.10:54327 -> 192.168.0.10:5672)
+
+=INFO REPORT==== 4-Oct-2015::15:41:14 ===
+accepting AMQP connection <0.986.0> (192.168.0.10:54328 -> 192.168.0.10:5672)
+
+=INFO REPORT==== 4-Oct-2015::15:41:19 ===
+accepting AMQP connection <0.1003.0> (192.168.0.10:54329 -> 192.168.0.10:5672)
+
+=INFO REPORT==== 4-Oct-2015::15:41:20 ===
+accepting AMQP connection <0.1020.0> (192.168.0.10:54330 -> 192.168.0.10:5672)
+
+=INFO REPORT==== 4-Oct-2015::15:48:12 ===
+accepting AMQP connection <0.2940.0> (192.168.0.12:54945 -> 192.168.0.10:5672)
+
+=INFO REPORT==== 4-Oct-2015::15:50:53 ===
+accepting AMQP connection <0.3666.0> (192.168.0.10:54456 -> 192.168.0.10:5672)
+
+=WARNING REPORT==== 4-Oct-2015::20:18:24 ===
+closing AMQP connection <0.2940.0> (192.168.0.12:54945 -> 192.168.0.10:5672):
+connection_closed_abruptly
+
+=WARNING REPORT==== 4-Oct-2015::20:18:25 ===
+closing AMQP connection <0.323.0> (192.168.0.12:54930 -> 192.168.0.10:5672):
+connection_closed_abruptly
+
+=WARNING REPORT==== 4-Oct-2015::20:18:25 ===
+closing AMQP connection <0.272.0> (192.168.0.12:54929 -> 192.168.0.10:5672):
+connection_closed_abruptly
+
+=WARNING REPORT==== 4-Oct-2015::20:18:25 ===
+closing AMQP connection <0.363.0> (192.168.0.12:54931 -> 192.168.0.10:5672):
+connection_closed_abruptly
+
+=WARNING REPORT==== 4-Oct-2015::20:18:25 ===
+closing AMQP connection <0.366.0> (192.168.0.12:54932 -> 192.168.0.10:5672):
+connection_closed_abruptly
+
+=WARNING REPORT==== 4-Oct-2015::20:18:25 ===
+closing AMQP connection <0.208.0> (192.168.0.12:54927 -> 192.168.0.10:5672):
+connection_closed_abruptly
+
+=WARNING REPORT==== 4-Oct-2015::20:18:25 ===
+closing AMQP connection <0.253.0> (192.168.0.12:54928 -> 192.168.0.10:5672):
+connection_closed_abruptly
+
+=WARNING REPORT==== 4-Oct-2015::20:18:25 ===
+closing AMQP connection <0.550.0> (192.168.0.12:54934 -> 192.168.0.10:5672):
+connection_closed_abruptly
+
+=WARNING REPORT==== 4-Oct-2015::20:18:25 ===
+closing AMQP connection <0.544.0> (192.168.0.12:54933 -> 192.168.0.10:5672):
+connection_closed_abruptly
+
+=WARNING REPORT==== 4-Oct-2015::20:18:25 ===
+closing AMQP connection <0.558.0> (192.168.0.12:54935 -> 192.168.0.10:5672):
+connection_closed_abruptly
+
+=WARNING REPORT==== 4-Oct-2015::20:18:25 ===
+closing AMQP connection <0.584.0> (192.168.0.12:54936 -> 192.168.0.10:5672):
+connection_closed_abruptly
+
+=WARNING REPORT==== 4-Oct-2015::20:18:25 ===
+closing AMQP connection <0.615.0> (192.168.0.12:54938 -> 192.168.0.10:5672):
+connection_closed_abruptly
+
+=WARNING REPORT==== 4-Oct-2015::20:18:25 ===
+closing AMQP connection <0.592.0> (192.168.0.12:54937 -> 192.168.0.10:5672):
+connection_closed_abruptly
+
+=WARNING REPORT==== 4-Oct-2015::20:18:25 ===
+closing AMQP connection <0.697.0> (192.168.0.12:54939 -> 192.168.0.10:5672):
+connection_closed_abruptly
+
+=INFO REPORT==== 4-Oct-2015::20:19:03 ===
+accepting AMQP connection <0.12751.2> (192.168.0.12:51352 -> 192.168.0.10:5672)
+
+=INFO REPORT==== 4-Oct-2015::20:19:04 ===
+accepting AMQP connection <0.12761.2> (192.168.0.12:51353 -> 192.168.0.10:5672)
+
+=INFO REPORT==== 4-Oct-2015::20:19:05 ===
+accepting AMQP connection <0.12834.2> (192.168.0.12:51357 -> 192.168.0.10:5672)
+
+=INFO REPORT==== 4-Oct-2015::20:19:05 ===
+accepting AMQP connection <0.12844.2> (192.168.0.12:51358 -> 192.168.0.10:5672)
+
+=INFO REPORT==== 4-Oct-2015::20:19:05 ===
+accepting AMQP connection <0.12857.2> (192.168.0.10:57759 -> 192.168.0.10:5672)
+
+=INFO REPORT==== 4-Oct-2015::20:19:05 ===
+accepting AMQP connection <0.12870.2> (192.168.0.12:51359 -> 192.168.0.10:5672)
+
+=INFO REPORT==== 4-Oct-2015::20:19:05 ===
+accepting AMQP connection <0.12881.2> (192.168.0.12:51360 -> 192.168.0.10:5672)
+
+=INFO REPORT==== 4-Oct-2015::20:19:06 ===
+accepting AMQP connection <0.12892.2> (192.168.0.12:51361 -> 192.168.0.10:5672)
+
+=INFO REPORT==== 4-Oct-2015::20:19:06 ===
+accepting AMQP connection <0.12903.2> (192.168.0.12:51362 -> 192.168.0.10:5672)
+
+=INFO REPORT==== 4-Oct-2015::20:19:06 ===
+accepting AMQP connection <0.12914.2> (192.168.0.12:51363 -> 192.168.0.10:5672)
+
+=INFO REPORT==== 4-Oct-2015::20:19:06 ===
+accepting AMQP connection <0.12925.2> (192.168.0.12:51364 -> 192.168.0.10:5672)
+
+=INFO REPORT==== 4-Oct-2015::20:19:06 ===
+accepting AMQP connection <0.12936.2> (192.168.0.12:51365 -> 192.168.0.10:5672)
+
+=INFO REPORT==== 4-Oct-2015::20:20:05 ===
+accepting AMQP connection <0.13162.2> (192.168.0.12:51366 -> 192.168.0.10:5672)
+
+=WARNING REPORT==== 4-Oct-2015::20:22:14 ===
+closing AMQP connection <0.276.0> (192.168.0.13:59532 -> 192.168.0.10:5672):
+connection_closed_abruptly
+
+=WARNING REPORT==== 4-Oct-2015::20:22:14 ===
+closing AMQP connection <0.269.0> (192.168.0.13:59531 -> 192.168.0.10:5672):
+connection_closed_abruptly
+
+=WARNING REPORT==== 4-Oct-2015::20:22:14 ===
+closing AMQP connection <0.733.0> (192.168.0.13:59541 -> 192.168.0.10:5672):
+connection_closed_abruptly
+
+=WARNING REPORT==== 4-Oct-2015::20:22:14 ===
+closing AMQP connection <0.736.0> (192.168.0.13:59542 -> 192.168.0.10:5672):
+connection_closed_abruptly
+
+=WARNING REPORT==== 4-Oct-2015::20:22:14 ===
+closing AMQP connection <0.674.0> (192.168.0.13:59540 -> 192.168.0.10:5672):
+connection_closed_abruptly
+
+=WARNING REPORT==== 4-Oct-2015::20:22:14 ===
+closing AMQP connection <0.369.0> (192.168.0.13:59533 -> 192.168.0.10:5672):
+connection_closed_abruptly
+
+=WARNING REPORT==== 4-Oct-2015::20:22:14 ===
+closing AMQP connection <0.384.0> (192.168.0.13:59534 -> 192.168.0.10:5672):
+connection_closed_abruptly
+
+=WARNING REPORT==== 4-Oct-2015::20:22:14 ===
+closing AMQP connection <0.417.0> (192.168.0.13:59536 -> 192.168.0.10:5672):
+connection_closed_abruptly
+
+=WARNING REPORT==== 4-Oct-2015::20:22:14 ===
+closing AMQP connection <0.409.0> (192.168.0.13:59535 -> 192.168.0.10:5672):
+connection_closed_abruptly
+
+=WARNING REPORT==== 4-Oct-2015::20:22:14 ===
+closing AMQP connection <0.470.0> (192.168.0.13:59537 -> 192.168.0.10:5672):
+connection_closed_abruptly
+
+=WARNING REPORT==== 4-Oct-2015::20:22:14 ===
+closing AMQP connection <0.739.0> (192.168.0.13:59543 -> 192.168.0.10:5672):
+connection_closed_abruptly
+
+=WARNING REPORT==== 4-Oct-2015::20:22:14 ===
+closing AMQP connection <0.475.0> (192.168.0.13:59538 -> 192.168.0.10:5672):
+connection_closed_abruptly
+
+=WARNING REPORT==== 4-Oct-2015::20:22:14 ===
+closing AMQP connection <0.488.0> (192.168.0.13:59539 -> 192.168.0.10:5672):
+connection_closed_abruptly
+
+=INFO REPORT==== 4-Oct-2015::20:22:48 ===
+accepting AMQP connection <0.13825.2> (192.168.0.13:42071 -> 192.168.0.10:5672)
+
+=INFO REPORT==== 4-Oct-2015::20:22:51 ===
+accepting AMQP connection <0.13850.2> (192.168.0.13:42072 -> 192.168.0.10:5672)
+
+=INFO REPORT==== 4-Oct-2015::20:22:51 ===
+accepting AMQP connection <0.13860.2> (192.168.0.13:42073 -> 192.168.0.10:5672)
+
+=INFO REPORT==== 4-Oct-2015::20:22:53 ===
+accepting AMQP connection <0.13934.2> (192.168.0.10:57888 -> 192.168.0.10:5672)
+
+=INFO REPORT==== 4-Oct-2015::20:22:54 ===
+accepting AMQP connection <0.13979.2> (192.168.0.13:42077 -> 192.168.0.10:5672)
+
+=INFO REPORT==== 4-Oct-2015::20:22:54 ===
+accepting AMQP connection <0.13993.2> (192.168.0.13:42078 -> 192.168.0.10:5672)
+
+=INFO REPORT==== 4-Oct-2015::20:22:54 ===
+accepting AMQP connection <0.14022.2> (192.168.0.10:57889 -> 192.168.0.10:5672)
+
+=INFO REPORT==== 4-Oct-2015::20:22:54 ===
+accepting AMQP connection <0.14047.2> (192.168.0.13:42079 -> 192.168.0.10:5672)
+
+=INFO REPORT==== 4-Oct-2015::20:22:54 ===
+accepting AMQP connection <0.14074.2> (192.168.0.13:42080 -> 192.168.0.10:5672)
+
+=INFO REPORT==== 4-Oct-2015::20:22:54 ===
+accepting AMQP connection <0.14105.2> (192.168.0.13:42081 -> 192.168.0.10:5672)
+
+=INFO REPORT==== 4-Oct-2015::20:22:55 ===
+accepting AMQP connection <0.14120.2> (192.168.0.13:42082 -> 192.168.0.10:5672)
+
+=INFO REPORT==== 4-Oct-2015::20:22:55 ===
+accepting AMQP connection <0.14131.2> (192.168.0.13:42083 -> 192.168.0.10:5672)
+
+=INFO REPORT==== 4-Oct-2015::20:22:55 ===
+accepting AMQP connection <0.14146.2> (192.168.0.13:42084 -> 192.168.0.10:5672)
+
+=INFO REPORT==== 4-Oct-2015::20:22:55 ===
+accepting AMQP connection <0.14172.2> (192.168.0.13:42085 -> 192.168.0.10:5672)
+
+=INFO REPORT==== 4-Oct-2015::20:22:55 ===
+accepting AMQP connection <0.14220.2> (192.168.0.13:42086 -> 192.168.0.10:5672)
+
+=INFO REPORT==== 4-Oct-2015::21:21:45 ===
+accepting AMQP connection <0.29042.2> (192.168.0.10:59049 -> 192.168.0.10:5672)
+
+=INFO REPORT==== 4-Oct-2015::21:21:45 ===
+accepting AMQP connection <0.29055.2> (192.168.0.10:59050 -> 192.168.0.10:5672)
+
+=INFO REPORT==== 4-Oct-2015::21:21:45 ===
+accepting AMQP connection <0.29069.2> (192.168.0.10:59051 -> 192.168.0.10:5672)
+
+=INFO REPORT==== 4-Oct-2015::21:21:46 ===
+accepting AMQP connection <0.29191.2> (192.168.0.10:59064 -> 192.168.0.10:5672)
+
+=INFO REPORT==== 4-Oct-2015::21:21:47 ===
+accepting AMQP connection <0.29212.2> (192.168.0.10:59068 -> 192.168.0.10:5672)
+
+=INFO REPORT==== 4-Oct-2015::21:21:47 ===
+accepting AMQP connection <0.29249.2> (192.168.0.10:59074 -> 192.168.0.10:5672)
+
+=INFO REPORT==== 4-Oct-2015::21:23:26 ===
+accepting AMQP connection <0.29572.2> (192.168.0.10:59179 -> 192.168.0.10:5672)
+
+=INFO REPORT==== 4-Oct-2015::21:24:04 ===
+accepting AMQP connection <0.29850.2> (192.168.0.10:59217 -> 192.168.0.10:5672)
+
+=INFO REPORT==== 4-Oct-2015::21:24:09 ===
+accepting AMQP connection <0.29944.2> (192.168.0.10:59226 -> 192.168.0.10:5672)
+
+=INFO REPORT==== 4-Oct-2015::21:24:10 ===
+accepting AMQP connection <0.29961.2> (192.168.0.10:59229 -> 192.168.0.10:5672)
+
+=INFO REPORT==== 4-Oct-2015::21:24:13 ===
+accepting AMQP connection <0.30006.2> (192.168.0.10:59233 -> 192.168.0.10:5672)
+
+=INFO REPORT==== 4-Oct-2015::21:24:14 ===
+accepting AMQP connection <0.30043.2> (192.168.0.13:42103 -> 192.168.0.10:5672)
+
+=INFO REPORT==== 4-Oct-2015::21:24:27 ===
+accepting AMQP connection <0.30142.2> (192.168.0.11:46497 -> 192.168.0.10:5672)
+
+=INFO REPORT==== 4-Oct-2015::21:24:27 ===
+accepting AMQP connection <0.30152.2> (192.168.0.11:46498 -> 192.168.0.10:5672)
+
+=INFO REPORT==== 4-Oct-2015::21:24:28 ===
+accepting AMQP connection <0.30181.2> (192.168.0.10:59243 -> 192.168.0.10:5672)
+
+=INFO REPORT==== 4-Oct-2015::21:24:28 ===
+accepting AMQP connection <0.30191.2> (192.168.0.10:59244 -> 192.168.0.10:5672)
+
+=INFO REPORT==== 4-Oct-2015::21:24:29 ===
+accepting AMQP connection <0.30208.2> (192.168.0.11:46500 -> 192.168.0.10:5672)
+
+=INFO REPORT==== 4-Oct-2015::21:24:29 ===
+accepting AMQP connection <0.30218.2> (192.168.0.11:46501 -> 192.168.0.10:5672)
+
+=INFO REPORT==== 4-Oct-2015::21:24:31 ===
+accepting AMQP connection <0.30255.2> (192.168.0.10:59246 -> 192.168.0.10:5672)
+
+=INFO REPORT==== 4-Oct-2015::21:24:31 ===
+accepting AMQP connection <0.30265.2> (192.168.0.10:59247 -> 192.168.0.10:5672)
+
+=INFO REPORT==== 4-Oct-2015::21:24:32 ===
+accepting AMQP connection <0.30290.2> (192.168.0.11:46504 -> 192.168.0.10:5672)
+
+=INFO REPORT==== 4-Oct-2015::21:24:32 ===
+accepting AMQP connection <0.30300.2> (192.168.0.11:46505 -> 192.168.0.10:5672)
+
+=INFO REPORT==== 4-Oct-2015::21:24:34 ===
+accepting AMQP connection <0.30329.2> (192.168.0.10:59249 -> 192.168.0.10:5672)
+
+=INFO REPORT==== 4-Oct-2015::21:24:34 ===
+accepting AMQP connection <0.30339.2> (192.168.0.10:59250 -> 192.168.0.10:5672)
+
+=INFO REPORT==== 4-Oct-2015::21:24:34 ===
+accepting AMQP connection <0.30360.2> (192.168.0.11:46509 -> 192.168.0.10:5672)
+
+=INFO REPORT==== 4-Oct-2015::21:24:34 ===
+accepting AMQP connection <0.30370.2> (192.168.0.11:46510 -> 192.168.0.10:5672)
+
+=INFO REPORT==== 4-Oct-2015::21:24:35 ===
+accepting AMQP connection <0.30403.2> (192.168.0.10:59252 -> 192.168.0.10:5672)
+
+=INFO REPORT==== 4-Oct-2015::21:24:36 ===
+accepting AMQP connection <0.30413.2> (192.168.0.10:59253 -> 192.168.0.10:5672)
+
+=INFO REPORT==== 4-Oct-2015::21:40:32 ===
+accepting AMQP connection <0.2187.3> (192.168.0.10:59517 -> 192.168.0.10:5672)
+
+=INFO REPORT==== 4-Oct-2015::21:40:32 ===
+accepting AMQP connection <0.2200.3> (192.168.0.10:59518 -> 192.168.0.10:5672)
+
+=INFO REPORT==== 4-Oct-2015::21:42:29 ===
+accepting AMQP connection <0.2753.3> (192.168.0.12:51387 -> 192.168.0.10:5672)
+
+=INFO REPORT==== 4-Oct-2015::21:44:31 ===
+accepting AMQP connection <0.3788.3> (192.168.0.10:59745 -> 192.168.0.10:5672)
+
+=INFO REPORT==== 4-Oct-2015::21:48:57 ===
+accepting AMQP connection <0.5226.3> (192.168.0.12:51392 -> 192.168.0.10:5672)
+
+=INFO REPORT==== 4-Oct-2015::21:50:05 ===
+accepting AMQP connection <0.5683.3> (192.168.0.10:59977 -> 192.168.0.10:5672)
+
+=INFO REPORT==== 4-Oct-2015::22:48:01 ===
+closing AMQP connection <0.958.0> (192.168.0.10:54326 -> 192.168.0.10:5672)
+
+=WARNING REPORT==== 4-Oct-2015::22:48:01 ===
+closing AMQP connection <0.432.0> (192.168.0.11:46487 -> 192.168.0.10:5672):
+connection_closed_abruptly
+
+=WARNING REPORT==== 4-Oct-2015::22:48:01 ===
+closing AMQP connection <0.29249.2> (192.168.0.10:59074 -> 192.168.0.10:5672):
+connection_closed_abruptly
+
+=WARNING REPORT==== 4-Oct-2015::22:48:01 ===
+closing AMQP connection <0.211.0> (192.168.0.11:46480 -> 192.168.0.10:5672):
+connection_closed_abruptly
+
+=WARNING REPORT==== 4-Oct-2015::22:48:01 ===
+closing AMQP connection <0.404.0> (192.168.0.11:46486 -> 192.168.0.10:5672):
+connection_closed_abruptly
+
+=WARNING REPORT==== 4-Oct-2015::22:48:01 ===
+closing AMQP connection <0.973.0> (192.168.0.10:54327 -> 192.168.0.10:5672):
+connection_closed_abruptly
+
+=WARNING REPORT==== 4-Oct-2015::22:48:01 ===
+closing AMQP connection <0.986.0> (192.168.0.10:54328 -> 192.168.0.10:5672):
+connection_closed_abruptly
+
+=WARNING REPORT==== 4-Oct-2015::22:48:01 ===
+closing AMQP connection <0.435.0> (192.168.0.11:46488 -> 192.168.0.10:5672):
+connection_closed_abruptly
+
+=WARNING REPORT==== 4-Oct-2015::22:48:01 ===
+closing AMQP connection <0.30191.2> (192.168.0.10:59244 -> 192.168.0.10:5672):
+connection_closed_abruptly
+
+=WARNING REPORT==== 4-Oct-2015::22:48:01 ===
+closing AMQP connection <0.13825.2> (192.168.0.13:42071 -> 192.168.0.10:5672):
+connection_closed_abruptly
+
+=WARNING REPORT==== 4-Oct-2015::22:48:01 ===
+closing AMQP connection <0.448.0> (192.168.0.11:46489 -> 192.168.0.10:5672):
+connection_closed_abruptly
+
+=WARNING REPORT==== 4-Oct-2015::22:48:01 ===
+closing AMQP connection <0.575.0> (192.168.0.11:46492 -> 192.168.0.10:5672):
+connection_closed_abruptly
+
+=WARNING REPORT==== 4-Oct-2015::22:48:01 ===
+closing AMQP connection <0.2187.3> (192.168.0.10:59517 -> 192.168.0.10:5672):
+connection_closed_abruptly
+
+=WARNING REPORT==== 4-Oct-2015::22:48:01 ===
+closing AMQP connection <0.30403.2> (192.168.0.10:59252 -> 192.168.0.10:5672):
+connection_closed_abruptly
+
+=WARNING REPORT==== 4-Oct-2015::22:48:01 ===
+closing AMQP connection <0.30413.2> (192.168.0.10:59253 -> 192.168.0.10:5672):
+connection_closed_abruptly
+
+=WARNING REPORT==== 4-Oct-2015::22:48:01 ===
+closing AMQP connection <0.30181.2> (192.168.0.10:59243 -> 192.168.0.10:5672):
+connection_closed_abruptly
+
+=WARNING REPORT==== 4-Oct-2015::22:48:01 ===
+closing AMQP connection <0.3788.3> (192.168.0.10:59745 -> 192.168.0.10:5672):
+connection_closed_abruptly
+
+=WARNING REPORT==== 4-Oct-2015::22:48:01 ===
+closing AMQP connection <0.29961.2> (192.168.0.10:59229 -> 192.168.0.10:5672):
+connection_closed_abruptly
+
+=WARNING REPORT==== 4-Oct-2015::22:48:01 ===
+closing AMQP connection <0.30006.2> (192.168.0.10:59233 -> 192.168.0.10:5672):
+connection_closed_abruptly
+
+=WARNING REPORT==== 4-Oct-2015::22:48:01 ===
+closing AMQP connection <0.837.0> (192.168.0.10:54305 -> 192.168.0.10:5672):
+connection_closed_abruptly
+
+=WARNING REPORT==== 4-Oct-2015::22:48:01 ===
+closing AMQP connection <0.1020.0> (192.168.0.10:54330 -> 192.168.0.10:5672):
+connection_closed_abruptly
+
+=WARNING REPORT==== 4-Oct-2015::22:48:01 ===
+closing AMQP connection <0.2200.3> (192.168.0.10:59518 -> 192.168.0.10:5672):
+connection_closed_abruptly
+
+=WARNING REPORT==== 4-Oct-2015::22:48:01 ===
+closing AMQP connection <0.30329.2> (192.168.0.10:59249 -> 192.168.0.10:5672):
+connection_closed_abruptly
+
+=WARNING REPORT==== 4-Oct-2015::22:48:01 ===
+closing AMQP connection <0.30339.2> (192.168.0.10:59250 -> 192.168.0.10:5672):
+connection_closed_abruptly
+
+=WARNING REPORT==== 4-Oct-2015::22:48:01 ===
+closing AMQP connection <0.827.0> (192.168.0.10:54304 -> 192.168.0.10:5672):
+connection_closed_abruptly
+
+=WARNING REPORT==== 4-Oct-2015::22:48:01 ===
+closing AMQP connection <0.1003.0> (192.168.0.10:54329 -> 192.168.0.10:5672):
+connection_closed_abruptly
+
+=WARNING REPORT==== 4-Oct-2015::22:48:01 ===
+closing AMQP connection <0.30255.2> (192.168.0.10:59246 -> 192.168.0.10:5672):
+connection_closed_abruptly
+
+=WARNING REPORT==== 4-Oct-2015::22:48:01 ===
+closing AMQP connection <0.30265.2> (192.168.0.10:59247 -> 192.168.0.10:5672):
+connection_closed_abruptly
+
+=WARNING REPORT==== 4-Oct-2015::22:48:01 ===
+closing AMQP connection <0.5226.3> (192.168.0.12:51392 -> 192.168.0.10:5672):
+connection_closed_abruptly
+
+=WARNING REPORT==== 4-Oct-2015::22:48:01 ===
+closing AMQP connection <0.29042.2> (192.168.0.10:59049 -> 192.168.0.10:5672):
+connection_closed_abruptly
+
+=WARNING REPORT==== 4-Oct-2015::22:48:01 ===
+closing AMQP connection <0.29572.2> (192.168.0.10:59179 -> 192.168.0.10:5672):
+connection_closed_abruptly
+
+=WARNING REPORT==== 4-Oct-2015::22:48:01 ===
+closing AMQP connection <0.869.0> (192.168.0.10:54307 -> 192.168.0.10:5672):
+connection_closed_abruptly
+
+=WARNING REPORT==== 4-Oct-2015::22:48:01 ===
+closing AMQP connection <0.29055.2> (192.168.0.10:59050 -> 192.168.0.10:5672):
+connection_closed_abruptly
+
+=WARNING REPORT==== 4-Oct-2015::22:48:01 ===
+closing AMQP connection <0.793.0> (192.168.0.10:54301 -> 192.168.0.10:5672):
+connection_closed_abruptly
+
+=WARNING REPORT==== 4-Oct-2015::22:48:01 ===
+closing AMQP connection <0.781.0> (192.168.0.10:54300 -> 192.168.0.10:5672):
+connection_closed_abruptly
+
+=WARNING REPORT==== 4-Oct-2015::22:48:01 ===
+closing AMQP connection <0.852.0> (192.168.0.10:54306 -> 192.168.0.10:5672):
+connection_closed_abruptly
+
+=WARNING REPORT==== 4-Oct-2015::22:48:01 ===
+closing AMQP connection <0.30142.2> (192.168.0.11:46497 -> 192.168.0.10:5672):
+connection_closed_abruptly
+
+=WARNING REPORT==== 4-Oct-2015::22:48:01 ===
+closing AMQP connection <0.30152.2> (192.168.0.11:46498 -> 192.168.0.10:5672):
+connection_closed_abruptly
+
+=WARNING REPORT==== 4-Oct-2015::22:48:02 ===
+closing AMQP connection <0.30208.2> (192.168.0.11:46500 -> 192.168.0.10:5672):
+connection_closed_abruptly
+
+=WARNING REPORT==== 4-Oct-2015::22:48:02 ===
+closing AMQP connection <0.30218.2> (192.168.0.11:46501 -> 192.168.0.10:5672):
+connection_closed_abruptly
+
+=WARNING REPORT==== 4-Oct-2015::22:48:02 ===
+closing AMQP connection <0.30290.2> (192.168.0.11:46504 -> 192.168.0.10:5672):
+connection_closed_abruptly
+
+=WARNING REPORT==== 4-Oct-2015::22:48:02 ===
+closing AMQP connection <0.30300.2> (192.168.0.11:46505 -> 192.168.0.10:5672):
+connection_closed_abruptly
+
+=WARNING REPORT==== 4-Oct-2015::22:48:02 ===
+closing AMQP connection <0.30360.2> (192.168.0.11:46509 -> 192.168.0.10:5672):
+connection_closed_abruptly
+
+=WARNING REPORT==== 4-Oct-2015::22:48:02 ===
+closing AMQP connection <0.30370.2> (192.168.0.11:46510 -> 192.168.0.10:5672):
+connection_closed_abruptly
+
+=WARNING REPORT==== 4-Oct-2015::22:48:02 ===
+closing AMQP connection <0.222.0> (192.168.0.11:46481 -> 192.168.0.10:5672):
+connection_closed_abruptly
+
+=WARNING REPORT==== 4-Oct-2015::22:48:02 ===
+closing AMQP connection <0.300.0> (192.168.0.11:46483 -> 192.168.0.10:5672):
+connection_closed_abruptly
+
+=WARNING REPORT==== 4-Oct-2015::22:48:02 ===
+closing AMQP connection <0.481.0> (192.168.0.11:46490 -> 192.168.0.10:5672):
+connection_closed_abruptly
+
+=WARNING REPORT==== 4-Oct-2015::22:48:02 ===
+closing AMQP connection <0.314.0> (192.168.0.11:46484 -> 192.168.0.10:5672):
+connection_closed_abruptly
+
+=WARNING REPORT==== 4-Oct-2015::22:48:02 ===
+closing AMQP connection <0.319.0> (192.168.0.11:46485 -> 192.168.0.10:5672):
+connection_closed_abruptly
+
+=WARNING REPORT==== 4-Oct-2015::22:48:02 ===
+closing AMQP connection <0.588.0> (192.168.0.11:46494 -> 192.168.0.10:5672):
+connection_closed_abruptly
+
+=WARNING REPORT==== 4-Oct-2015::22:48:02 ===
+closing AMQP connection <0.700.0> (192.168.0.11:46496 -> 192.168.0.10:5672):
+connection_closed_abruptly
+
+=WARNING REPORT==== 4-Oct-2015::22:48:02 ===
+closing AMQP connection <0.578.0> (192.168.0.11:46493 -> 192.168.0.10:5672):
+connection_closed_abruptly
+
+=WARNING REPORT==== 4-Oct-2015::22:48:02 ===
+closing AMQP connection <0.485.0> (192.168.0.11:46491 -> 192.168.0.10:5672):
+connection_closed_abruptly
+
+=WARNING REPORT==== 4-Oct-2015::22:48:02 ===
+closing AMQP connection <0.13162.2> (192.168.0.12:51366 -> 192.168.0.10:5672):
+connection_closed_abruptly
+
+=WARNING REPORT==== 4-Oct-2015::22:48:02 ===
+closing AMQP connection <0.286.0> (192.168.0.11:46482 -> 192.168.0.10:5672):
+connection_closed_abruptly
+
+=WARNING REPORT==== 4-Oct-2015::22:48:02 ===
+closing AMQP connection <0.671.0> (192.168.0.11:46495 -> 192.168.0.10:5672):
+connection_closed_abruptly
+
+=WARNING REPORT==== 4-Oct-2015::22:48:02 ===
+closing AMQP connection <0.14220.2> (192.168.0.13:42086 -> 192.168.0.10:5672):
+connection_closed_abruptly
+
+=WARNING REPORT==== 4-Oct-2015::22:48:02 ===
+closing AMQP connection <0.12751.2> (192.168.0.12:51352 -> 192.168.0.10:5672):
+connection_closed_abruptly
+
+=WARNING REPORT==== 4-Oct-2015::22:48:02 ===
+closing AMQP connection <0.12761.2> (192.168.0.12:51353 -> 192.168.0.10:5672):
+connection_closed_abruptly
+
+=WARNING REPORT==== 4-Oct-2015::22:48:02 ===
+closing AMQP connection <0.2753.3> (192.168.0.12:51387 -> 192.168.0.10:5672):
+connection_closed_abruptly
+
+=WARNING REPORT==== 4-Oct-2015::22:48:02 ===
+closing AMQP connection <0.13850.2> (192.168.0.13:42072 -> 192.168.0.10:5672):
+connection_closed_abruptly
+
+=WARNING REPORT==== 4-Oct-2015::22:48:02 ===
+closing AMQP connection <0.13860.2> (192.168.0.13:42073 -> 192.168.0.10:5672):
+connection_closed_abruptly
+
+=WARNING REPORT==== 4-Oct-2015::22:48:02 ===
+closing AMQP connection <0.30043.2> (192.168.0.13:42103 -> 192.168.0.10:5672):
+connection_closed_abruptly
+
+=WARNING REPORT==== 4-Oct-2015::22:48:02 ===
+closing AMQP connection <0.906.0> (192.168.0.10:54321 -> 192.168.0.10:5672):
+connection_closed_abruptly
+
+=WARNING REPORT==== 4-Oct-2015::22:48:02 ===
+closing AMQP connection <0.14022.2> (192.168.0.10:57889 -> 192.168.0.10:5672):
+connection_closed_abruptly
+
+=WARNING REPORT==== 4-Oct-2015::22:48:02 ===
+closing AMQP connection <0.12857.2> (192.168.0.10:57759 -> 192.168.0.10:5672):
+connection_closed_abruptly
+
+=WARNING REPORT==== 4-Oct-2015::22:48:02 ===
+closing AMQP connection <0.940.0> (192.168.0.10:54325 -> 192.168.0.10:5672):
+connection_closed_abruptly
+
+=WARNING REPORT==== 4-Oct-2015::22:48:02 ===
+closing AMQP connection <0.928.0> (192.168.0.10:54323 -> 192.168.0.10:5672):
+connection_closed_abruptly
+
+=WARNING REPORT==== 4-Oct-2015::22:48:02 ===
+closing AMQP connection <0.12834.2> (192.168.0.12:51357 -> 192.168.0.10:5672):
+connection_closed_abruptly
+
+=WARNING REPORT==== 4-Oct-2015::22:48:03 ===
+closing AMQP connection <0.12844.2> (192.168.0.12:51358 -> 192.168.0.10:5672):
+connection_closed_abruptly
+
+=WARNING REPORT==== 4-Oct-2015::22:48:03 ===
+closing AMQP connection <0.12870.2> (192.168.0.12:51359 -> 192.168.0.10:5672):
+connection_closed_abruptly
+
+=WARNING REPORT==== 4-Oct-2015::22:48:03 ===
+closing AMQP connection <0.12892.2> (192.168.0.12:51361 -> 192.168.0.10:5672):
+connection_closed_abruptly
+
+=WARNING REPORT==== 4-Oct-2015::22:48:03 ===
+closing AMQP connection <0.12914.2> (192.168.0.12:51363 -> 192.168.0.10:5672):
+connection_closed_abruptly
+
+=WARNING REPORT==== 4-Oct-2015::22:48:03 ===
+closing AMQP connection <0.12925.2> (192.168.0.12:51364 -> 192.168.0.10:5672):
+connection_closed_abruptly
+
+=WARNING REPORT==== 4-Oct-2015::22:48:03 ===
+closing AMQP connection <0.12936.2> (192.168.0.12:51365 -> 192.168.0.10:5672):
+connection_closed_abruptly
+
+=WARNING REPORT==== 4-Oct-2015::22:48:03 ===
+closing AMQP connection <0.12881.2> (192.168.0.12:51360 -> 192.168.0.10:5672):
+connection_closed_abruptly
+
+=WARNING REPORT==== 4-Oct-2015::22:48:03 ===
+closing AMQP connection <0.12903.2> (192.168.0.12:51362 -> 192.168.0.10:5672):
+connection_closed_abruptly
+
+=WARNING REPORT==== 4-Oct-2015::22:48:03 ===
+closing AMQP connection <0.29944.2> (192.168.0.10:59226 -> 192.168.0.10:5672):
+connection_closed_abruptly
+
+=WARNING REPORT==== 4-Oct-2015::22:48:03 ===
+closing AMQP connection <0.914.0> (192.168.0.10:54322 -> 192.168.0.10:5672):
+connection_closed_abruptly
+
+=WARNING REPORT==== 4-Oct-2015::22:48:03 ===
+closing AMQP connection <0.29850.2> (192.168.0.10:59217 -> 192.168.0.10:5672):
+connection_closed_abruptly
+
+=WARNING REPORT==== 4-Oct-2015::22:48:03 ===
+closing AMQP connection <0.13979.2> (192.168.0.13:42077 -> 192.168.0.10:5672):
+connection_closed_abruptly
+
+=WARNING REPORT==== 4-Oct-2015::22:48:03 ===
+closing AMQP connection <0.13993.2> (192.168.0.13:42078 -> 192.168.0.10:5672):
+connection_closed_abruptly
+
+=WARNING REPORT==== 4-Oct-2015::22:48:03 ===
+closing AMQP connection <0.14047.2> (192.168.0.13:42079 -> 192.168.0.10:5672):
+connection_closed_abruptly
+
+=WARNING REPORT==== 4-Oct-2015::22:48:03 ===
+closing AMQP connection <0.14105.2> (192.168.0.13:42081 -> 192.168.0.10:5672):
+connection_closed_abruptly
+
+=WARNING REPORT==== 4-Oct-2015::22:48:03 ===
+closing AMQP connection <0.14120.2> (192.168.0.13:42082 -> 192.168.0.10:5672):
+connection_closed_abruptly
+
+=WARNING REPORT==== 4-Oct-2015::22:48:03 ===
+closing AMQP connection <0.14131.2> (192.168.0.13:42083 -> 192.168.0.10:5672):
+connection_closed_abruptly
+
+=WARNING REPORT==== 4-Oct-2015::22:48:03 ===
+closing AMQP connection <0.14172.2> (192.168.0.13:42085 -> 192.168.0.10:5672):
+connection_closed_abruptly
+
+=WARNING REPORT==== 4-Oct-2015::22:48:03 ===
+closing AMQP connection <0.14074.2> (192.168.0.13:42080 -> 192.168.0.10:5672):
+connection_closed_abruptly
+
+=WARNING REPORT==== 4-Oct-2015::22:48:03 ===
+closing AMQP connection <0.14146.2> (192.168.0.13:42084 -> 192.168.0.10:5672):
+connection_closed_abruptly
+
+=WARNING REPORT==== 4-Oct-2015::22:48:03 ===
+closing AMQP connection <0.13934.2> (192.168.0.10:57888 -> 192.168.0.10:5672):
+connection_closed_abruptly
+
+=WARNING REPORT==== 4-Oct-2015::22:48:03 ===
+closing AMQP connection <0.5683.3> (192.168.0.10:59977 -> 192.168.0.10:5672):
+connection_closed_abruptly
+
+=WARNING REPORT==== 4-Oct-2015::22:48:03 ===
+closing AMQP connection <0.29191.2> (192.168.0.10:59064 -> 192.168.0.10:5672):
+connection_closed_abruptly
+
+=WARNING REPORT==== 4-Oct-2015::22:48:04 ===
+closing AMQP connection <0.655.0> (192.168.0.10:54284 -> 192.168.0.10:5672):
+connection_closed_abruptly
+
+=WARNING REPORT==== 4-Oct-2015::22:48:04 ===
+closing AMQP connection <0.204.0> (192.168.0.10:54281 -> 192.168.0.10:5672):
+connection_closed_abruptly
+
+=WARNING REPORT==== 4-Oct-2015::22:48:04 ===
+closing AMQP connection <0.523.0> (192.168.0.10:54282 -> 192.168.0.10:5672):
+connection_closed_abruptly
+
+=WARNING REPORT==== 4-Oct-2015::22:48:04 ===
+closing AMQP connection <0.547.0> (192.168.0.10:54283 -> 192.168.0.10:5672):
+connection_closed_abruptly
+
+=WARNING REPORT==== 4-Oct-2015::22:48:05 ===
+closing AMQP connection <0.894.0> (192.168.0.10:54318 -> 192.168.0.10:5672):
+connection_closed_abruptly
+
+=WARNING REPORT==== 4-Oct-2015::22:48:05 ===
+closing AMQP connection <0.803.0> (192.168.0.10:54302 -> 192.168.0.10:5672):
+connection_closed_abruptly
+
+=WARNING REPORT==== 4-Oct-2015::22:48:05 ===
+closing AMQP connection <0.29212.2> (192.168.0.10:59068 -> 192.168.0.10:5672):
+connection_closed_abruptly
+
+=WARNING REPORT==== 4-Oct-2015::22:48:05 ===
+closing AMQP connection <0.931.0> (192.168.0.10:54324 -> 192.168.0.10:5672):
+connection_closed_abruptly
+
+=WARNING REPORT==== 4-Oct-2015::22:48:05 ===
+closing AMQP connection <0.3666.0> (192.168.0.10:54456 -> 192.168.0.10:5672):
+connection_closed_abruptly
+
+=WARNING REPORT==== 4-Oct-2015::22:48:05 ===
+closing AMQP connection <0.806.0> (192.168.0.10:54303 -> 192.168.0.10:5672):
+connection_closed_abruptly
+
+=WARNING REPORT==== 4-Oct-2015::22:48:06 ===
+closing AMQP connection <0.769.0> (192.168.0.10:54299 -> 192.168.0.10:5672):
+connection_closed_abruptly
+
+=WARNING REPORT==== 4-Oct-2015::22:48:06 ===
+closing AMQP connection <0.882.0> (192.168.0.10:54314 -> 192.168.0.10:5672):
+connection_closed_abruptly
+
+=WARNING REPORT==== 4-Oct-2015::22:48:06 ===
+closing AMQP connection <0.29069.2> (192.168.0.10:59051 -> 192.168.0.10:5672):
+connection_closed_abruptly
+
+=INFO REPORT==== 4-Oct-2015::22:48:06 ===
+Stopping RabbitMQ
+
+=INFO REPORT==== 4-Oct-2015::22:48:06 ===
+stopped TCP Listener on [::]:5672
+
+=INFO REPORT==== 4-Oct-2015::22:48:07 ===
+Halting Erlang VM
+
+=INFO REPORT==== 16-Oct-2015::14:53:38 ===
+Starting RabbitMQ 3.3.5 on Erlang R16B03-1
+Copyright (C) 2007-2014 GoPivotal, Inc.
+Licensed under the MPL.  See http://www.rabbitmq.com/
+
+=INFO REPORT==== 16-Oct-2015::14:53:38 ===
+node           : rabbit@controller
+home dir       : /var/lib/rabbitmq
+config file(s) : /etc/rabbitmq/rabbitmq.config
+cookie hash    : EYWjNeB+FI1hYD0l+wWVbg==
+log            : /var/log/rabbitmq/rabbit@controller.log
+sasl log       : /var/log/rabbitmq/rabbit@controller-sasl.log
+database dir   : /var/lib/rabbitmq/mnesia/rabbit@controller
+
+=INFO REPORT==== 16-Oct-2015::14:53:39 ===
+Limiting to approx 16284 file handles (14653 sockets)
+
+=INFO REPORT==== 16-Oct-2015::14:53:39 ===
+Memory limit set to 3193MB of 7984MB total.
+
+=INFO REPORT==== 16-Oct-2015::14:53:39 ===
+Disk free limit set to 50MB
+
+=INFO REPORT==== 16-Oct-2015::14:53:39 ===
+msg_store_transient: using rabbit_msg_store_ets_index to provide index
+
+=INFO REPORT==== 16-Oct-2015::14:53:40 ===
+msg_store_persistent: using rabbit_msg_store_ets_index to provide index
+
+=INFO REPORT==== 16-Oct-2015::14:53:40 ===
+started TCP Listener on [::]:5672
+
+=INFO REPORT==== 16-Oct-2015::14:53:40 ===
+Server startup complete; 0 plugins started.
+
+=INFO REPORT==== 16-Oct-2015::14:53:40 ===
+accepting AMQP connection <0.205.0> (192.168.0.11:53502 -> 192.168.0.10:5672)
+
+=INFO REPORT==== 16-Oct-2015::14:53:40 ===
+accepting AMQP connection <0.216.0> (192.168.0.11:53503 -> 192.168.0.10:5672)
+
+=INFO REPORT==== 16-Oct-2015::14:53:40 ===
+accepting AMQP connection <0.219.0> (192.168.0.10:35557 -> 192.168.0.10:5672)
+
+=INFO REPORT==== 16-Oct-2015::14:53:40 ===
+accepting AMQP connection <0.239.0> (192.168.0.11:53504 -> 192.168.0.10:5672)
+
+=INFO REPORT==== 16-Oct-2015::14:53:40 ===
+accepting AMQP connection <0.246.0> (192.168.0.10:35558 -> 192.168.0.10:5672)
+
+=INFO REPORT==== 16-Oct-2015::14:53:40 ===
+accepting AMQP connection <0.252.0> (192.168.0.11:53505 -> 192.168.0.10:5672)
+
+=INFO REPORT==== 16-Oct-2015::14:53:40 ===
+accepting AMQP connection <0.264.0> (192.168.0.13:49606 -> 192.168.0.10:5672)
+
+=INFO REPORT==== 16-Oct-2015::14:53:40 ===
+accepting AMQP connection <0.273.0> (192.168.0.11:53506 -> 192.168.0.10:5672)
+
+=INFO REPORT==== 16-Oct-2015::14:53:40 ===
+accepting AMQP connection <0.278.0> (192.168.0.11:53507 -> 192.168.0.10:5672)
+
+=INFO REPORT==== 16-Oct-2015::14:53:40 ===
+accepting AMQP connection <0.286.0> (192.168.0.10:35559 -> 192.168.0.10:5672)
+
+=INFO REPORT==== 16-Oct-2015::14:53:40 ===
+accepting AMQP connection <0.289.0> (192.168.0.11:53508 -> 192.168.0.10:5672)
+
+=INFO REPORT==== 16-Oct-2015::14:53:40 ===
+accepting AMQP connection <0.297.0> (192.168.0.11:53509 -> 192.168.0.10:5672)
+
+=INFO REPORT==== 16-Oct-2015::14:53:40 ===
+accepting AMQP connection <0.337.0> (192.168.0.12:60320 -> 192.168.0.10:5672)
+
+=INFO REPORT==== 16-Oct-2015::14:53:40 ===
+accepting AMQP connection <0.340.0> (192.168.0.13:49607 -> 192.168.0.10:5672)
+
+=INFO REPORT==== 16-Oct-2015::14:53:40 ===
+accepting AMQP connection <0.344.0> (192.168.0.11:53510 -> 192.168.0.10:5672)
+
+=INFO REPORT==== 16-Oct-2015::14:53:40 ===
+accepting AMQP connection <0.347.0> (192.168.0.13:49608 -> 192.168.0.10:5672)
+
+=INFO REPORT==== 16-Oct-2015::14:53:40 ===
+accepting AMQP connection <0.350.0> (192.168.0.12:60321 -> 192.168.0.10:5672)
+
+=INFO REPORT==== 16-Oct-2015::14:53:40 ===
+accepting AMQP connection <0.399.0> (192.168.0.12:60322 -> 192.168.0.10:5672)
+
+=INFO REPORT==== 16-Oct-2015::14:53:40 ===
+accepting AMQP connection <0.402.0> (192.168.0.12:60323 -> 192.168.0.10:5672)
+
+=INFO REPORT==== 16-Oct-2015::14:53:40 ===
+accepting AMQP connection <0.416.0> (192.168.0.13:49609 -> 192.168.0.10:5672)
+
+=INFO REPORT==== 16-Oct-2015::14:53:40 ===
+accepting AMQP connection <0.437.0> (192.168.0.13:49610 -> 192.168.0.10:5672)
+
+=INFO REPORT==== 16-Oct-2015::14:53:40 ===
+accepting AMQP connection <0.447.0> (192.168.0.11:53511 -> 192.168.0.10:5672)
+
+=INFO REPORT==== 16-Oct-2015::14:53:40 ===
+accepting AMQP connection <0.459.0> (192.168.0.13:49611 -> 192.168.0.10:5672)
+
+=INFO REPORT==== 16-Oct-2015::14:53:40 ===
+accepting AMQP connection <0.470.0> (192.168.0.11:53512 -> 192.168.0.10:5672)
+
+=INFO REPORT==== 16-Oct-2015::14:53:40 ===
+accepting AMQP connection <0.473.0> (192.168.0.12:60324 -> 192.168.0.10:5672)
+
+=INFO REPORT==== 16-Oct-2015::14:53:41 ===
+accepting AMQP connection <0.492.0> (192.168.0.13:49612 -> 192.168.0.10:5672)
+
+=INFO REPORT==== 16-Oct-2015::14:53:41 ===
+accepting AMQP connection <0.499.0> (192.168.0.10:35560 -> 192.168.0.10:5672)
+
+=INFO REPORT==== 16-Oct-2015::14:53:41 ===
+accepting AMQP connection <0.514.0> (192.168.0.11:53513 -> 192.168.0.10:5672)
+
+=INFO REPORT==== 16-Oct-2015::14:53:41 ===
+accepting AMQP connection <0.517.0> (192.168.0.12:60325 -> 192.168.0.10:5672)
+
+=INFO REPORT==== 16-Oct-2015::14:53:41 ===
+accepting AMQP connection <0.534.0> (192.168.0.13:49613 -> 192.168.0.10:5672)
+
+=INFO REPORT==== 16-Oct-2015::14:53:41 ===
+accepting AMQP connection <0.541.0> (192.168.0.13:49614 -> 192.168.0.10:5672)
+
+=INFO REPORT==== 16-Oct-2015::14:53:41 ===
+accepting AMQP connection <0.556.0> (192.168.0.12:60326 -> 192.168.0.10:5672)
+
+=INFO REPORT==== 16-Oct-2015::14:53:41 ===
+accepting AMQP connection <0.560.0> (192.168.0.11:53514 -> 192.168.0.10:5672)
+
+=INFO REPORT==== 16-Oct-2015::14:53:41 ===
+accepting AMQP connection <0.576.0> (192.168.0.13:49615 -> 192.168.0.10:5672)
+
+=INFO REPORT==== 16-Oct-2015::14:53:41 ===
+accepting AMQP connection <0.595.0> (192.168.0.12:60327 -> 192.168.0.10:5672)
+
+=INFO REPORT==== 16-Oct-2015::14:53:41 ===
+accepting AMQP connection <0.598.0> (192.168.0.13:49616 -> 192.168.0.10:5672)
+
+=INFO REPORT==== 16-Oct-2015::14:53:41 ===
+accepting AMQP connection <0.602.0> (192.168.0.11:53515 -> 192.168.0.10:5672)
+
+=INFO REPORT==== 16-Oct-2015::14:53:41 ===
+accepting AMQP connection <0.629.0> (192.168.0.12:60328 -> 192.168.0.10:5672)
+
+=INFO REPORT==== 16-Oct-2015::14:53:41 ===
+accepting AMQP connection <0.634.0> (192.168.0.11:53516 -> 192.168.0.10:5672)
+
+=INFO REPORT==== 16-Oct-2015::14:53:41 ===
+accepting AMQP connection <0.651.0> (192.168.0.12:60329 -> 192.168.0.10:5672)
+
+=INFO REPORT==== 16-Oct-2015::14:53:41 ===
+accepting AMQP connection <0.659.0> (192.168.0.11:53517 -> 192.168.0.10:5672)
+
+=INFO REPORT==== 16-Oct-2015::14:53:41 ===
+accepting AMQP connection <0.673.0> (192.168.0.12:60330 -> 192.168.0.10:5672)
+
+=INFO REPORT==== 16-Oct-2015::14:53:48 ===
+accepting AMQP connection <0.684.0> (192.168.0.10:35570 -> 192.168.0.10:5672)
+
+=INFO REPORT==== 16-Oct-2015::14:53:48 ===
+accepting AMQP connection <0.687.0> (192.168.0.10:35571 -> 192.168.0.10:5672)
+
+=INFO REPORT==== 16-Oct-2015::14:53:49 ===
+accepting AMQP connection <0.708.0> (192.168.0.10:35576 -> 192.168.0.10:5672)
+
+=INFO REPORT==== 16-Oct-2015::14:53:49 ===
+accepting AMQP connection <0.720.0> (192.168.0.10:35577 -> 192.168.0.10:5672)
+
+=INFO REPORT==== 16-Oct-2015::14:53:49 ===
+accepting AMQP connection <0.731.0> (192.168.0.10:35578 -> 192.168.0.10:5672)
+
+=INFO REPORT==== 16-Oct-2015::14:53:50 ===
+accepting AMQP connection <0.741.0> (192.168.0.10:35579 -> 192.168.0.10:5672)
+
+=INFO REPORT==== 16-Oct-2015::14:53:51 ===
+accepting AMQP connection <0.759.0> (192.168.0.10:35580 -> 192.168.0.10:5672)
+
+=INFO REPORT==== 16-Oct-2015::14:53:51 ===
+accepting AMQP connection <0.772.0> (192.168.0.10:35581 -> 192.168.0.10:5672)
+
+=INFO REPORT==== 16-Oct-2015::14:53:52 ===
+accepting AMQP connection <0.789.0> (192.168.0.10:35583 -> 192.168.0.10:5672)
+
+=INFO REPORT==== 16-Oct-2015::14:53:52 ===
+accepting AMQP connection <0.811.0> (192.168.0.10:35586 -> 192.168.0.10:5672)
+
+=INFO REPORT==== 16-Oct-2015::14:53:53 ===
+accepting AMQP connection <0.951.0> (192.168.0.12:60332 -> 192.168.0.10:5672)
+
+=INFO REPORT==== 16-Oct-2015::14:53:53 ===
+accepting AMQP connection <0.983.0> (192.168.0.13:49618 -> 192.168.0.10:5672)
+
+=INFO REPORT==== 16-Oct-2015::14:53:54 ===
+accepting AMQP connection <0.994.0> (192.168.0.10:35590 -> 192.168.0.10:5672)
+
+=INFO REPORT==== 16-Oct-2015::14:53:54 ===
+accepting AMQP connection <0.1006.0> (192.168.0.10:35593 -> 192.168.0.10:5672)
+
+=INFO REPORT==== 16-Oct-2015::14:53:54 ===
+accepting AMQP connection <0.1018.0> (192.168.0.10:35595 -> 192.168.0.10:5672)
+
+=INFO REPORT==== 16-Oct-2015::14:53:54 ===
+accepting AMQP connection <0.1023.0> (192.168.0.10:35596 -> 192.168.0.10:5672)
+
+=INFO REPORT==== 16-Oct-2015::14:53:54 ===
+accepting AMQP connection <0.1031.0> (192.168.0.10:35597 -> 192.168.0.10:5672)
+
+=INFO REPORT==== 16-Oct-2015::14:53:54 ===
+accepting AMQP connection <0.1034.0> (192.168.0.10:35598 -> 192.168.0.10:5672)
+
+=INFO REPORT==== 16-Oct-2015::14:53:54 ===
+accepting AMQP connection <0.1059.0> (192.168.0.10:35599 -> 192.168.0.10:5672)
+
+=INFO REPORT==== 16-Oct-2015::14:53:54 ===
+accepting AMQP connection <0.1070.0> (192.168.0.10:35600 -> 192.168.0.10:5672)
+
+=INFO REPORT==== 16-Oct-2015::14:53:55 ===
+accepting AMQP connection <0.1085.0> (192.168.0.10:35602 -> 192.168.0.10:5672)
+
+=INFO REPORT==== 16-Oct-2015::14:53:55 ===
+accepting AMQP connection <0.1098.0> (192.168.0.10:35603 -> 192.168.0.10:5672)
+
+=INFO REPORT==== 16-Oct-2015::14:53:58 ===
+accepting AMQP connection <0.1110.0> (192.168.0.10:35605 -> 192.168.0.10:5672)
+
+=INFO REPORT==== 16-Oct-2015::14:54:39 ===
+accepting AMQP connection <0.1306.0> (192.168.0.10:35612 -> 192.168.0.10:5672)
+
+=INFO REPORT==== 16-Oct-2015::14:54:39 ===
+accepting AMQP connection <0.1327.0> (192.168.0.10:35613 -> 192.168.0.10:5672)
+
+=INFO REPORT==== 16-Oct-2015::14:54:39 ===
+accepting AMQP connection <0.1344.0> (192.168.0.11:53518 -> 192.168.0.10:5672)
+
+=INFO REPORT==== 16-Oct-2015::14:54:39 ===
+accepting AMQP connection <0.1364.0> (192.168.0.10:35616 -> 192.168.0.10:5672)
+
+=INFO REPORT==== 16-Oct-2015::14:54:39 ===
+accepting AMQP connection <0.1367.0> (192.168.0.10:35617 -> 192.168.0.10:5672)
+
+=INFO REPORT==== 16-Oct-2015::14:54:39 ===
+accepting AMQP connection <0.1394.0> (192.168.0.10:35620 -> 192.168.0.10:5672)
+
+=INFO REPORT==== 16-Oct-2015::15:03:38 ===
+accepting AMQP connection <0.3736.0> (192.168.0.10:35703 -> 192.168.0.10:5672)
+
+=INFO REPORT==== 16-Oct-2015::15:23:22 ===
+closing AMQP connection <0.1070.0> (192.168.0.10:35600 -> 192.168.0.10:5672)
+
+=WARNING REPORT==== 16-Oct-2015::15:23:22 ===
+closing AMQP connection <0.1085.0> (192.168.0.10:35602 -> 192.168.0.10:5672):
+connection_closed_abruptly
+
+=WARNING REPORT==== 16-Oct-2015::15:23:22 ===
+closing AMQP connection <0.1098.0> (192.168.0.10:35603 -> 192.168.0.10:5672):
+connection_closed_abruptly
+
+=WARNING REPORT==== 16-Oct-2015::15:23:23 ===
+closing AMQP connection <0.205.0> (192.168.0.11:53502 -> 192.168.0.10:5672):
+connection_closed_abruptly
+
+=WARNING REPORT==== 16-Oct-2015::15:23:23 ===
+closing AMQP connection <0.216.0> (192.168.0.11:53503 -> 192.168.0.10:5672):
+connection_closed_abruptly
+
+=WARNING REPORT==== 16-Oct-2015::15:23:23 ===
+closing AMQP connection <0.1344.0> (192.168.0.11:53518 -> 192.168.0.10:5672):
+connection_closed_abruptly
+
+=WARNING REPORT==== 16-Oct-2015::15:23:23 ===
+closing AMQP connection <0.252.0> (192.168.0.11:53505 -> 192.168.0.10:5672):
+connection_closed_abruptly
+
+=WARNING REPORT==== 16-Oct-2015::15:23:23 ===
+closing AMQP connection <0.297.0> (192.168.0.11:53509 -> 192.168.0.10:5672):
+connection_closed_abruptly
+
+=WARNING REPORT==== 16-Oct-2015::15:23:23 ===
+closing AMQP connection <0.278.0> (192.168.0.11:53507 -> 192.168.0.10:5672):
+connection_closed_abruptly
+
+=WARNING REPORT==== 16-Oct-2015::15:23:23 ===
+closing AMQP connection <0.273.0> (192.168.0.11:53506 -> 192.168.0.10:5672):
+connection_closed_abruptly
+
+=WARNING REPORT==== 16-Oct-2015::15:23:23 ===
+closing AMQP connection <0.344.0> (192.168.0.11:53510 -> 192.168.0.10:5672):
+connection_closed_abruptly
+
+=WARNING REPORT==== 16-Oct-2015::15:23:23 ===
+closing AMQP connection <0.708.0> (192.168.0.10:35576 -> 192.168.0.10:5672):
+connection_closed_abruptly
+
+=WARNING REPORT==== 16-Oct-2015::15:23:23 ===
+closing AMQP connection <0.759.0> (192.168.0.10:35580 -> 192.168.0.10:5672):
+connection_closed_abruptly
+
+=WARNING REPORT==== 16-Oct-2015::15:23:23 ===
+closing AMQP connection <0.239.0> (192.168.0.11:53504 -> 192.168.0.10:5672):
+connection_closed_abruptly
+
+=WARNING REPORT==== 16-Oct-2015::15:23:23 ===
+closing AMQP connection <0.289.0> (192.168.0.11:53508 -> 192.168.0.10:5672):
+connection_closed_abruptly
+
+=WARNING REPORT==== 16-Oct-2015::15:23:23 ===
+closing AMQP connection <0.447.0> (192.168.0.11:53511 -> 192.168.0.10:5672):
+connection_closed_abruptly
+
+=WARNING REPORT==== 16-Oct-2015::15:23:23 ===
+closing AMQP connection <0.470.0> (192.168.0.11:53512 -> 192.168.0.10:5672):
+connection_closed_abruptly
+
+=WARNING REPORT==== 16-Oct-2015::15:23:23 ===
+closing AMQP connection <0.514.0> (192.168.0.11:53513 -> 192.168.0.10:5672):
+connection_closed_abruptly
+
+=WARNING REPORT==== 16-Oct-2015::15:23:23 ===
+closing AMQP connection <0.951.0> (192.168.0.12:60332 -> 192.168.0.10:5672):
+connection_closed_abruptly
+
+=WARNING REPORT==== 16-Oct-2015::15:23:23 ===
+closing AMQP connection <0.560.0> (192.168.0.11:53514 -> 192.168.0.10:5672):
+connection_closed_abruptly
+
+=WARNING REPORT==== 16-Oct-2015::15:23:23 ===
+closing AMQP connection <0.602.0> (192.168.0.11:53515 -> 192.168.0.10:5672):
+connection_closed_abruptly
+
+=WARNING REPORT==== 16-Oct-2015::15:23:23 ===
+closing AMQP connection <0.634.0> (192.168.0.11:53516 -> 192.168.0.10:5672):
+connection_closed_abruptly
+
+=WARNING REPORT==== 16-Oct-2015::15:23:23 ===
+closing AMQP connection <0.659.0> (192.168.0.11:53517 -> 192.168.0.10:5672):
+connection_closed_abruptly
+
+=WARNING REPORT==== 16-Oct-2015::15:23:23 ===
+closing AMQP connection <0.731.0> (192.168.0.10:35578 -> 192.168.0.10:5672):
+connection_closed_abruptly
+
+=WARNING REPORT==== 16-Oct-2015::15:23:23 ===
+closing AMQP connection <0.789.0> (192.168.0.10:35583 -> 192.168.0.10:5672):
+connection_closed_abruptly
+
+=WARNING REPORT==== 16-Oct-2015::15:23:23 ===
+closing AMQP connection <0.741.0> (192.168.0.10:35579 -> 192.168.0.10:5672):
+connection_closed_abruptly
+
+=WARNING REPORT==== 16-Oct-2015::15:23:23 ===
+closing AMQP connection <0.811.0> (192.168.0.10:35586 -> 192.168.0.10:5672):
+connection_closed_abruptly
+
+=WARNING REPORT==== 16-Oct-2015::15:23:23 ===
+closing AMQP connection <0.720.0> (192.168.0.10:35577 -> 192.168.0.10:5672):
+connection_closed_abruptly
+
+=WARNING REPORT==== 16-Oct-2015::15:23:23 ===
+closing AMQP connection <0.772.0> (192.168.0.10:35581 -> 192.168.0.10:5672):
+connection_closed_abruptly
+
+=WARNING REPORT==== 16-Oct-2015::15:23:23 ===
+closing AMQP connection <0.402.0> (192.168.0.12:60323 -> 192.168.0.10:5672):
+connection_closed_abruptly
+
+=WARNING REPORT==== 16-Oct-2015::15:23:23 ===
+closing AMQP connection <0.337.0> (192.168.0.12:60320 -> 192.168.0.10:5672):
+connection_closed_abruptly
+
+=WARNING REPORT==== 16-Oct-2015::15:23:23 ===
+closing AMQP connection <0.983.0> (192.168.0.13:49618 -> 192.168.0.10:5672):
+connection_closed_abruptly
+
+=WARNING REPORT==== 16-Oct-2015::15:23:23 ===
+closing AMQP connection <0.340.0> (192.168.0.13:49607 -> 192.168.0.10:5672):
+connection_closed_abruptly
+
+=WARNING REPORT==== 16-Oct-2015::15:23:23 ===
+closing AMQP connection <0.264.0> (192.168.0.13:49606 -> 192.168.0.10:5672):
+connection_closed_abruptly
+
+=WARNING REPORT==== 16-Oct-2015::15:23:24 ===
+closing AMQP connection <0.1394.0> (192.168.0.10:35620 -> 192.168.0.10:5672):
+connection_closed_abruptly
+
+=WARNING REPORT==== 16-Oct-2015::15:23:24 ===
+closing AMQP connection <0.1059.0> (192.168.0.10:35599 -> 192.168.0.10:5672):
+connection_closed_abruptly
+
+=WARNING REPORT==== 16-Oct-2015::15:23:24 ===
+closing AMQP connection <0.1034.0> (192.168.0.10:35598 -> 192.168.0.10:5672):
+connection_closed_abruptly
+
+=WARNING REPORT==== 16-Oct-2015::15:23:24 ===
+closing AMQP connection <0.1367.0> (192.168.0.10:35617 -> 192.168.0.10:5672):
+connection_closed_abruptly
+
+=WARNING REPORT==== 16-Oct-2015::15:23:24 ===
+closing AMQP connection <0.1364.0> (192.168.0.10:35616 -> 192.168.0.10:5672):
+connection_closed_abruptly
+
+=WARNING REPORT==== 16-Oct-2015::15:23:24 ===
+closing AMQP connection <0.1023.0> (192.168.0.10:35596 -> 192.168.0.10:5672):
+connection_closed_abruptly
+
+=WARNING REPORT==== 16-Oct-2015::15:23:24 ===
+closing AMQP connection <0.1018.0> (192.168.0.10:35595 -> 192.168.0.10:5672):
+connection_closed_abruptly
+
+=WARNING REPORT==== 16-Oct-2015::15:23:24 ===
+closing AMQP connection <0.1306.0> (192.168.0.10:35612 -> 192.168.0.10:5672):
+connection_closed_abruptly
+
+=WARNING REPORT==== 16-Oct-2015::15:23:24 ===
+closing AMQP connection <0.347.0> (192.168.0.13:49608 -> 192.168.0.10:5672):
+connection_closed_abruptly
+
+=WARNING REPORT==== 16-Oct-2015::15:23:25 ===
+closing AMQP connection <0.598.0> (192.168.0.13:49616 -> 192.168.0.10:5672):
+connection_closed_abruptly
+
+=WARNING REPORT==== 16-Oct-2015::15:23:25 ===
+closing AMQP connection <0.416.0> (192.168.0.13:49609 -> 192.168.0.10:5672):
+connection_closed_abruptly
+
+=WARNING REPORT==== 16-Oct-2015::15:23:25 ===
+closing AMQP connection <0.437.0> (192.168.0.13:49610 -> 192.168.0.10:5672):
+connection_closed_abruptly
+
+=WARNING REPORT==== 16-Oct-2015::15:23:25 ===
+closing AMQP connection <0.576.0> (192.168.0.13:49615 -> 192.168.0.10:5672):
+connection_closed_abruptly
+
+=WARNING REPORT==== 16-Oct-2015::15:23:25 ===
+closing AMQP connection <0.459.0> (192.168.0.13:49611 -> 192.168.0.10:5672):
+connection_closed_abruptly
+
+=WARNING REPORT==== 16-Oct-2015::15:23:25 ===
+closing AMQP connection <0.492.0> (192.168.0.13:49612 -> 192.168.0.10:5672):
+connection_closed_abruptly
+
+=WARNING REPORT==== 16-Oct-2015::15:23:25 ===
+closing AMQP connection <0.534.0> (192.168.0.13:49613 -> 192.168.0.10:5672):
+connection_closed_abruptly
+
+=WARNING REPORT==== 16-Oct-2015::15:23:25 ===
+closing AMQP connection <0.541.0> (192.168.0.13:49614 -> 192.168.0.10:5672):
+connection_closed_abruptly
+
+=WARNING REPORT==== 16-Oct-2015::15:23:25 ===
+closing AMQP connection <0.473.0> (192.168.0.12:60324 -> 192.168.0.10:5672):
+connection_closed_abruptly
+
+=WARNING REPORT==== 16-Oct-2015::15:23:25 ===
+closing AMQP connection <0.517.0> (192.168.0.12:60325 -> 192.168.0.10:5672):
+connection_closed_abruptly
+
+=WARNING REPORT==== 16-Oct-2015::15:23:25 ===
+closing AMQP connection <0.399.0> (192.168.0.12:60322 -> 192.168.0.10:5672):
+connection_closed_abruptly
+
+=WARNING REPORT==== 16-Oct-2015::15:23:25 ===
+closing AMQP connection <0.350.0> (192.168.0.12:60321 -> 192.168.0.10:5672):
+connection_closed_abruptly
+
+=WARNING REPORT==== 16-Oct-2015::15:23:25 ===
+closing AMQP connection <0.556.0> (192.168.0.12:60326 -> 192.168.0.10:5672):
+connection_closed_abruptly
+
+=WARNING REPORT==== 16-Oct-2015::15:23:25 ===
+closing AMQP connection <0.595.0> (192.168.0.12:60327 -> 192.168.0.10:5672):
+connection_closed_abruptly
+
+=WARNING REPORT==== 16-Oct-2015::15:23:25 ===
+closing AMQP connection <0.629.0> (192.168.0.12:60328 -> 192.168.0.10:5672):
+connection_closed_abruptly
+
+=WARNING REPORT==== 16-Oct-2015::15:23:25 ===
+closing AMQP connection <0.651.0> (192.168.0.12:60329 -> 192.168.0.10:5672):
+connection_closed_abruptly
+
+=WARNING REPORT==== 16-Oct-2015::15:23:25 ===
+closing AMQP connection <0.673.0> (192.168.0.12:60330 -> 192.168.0.10:5672):
+connection_closed_abruptly
+
+=WARNING REPORT==== 16-Oct-2015::15:23:25 ===
+closing AMQP connection <0.286.0> (192.168.0.10:35559 -> 192.168.0.10:5672):
+connection_closed_abruptly
+
+=WARNING REPORT==== 16-Oct-2015::15:23:25 ===
+closing AMQP connection <0.246.0> (192.168.0.10:35558 -> 192.168.0.10:5672):
+connection_closed_abruptly
+
+=WARNING REPORT==== 16-Oct-2015::15:23:26 ===
+closing AMQP connection <0.687.0> (192.168.0.10:35571 -> 192.168.0.10:5672):
+connection_closed_abruptly
+
+=WARNING REPORT==== 16-Oct-2015::15:23:26 ===
+closing AMQP connection <0.219.0> (192.168.0.10:35557 -> 192.168.0.10:5672):
+connection_closed_abruptly
+
+=WARNING REPORT==== 16-Oct-2015::15:23:26 ===
+closing AMQP connection <0.684.0> (192.168.0.10:35570 -> 192.168.0.10:5672):
+connection_closed_abruptly
+
+=WARNING REPORT==== 16-Oct-2015::15:23:26 ===
+closing AMQP connection <0.1031.0> (192.168.0.10:35597 -> 192.168.0.10:5672):
+connection_closed_abruptly
+
+=WARNING REPORT==== 16-Oct-2015::15:23:26 ===
+closing AMQP connection <0.1006.0> (192.168.0.10:35593 -> 192.168.0.10:5672):
+connection_closed_abruptly
+
+=WARNING REPORT==== 16-Oct-2015::15:23:26 ===
+closing AMQP connection <0.1110.0> (192.168.0.10:35605 -> 192.168.0.10:5672):
+connection_closed_abruptly
+
+=WARNING REPORT==== 16-Oct-2015::15:23:27 ===
+closing AMQP connection <0.499.0> (192.168.0.10:35560 -> 192.168.0.10:5672):
+connection_closed_abruptly
+
+=WARNING REPORT==== 16-Oct-2015::15:23:27 ===
+closing AMQP connection <0.994.0> (192.168.0.10:35590 -> 192.168.0.10:5672):
+connection_closed_abruptly
+
+=WARNING REPORT==== 16-Oct-2015::15:23:27 ===
+closing AMQP connection <0.1327.0> (192.168.0.10:35613 -> 192.168.0.10:5672):
+connection_closed_abruptly
+
+=WARNING REPORT==== 16-Oct-2015::15:23:27 ===
+closing AMQP connection <0.3736.0> (192.168.0.10:35703 -> 192.168.0.10:5672):
+connection_closed_abruptly
+
+=INFO REPORT==== 16-Oct-2015::15:23:28 ===
+Stopping RabbitMQ
+
+=INFO REPORT==== 16-Oct-2015::15:23:28 ===
+stopped TCP Listener on [::]:5672
+
+=INFO REPORT==== 16-Oct-2015::15:23:28 ===
+Halting Erlang VM
+
+=INFO REPORT==== 16-Feb-2016::21:23:00 ===
+Starting RabbitMQ 3.3.5 on Erlang R16B03-1
+Copyright (C) 2007-2014 GoPivotal, Inc.
+Licensed under the MPL.  See http://www.rabbitmq.com/
+
+=INFO REPORT==== 16-Feb-2016::21:23:00 ===
+node           : rabbit@controller
+home dir       : /var/lib/rabbitmq
+config file(s) : /etc/rabbitmq/rabbitmq.config
+cookie hash    : EYWjNeB+FI1hYD0l+wWVbg==
+log            : /var/log/rabbitmq/rabbit@controller.log
+sasl log       : /var/log/rabbitmq/rabbit@controller-sasl.log
+database dir   : /var/lib/rabbitmq/mnesia/rabbit@controller
+
+=INFO REPORT==== 16-Feb-2016::21:23:01 ===
+Limiting to approx 16284 file handles (14653 sockets)
+
+=INFO REPORT==== 16-Feb-2016::21:23:02 ===
+Memory limit set to 3193MB of 7984MB total.
+
+=INFO REPORT==== 16-Feb-2016::21:23:02 ===
+Disk free limit set to 50MB
+
+=INFO REPORT==== 16-Feb-2016::21:23:02 ===
+msg_store_transient: using rabbit_msg_store_ets_index to provide index
+
+=INFO REPORT==== 16-Feb-2016::21:23:02 ===
+msg_store_persistent: using rabbit_msg_store_ets_index to provide index
+
+=INFO REPORT==== 16-Feb-2016::21:23:02 ===
+started TCP Listener on [::]:5672
+
+=INFO REPORT==== 16-Feb-2016::21:23:02 ===
+accepting AMQP connection <0.204.0> (192.168.0.11:46925 -> 192.168.0.10:5672)
+
+=INFO REPORT==== 16-Feb-2016::21:23:02 ===
+accepting AMQP connection <0.215.0> (192.168.0.11:46926 -> 192.168.0.10:5672)
+
+=INFO REPORT==== 16-Feb-2016::21:23:02 ===
+Server startup complete; 0 plugins started.
+
+=INFO REPORT==== 16-Feb-2016::21:23:02 ===
+accepting AMQP connection <0.225.0> (192.168.0.12:42590 -> 192.168.0.10:5672)
+
+=INFO REPORT==== 16-Feb-2016::21:23:02 ===
+accepting AMQP connection <0.239.0> (192.168.0.12:42591 -> 192.168.0.10:5672)
+
+=INFO REPORT==== 16-Feb-2016::21:23:02 ===
+accepting AMQP connection <0.252.0> (192.168.0.13:35551 -> 192.168.0.10:5672)
+
+=INFO REPORT==== 16-Feb-2016::21:23:02 ===
+accepting AMQP connection <0.255.0> (192.168.0.11:46927 -> 192.168.0.10:5672)
+
+=INFO REPORT==== 16-Feb-2016::21:23:02 ===
+accepting AMQP connection <0.258.0> (192.168.0.11:46928 -> 192.168.0.10:5672)
+
+=INFO REPORT==== 16-Feb-2016::21:23:02 ===
+accepting AMQP connection <0.261.0> (192.168.0.13:35552 -> 192.168.0.10:5672)
+
+=INFO REPORT==== 16-Feb-2016::21:23:02 ===
+accepting AMQP connection <0.266.0> (192.168.0.11:46929 -> 192.168.0.10:5672)
+
+=INFO REPORT==== 16-Feb-2016::21:23:02 ===
+accepting AMQP connection <0.287.0> (192.168.0.10:33280 -> 192.168.0.10:5672)
+
+=INFO REPORT==== 16-Feb-2016::21:23:02 ===
+accepting AMQP connection <0.303.0> (192.168.0.11:46930 -> 192.168.0.10:5672)
+
+=INFO REPORT==== 16-Feb-2016::21:23:02 ===
+accepting AMQP connection <0.306.0> (192.168.0.11:46931 -> 192.168.0.10:5672)
+
+=INFO REPORT==== 16-Feb-2016::21:23:02 ===
+accepting AMQP connection <0.323.0> (192.168.0.11:46932 -> 192.168.0.10:5672)
+
+=INFO REPORT==== 16-Feb-2016::21:23:02 ===
+accepting AMQP connection <0.338.0> (192.168.0.13:35553 -> 192.168.0.10:5672)
+
+=INFO REPORT==== 16-Feb-2016::21:23:02 ===
+accepting AMQP connection <0.363.0> (192.168.0.11:46933 -> 192.168.0.10:5672)
+
+=INFO REPORT==== 16-Feb-2016::21:23:03 ===
+accepting AMQP connection <0.369.0> (192.168.0.13:35554 -> 192.168.0.10:5672)
+
+=INFO REPORT==== 16-Feb-2016::21:23:03 ===
+accepting AMQP connection <0.374.0> (192.168.0.12:42592 -> 192.168.0.10:5672)
+
+=INFO REPORT==== 16-Feb-2016::21:23:03 ===
+accepting AMQP connection <0.398.0> (192.168.0.12:42593 -> 192.168.0.10:5672)
+
+=INFO REPORT==== 16-Feb-2016::21:23:03 ===
+accepting AMQP connection <0.403.0> (192.168.0.12:42594 -> 192.168.0.10:5672)
+
+=INFO REPORT==== 16-Feb-2016::21:23:03 ===
+accepting AMQP connection <0.415.0> (192.168.0.11:46934 -> 192.168.0.10:5672)
+
+=INFO REPORT==== 16-Feb-2016::21:23:03 ===
+accepting AMQP connection <0.426.0> (192.168.0.13:35555 -> 192.168.0.10:5672)
+
+=INFO REPORT==== 16-Feb-2016::21:23:03 ===
+accepting AMQP connection <0.447.0> (192.168.0.12:42595 -> 192.168.0.10:5672)
+
+=INFO REPORT==== 16-Feb-2016::21:23:03 ===
+accepting AMQP connection <0.457.0> (192.168.0.13:35556 -> 192.168.0.10:5672)
+
+=INFO REPORT==== 16-Feb-2016::21:23:03 ===
+accepting AMQP connection <0.460.0> (192.168.0.10:33281 -> 192.168.0.10:5672)
+
+=INFO REPORT==== 16-Feb-2016::21:23:03 ===
+accepting AMQP connection <0.464.0> (192.168.0.11:46935 -> 192.168.0.10:5672)
+
+=INFO REPORT==== 16-Feb-2016::21:23:03 ===
+accepting AMQP connection <0.490.0> (192.168.0.12:42596 -> 192.168.0.10:5672)
+
+=INFO REPORT==== 16-Feb-2016::21:23:03 ===
+accepting AMQP connection <0.503.0> (192.168.0.13:35557 -> 192.168.0.10:5672)
+
+=INFO REPORT==== 16-Feb-2016::21:23:03 ===
+accepting AMQP connection <0.507.0> (192.168.0.10:33282 -> 192.168.0.10:5672)
+
+=INFO REPORT==== 16-Feb-2016::21:23:03 ===
+accepting AMQP connection <0.510.0> (192.168.0.10:33283 -> 192.168.0.10:5672)
+
+=INFO REPORT==== 16-Feb-2016::21:23:03 ===
+accepting AMQP connection <0.516.0> (192.168.0.11:46936 -> 192.168.0.10:5672)
+
+=INFO REPORT==== 16-Feb-2016::21:23:03 ===
+accepting AMQP connection <0.542.0> (192.168.0.12:42597 -> 192.168.0.10:5672)
+
+=INFO REPORT==== 16-Feb-2016::21:23:03 ===
+accepting AMQP connection <0.557.0> (192.168.0.11:46937 -> 192.168.0.10:5672)
+
+=INFO REPORT==== 16-Feb-2016::21:23:03 ===
+accepting AMQP connection <0.561.0> (192.168.0.13:35558 -> 192.168.0.10:5672)
+
+=INFO REPORT==== 16-Feb-2016::21:23:03 ===
+accepting AMQP connection <0.575.0> (192.168.0.12:42598 -> 192.168.0.10:5672)
+
+=INFO REPORT==== 16-Feb-2016::21:23:03 ===
+accepting AMQP connection <0.582.0> (192.168.0.11:46938 -> 192.168.0.10:5672)
+
+=INFO REPORT==== 16-Feb-2016::21:23:03 ===
+accepting AMQP connection <0.599.0> (192.168.0.13:35559 -> 192.168.0.10:5672)
+
+=INFO REPORT==== 16-Feb-2016::21:23:03 ===
+accepting AMQP connection <0.604.0> (192.168.0.11:46939 -> 192.168.0.10:5672)
+
+=INFO REPORT==== 16-Feb-2016::21:23:03 ===
+accepting AMQP connection <0.617.0> (192.168.0.13:35560 -> 192.168.0.10:5672)
+
+=INFO REPORT==== 16-Feb-2016::21:23:03 ===
+accepting AMQP connection <0.620.0> (192.168.0.11:46940 -> 192.168.0.10:5672)
+
+=INFO REPORT==== 16-Feb-2016::21:23:03 ===
+accepting AMQP connection <0.633.0> (192.168.0.12:42599 -> 192.168.0.10:5672)
+
+=INFO REPORT==== 16-Feb-2016::21:23:03 ===
+accepting AMQP connection <0.655.0> (192.168.0.13:35561 -> 192.168.0.10:5672)
+
+=INFO REPORT==== 16-Feb-2016::21:23:03 ===
+accepting AMQP connection <0.673.0> (192.168.0.12:42600 -> 192.168.0.10:5672)
+
+=INFO REPORT==== 16-Feb-2016::21:23:10 ===
+accepting AMQP connection <0.684.0> (192.168.0.10:33291 -> 192.168.0.10:5672)
+
+=INFO REPORT==== 16-Feb-2016::21:23:12 ===
+accepting AMQP connection <0.696.0> (192.168.0.10:33299 -> 192.168.0.10:5672)
+
+=INFO REPORT==== 16-Feb-2016::21:23:12 ===
+accepting AMQP connection <0.707.0> (192.168.0.10:33300 -> 192.168.0.10:5672)
+
+=INFO REPORT==== 16-Feb-2016::21:23:12 ===
+accepting AMQP connection <0.721.0> (192.168.0.10:33301 -> 192.168.0.10:5672)
+
+=INFO REPORT==== 16-Feb-2016::21:23:12 ===
+accepting AMQP connection <0.733.0> (192.168.0.10:33302 -> 192.168.0.10:5672)
+
+=INFO REPORT==== 16-Feb-2016::21:23:12 ===
+accepting AMQP connection <0.743.0> (192.168.0.10:33303 -> 192.168.0.10:5672)
+
+=INFO REPORT==== 16-Feb-2016::21:23:12 ===
+accepting AMQP connection <0.753.0> (192.168.0.10:33304 -> 192.168.0.10:5672)
+
+=INFO REPORT==== 16-Feb-2016::21:23:13 ===
+accepting AMQP connection <0.767.0> (192.168.0.10:33305 -> 192.168.0.10:5672)
+
+=INFO REPORT==== 16-Feb-2016::21:23:13 ===
+accepting AMQP connection <0.784.0> (192.168.0.10:33306 -> 192.168.0.10:5672)
+
+=INFO REPORT==== 16-Feb-2016::21:23:13 ===
+accepting AMQP connection <0.801.0> (192.168.0.10:33307 -> 192.168.0.10:5672)
+
+=INFO REPORT==== 16-Feb-2016::21:23:13 ===
+accepting AMQP connection <0.822.0> (192.168.0.10:33308 -> 192.168.0.10:5672)
+
+=INFO REPORT==== 16-Feb-2016::21:23:14 ===
+accepting AMQP connection <0.891.0> (192.168.0.12:42602 -> 192.168.0.10:5672)
+
+=INFO REPORT==== 16-Feb-2016::21:23:15 ===
+accepting AMQP connection <0.995.0> (192.168.0.13:35563 -> 192.168.0.10:5672)
+
+=INFO REPORT==== 16-Feb-2016::21:23:17 ===
+accepting AMQP connection <0.1006.0> (192.168.0.10:33315 -> 192.168.0.10:5672)
+
+=INFO REPORT==== 16-Feb-2016::21:23:17 ===
+accepting AMQP connection <0.1018.0> (192.168.0.10:33319 -> 192.168.0.10:5672)
+
+=INFO REPORT==== 16-Feb-2016::21:23:17 ===
+accepting AMQP connection <0.1030.0> (192.168.0.10:33320 -> 192.168.0.10:5672)
+
+=INFO REPORT==== 16-Feb-2016::21:23:17 ===
+accepting AMQP connection <0.1042.0> (192.168.0.10:33321 -> 192.168.0.10:5672)
+
+=INFO REPORT==== 16-Feb-2016::21:23:17 ===
+accepting AMQP connection <0.1052.0> (192.168.0.10:33322 -> 192.168.0.10:5672)
+
+=INFO REPORT==== 16-Feb-2016::21:23:17 ===
+accepting AMQP connection <0.1063.0> (192.168.0.10:33323 -> 192.168.0.10:5672)
+
+=INFO REPORT==== 16-Feb-2016::21:23:18 ===
+accepting AMQP connection <0.1073.0> (192.168.0.10:33324 -> 192.168.0.10:5672)
+
+=INFO REPORT==== 16-Feb-2016::21:23:18 ===
+accepting AMQP connection <0.1084.0> (192.168.0.10:33327 -> 192.168.0.10:5672)
+
+=INFO REPORT==== 16-Feb-2016::21:23:18 ===
+accepting AMQP connection <0.1096.0> (192.168.0.10:33328 -> 192.168.0.10:5672)
+
+=INFO REPORT==== 16-Feb-2016::21:24:02 ===
+accepting AMQP connection <0.1293.0> (192.168.0.10:33334 -> 192.168.0.10:5672)
+
+=INFO REPORT==== 16-Feb-2016::21:24:02 ===
+accepting AMQP connection <0.1314.0> (192.168.0.10:33335 -> 192.168.0.10:5672)
+
+=INFO REPORT==== 16-Feb-2016::21:24:02 ===
+accepting AMQP connection <0.1331.0> (192.168.0.10:33337 -> 192.168.0.10:5672)
+
+=INFO REPORT==== 16-Feb-2016::21:24:02 ===
+accepting AMQP connection <0.1353.0> (192.168.0.11:46941 -> 192.168.0.10:5672)
+
+=INFO REPORT==== 16-Feb-2016::21:24:02 ===
+accepting AMQP connection <0.1369.0> (192.168.0.10:33339 -> 192.168.0.10:5672)
+
+=INFO REPORT==== 16-Feb-2016::21:24:02 ===
+accepting AMQP connection <0.1382.0> (192.168.0.11:46942 -> 192.168.0.10:5672)
+
+=INFO REPORT==== 16-Feb-2016::21:24:02 ===
+accepting AMQP connection <0.1407.0> (192.168.0.10:33343 -> 192.168.0.10:5672)
+
+=INFO REPORT==== 16-Feb-2016::21:24:03 ===
+accepting AMQP connection <0.1424.0> (192.168.0.10:33344 -> 192.168.0.10:5672)
+
+=INFO REPORT==== 16-Feb-2016::21:32:57 ===
+accepting AMQP connection <0.3633.0> (192.168.0.10:33421 -> 192.168.0.10:5672)
+
+=WARNING REPORT==== 16-Feb-2016::21:56:22 ===
+closing AMQP connection <0.266.0> (192.168.0.11:46929 -> 192.168.0.10:5672):
+connection_closed_abruptly
+
+=WARNING REPORT==== 16-Feb-2016::21:56:22 ===
+closing AMQP connection <0.258.0> (192.168.0.11:46928 -> 192.168.0.10:5672):
+connection_closed_abruptly
+
+=WARNING REPORT==== 16-Feb-2016::21:56:22 ===
+closing AMQP connection <0.323.0> (192.168.0.11:46932 -> 192.168.0.10:5672):
+connection_closed_abruptly
+
+=WARNING REPORT==== 16-Feb-2016::21:56:22 ===
+closing AMQP connection <0.1006.0> (192.168.0.10:33315 -> 192.168.0.10:5672):
+connection_closed_abruptly
+
+=WARNING REPORT==== 16-Feb-2016::21:56:22 ===
+closing AMQP connection <0.891.0> (192.168.0.12:42602 -> 192.168.0.10:5672):
+connection_closed_abruptly
+
+=INFO REPORT==== 16-Feb-2016::21:56:22 ===
+closing AMQP connection <0.1096.0> (192.168.0.10:33328 -> 192.168.0.10:5672)
+
+=WARNING REPORT==== 16-Feb-2016::21:56:22 ===
+closing AMQP connection <0.374.0> (192.168.0.12:42592 -> 192.168.0.10:5672):
+connection_closed_abruptly
+
+=WARNING REPORT==== 16-Feb-2016::21:56:22 ===
+closing AMQP connection <0.403.0> (192.168.0.12:42594 -> 192.168.0.10:5672):
+connection_closed_abruptly
+
+=WARNING REPORT==== 16-Feb-2016::21:56:22 ===
+closing AMQP connection <0.767.0> (192.168.0.10:33305 -> 192.168.0.10:5672):
+connection_closed_abruptly
+
+=WARNING REPORT==== 16-Feb-2016::21:56:22 ===
+closing AMQP connection <0.721.0> (192.168.0.10:33301 -> 192.168.0.10:5672):
+connection_closed_abruptly
+
+=WARNING REPORT==== 16-Feb-2016::21:56:22 ===
+closing AMQP connection <0.1353.0> (192.168.0.11:46941 -> 192.168.0.10:5672):
+connection_closed_abruptly
+
+=WARNING REPORT==== 16-Feb-2016::21:56:22 ===
+closing AMQP connection <0.733.0> (192.168.0.10:33302 -> 192.168.0.10:5672):
+connection_closed_abruptly
+
+=WARNING REPORT==== 16-Feb-2016::21:56:22 ===
+closing AMQP connection <0.784.0> (192.168.0.10:33306 -> 192.168.0.10:5672):
+connection_closed_abruptly
+
+=WARNING REPORT==== 16-Feb-2016::21:56:22 ===
+closing AMQP connection <0.995.0> (192.168.0.13:35563 -> 192.168.0.10:5672):
+connection_closed_abruptly
+
+=WARNING REPORT==== 16-Feb-2016::21:56:22 ===
+closing AMQP connection <0.1382.0> (192.168.0.11:46942 -> 192.168.0.10:5672):
+connection_closed_abruptly
+
+=WARNING REPORT==== 16-Feb-2016::21:56:22 ===
+closing AMQP connection <0.255.0> (192.168.0.11:46927 -> 192.168.0.10:5672):
+connection_closed_abruptly
+
+=WARNING REPORT==== 16-Feb-2016::21:56:22 ===
+closing AMQP connection <0.306.0> (192.168.0.11:46931 -> 192.168.0.10:5672):
+connection_closed_abruptly
+
+=WARNING REPORT==== 16-Feb-2016::21:56:22 ===
+closing AMQP connection <0.822.0> (192.168.0.10:33308 -> 192.168.0.10:5672):
+connection_closed_abruptly
+
+=WARNING REPORT==== 16-Feb-2016::21:56:22 ===
+closing AMQP connection <0.599.0> (192.168.0.13:35559 -> 192.168.0.10:5672):
+connection_closed_abruptly
+
+=WARNING REPORT==== 16-Feb-2016::21:56:22 ===
+closing AMQP connection <0.655.0> (192.168.0.13:35561 -> 192.168.0.10:5672):
+connection_closed_abruptly
+
+=WARNING REPORT==== 16-Feb-2016::21:56:22 ===
+closing AMQP connection <0.753.0> (192.168.0.10:33304 -> 192.168.0.10:5672):
+connection_closed_abruptly
+
+=WARNING REPORT==== 16-Feb-2016::21:56:22 ===
+closing AMQP connection <0.415.0> (192.168.0.11:46934 -> 192.168.0.10:5672):
+connection_closed_abruptly
+
+=WARNING REPORT==== 16-Feb-2016::21:56:22 ===
+closing AMQP connection <0.516.0> (192.168.0.11:46936 -> 192.168.0.10:5672):
+connection_closed_abruptly
+
+=WARNING REPORT==== 16-Feb-2016::21:56:22 ===
+closing AMQP connection <0.557.0> (192.168.0.11:46937 -> 192.168.0.10:5672):
+connection_closed_abruptly
+
+=WARNING REPORT==== 16-Feb-2016::21:56:22 ===
+closing AMQP connection <0.604.0> (192.168.0.11:46939 -> 192.168.0.10:5672):
+connection_closed_abruptly
+
+=WARNING REPORT==== 16-Feb-2016::21:56:22 ===
+closing AMQP connection <0.620.0> (192.168.0.11:46940 -> 192.168.0.10:5672):
+connection_closed_abruptly
+
+=WARNING REPORT==== 16-Feb-2016::21:56:22 ===
+closing AMQP connection <0.303.0> (192.168.0.11:46930 -> 192.168.0.10:5672):
+connection_closed_abruptly
+
+=WARNING REPORT==== 16-Feb-2016::21:56:22 ===
+closing AMQP connection <0.363.0> (192.168.0.11:46933 -> 192.168.0.10:5672):
+connection_closed_abruptly
+
+=WARNING REPORT==== 16-Feb-2016::21:56:22 ===
+closing AMQP connection <0.464.0> (192.168.0.11:46935 -> 192.168.0.10:5672):
+connection_closed_abruptly
+
+=WARNING REPORT==== 16-Feb-2016::21:56:22 ===
+closing AMQP connection <0.582.0> (192.168.0.11:46938 -> 192.168.0.10:5672):
+connection_closed_abruptly
+
+=WARNING REPORT==== 16-Feb-2016::21:56:22 ===
+closing AMQP connection <0.204.0> (192.168.0.11:46925 -> 192.168.0.10:5672):
+connection_closed_abruptly
+
+=WARNING REPORT==== 16-Feb-2016::21:56:22 ===
+closing AMQP connection <0.215.0> (192.168.0.11:46926 -> 192.168.0.10:5672):
+connection_closed_abruptly
+
+=WARNING REPORT==== 16-Feb-2016::21:56:22 ===
+closing AMQP connection <0.743.0> (192.168.0.10:33303 -> 192.168.0.10:5672):
+connection_closed_abruptly
+
+=WARNING REPORT==== 16-Feb-2016::21:56:22 ===
+closing AMQP connection <0.801.0> (192.168.0.10:33307 -> 192.168.0.10:5672):
+connection_closed_abruptly
+
+=WARNING REPORT==== 16-Feb-2016::21:56:23 ===
+closing AMQP connection <0.252.0> (192.168.0.13:35551 -> 192.168.0.10:5672):
+connection_closed_abruptly
+
+=WARNING REPORT==== 16-Feb-2016::21:56:23 ===
+closing AMQP connection <0.261.0> (192.168.0.13:35552 -> 192.168.0.10:5672):
+connection_closed_abruptly
+
+=WARNING REPORT==== 16-Feb-2016::21:56:23 ===
+closing AMQP connection <0.338.0> (192.168.0.13:35553 -> 192.168.0.10:5672):
+connection_closed_abruptly
+
+=WARNING REPORT==== 16-Feb-2016::21:56:23 ===
+closing AMQP connection <0.369.0> (192.168.0.13:35554 -> 192.168.0.10:5672):
+connection_closed_abruptly
+
+=WARNING REPORT==== 16-Feb-2016::21:56:23 ===
+closing AMQP connection <0.457.0> (192.168.0.13:35556 -> 192.168.0.10:5672):
+connection_closed_abruptly
+
+=WARNING REPORT==== 16-Feb-2016::21:56:23 ===
+closing AMQP connection <0.503.0> (192.168.0.13:35557 -> 192.168.0.10:5672):
+connection_closed_abruptly
+
+=WARNING REPORT==== 16-Feb-2016::21:56:23 ===
+closing AMQP connection <0.426.0> (192.168.0.13:35555 -> 192.168.0.10:5672):
+connection_closed_abruptly
+
+=WARNING REPORT==== 16-Feb-2016::21:56:23 ===
+closing AMQP connection <0.561.0> (192.168.0.13:35558 -> 192.168.0.10:5672):
+connection_closed_abruptly
+
+=WARNING REPORT==== 16-Feb-2016::21:56:23 ===
+closing AMQP connection <0.617.0> (192.168.0.13:35560 -> 192.168.0.10:5672):
+connection_closed_abruptly
+
+=WARNING REPORT==== 16-Feb-2016::21:56:23 ===
+closing AMQP connection <0.510.0> (192.168.0.10:33283 -> 192.168.0.10:5672):
+connection_closed_abruptly
+
+=WARNING REPORT==== 16-Feb-2016::21:56:23 ===
+closing AMQP connection <0.1424.0> (192.168.0.10:33344 -> 192.168.0.10:5672):
+connection_closed_abruptly
+
+=WARNING REPORT==== 16-Feb-2016::21:56:23 ===
+closing AMQP connection <0.1073.0> (192.168.0.10:33324 -> 192.168.0.10:5672):
+connection_closed_abruptly
+
+=WARNING REPORT==== 16-Feb-2016::21:56:23 ===
+closing AMQP connection <0.1042.0> (192.168.0.10:33321 -> 192.168.0.10:5672):
+connection_closed_abruptly
+
+=WARNING REPORT==== 16-Feb-2016::21:56:23 ===
+closing AMQP connection <0.1293.0> (192.168.0.10:33334 -> 192.168.0.10:5672):
+connection_closed_abruptly
+
+=WARNING REPORT==== 16-Feb-2016::21:56:23 ===
+closing AMQP connection <0.1052.0> (192.168.0.10:33322 -> 192.168.0.10:5672):
+connection_closed_abruptly
+
+=WARNING REPORT==== 16-Feb-2016::21:56:23 ===
+closing AMQP connection <0.1331.0> (192.168.0.10:33337 -> 192.168.0.10:5672):
+connection_closed_abruptly
+
+=WARNING REPORT==== 16-Feb-2016::21:56:23 ===
+closing AMQP connection <0.1063.0> (192.168.0.10:33323 -> 192.168.0.10:5672):
+connection_closed_abruptly
+
+=WARNING REPORT==== 16-Feb-2016::21:56:23 ===
+closing AMQP connection <0.1369.0> (192.168.0.10:33339 -> 192.168.0.10:5672):
+connection_closed_abruptly
+
+=WARNING REPORT==== 16-Feb-2016::21:56:23 ===
+closing AMQP connection <0.287.0> (192.168.0.10:33280 -> 192.168.0.10:5672):
+connection_closed_abruptly
+
+=WARNING REPORT==== 16-Feb-2016::21:56:24 ===
+closing AMQP connection <0.1084.0> (192.168.0.10:33327 -> 192.168.0.10:5672):
+connection_closed_abruptly
+
+=WARNING REPORT==== 16-Feb-2016::21:56:24 ===
+closing AMQP connection <0.3633.0> (192.168.0.10:33421 -> 192.168.0.10:5672):
+connection_closed_abruptly
+
+=WARNING REPORT==== 16-Feb-2016::21:56:24 ===
+closing AMQP connection <0.507.0> (192.168.0.10:33282 -> 192.168.0.10:5672):
+connection_closed_abruptly
+
+=WARNING REPORT==== 16-Feb-2016::21:56:24 ===
+closing AMQP connection <0.707.0> (192.168.0.10:33300 -> 192.168.0.10:5672):
+connection_closed_abruptly
+
+=WARNING REPORT==== 16-Feb-2016::21:56:24 ===
+closing AMQP connection <0.696.0> (192.168.0.10:33299 -> 192.168.0.10:5672):
+connection_closed_abruptly
+
+=WARNING REPORT==== 16-Feb-2016::21:56:24 ===
+closing AMQP connection <0.684.0> (192.168.0.10:33291 -> 192.168.0.10:5672):
+connection_closed_abruptly
+
+=WARNING REPORT==== 16-Feb-2016::21:56:24 ===
+closing AMQP connection <0.633.0> (192.168.0.12:42599 -> 192.168.0.10:5672):
+connection_closed_abruptly
+
+=WARNING REPORT==== 16-Feb-2016::21:56:24 ===
+closing AMQP connection <0.225.0> (192.168.0.12:42590 -> 192.168.0.10:5672):
+connection_closed_abruptly
+
+=WARNING REPORT==== 16-Feb-2016::21:56:24 ===
+closing AMQP connection <0.398.0> (192.168.0.12:42593 -> 192.168.0.10:5672):
+connection_closed_abruptly
+
+=WARNING REPORT==== 16-Feb-2016::21:56:24 ===
+closing AMQP connection <0.490.0> (192.168.0.12:42596 -> 192.168.0.10:5672):
+connection_closed_abruptly
+
+=WARNING REPORT==== 16-Feb-2016::21:56:24 ===
+closing AMQP connection <0.542.0> (192.168.0.12:42597 -> 192.168.0.10:5672):
+connection_closed_abruptly
+
+=WARNING REPORT==== 16-Feb-2016::21:56:24 ===
+closing AMQP connection <0.239.0> (192.168.0.12:42591 -> 192.168.0.10:5672):
+connection_closed_abruptly
+
+=WARNING REPORT==== 16-Feb-2016::21:56:24 ===
+closing AMQP connection <0.575.0> (192.168.0.12:42598 -> 192.168.0.10:5672):
+connection_closed_abruptly
+
+=WARNING REPORT==== 16-Feb-2016::21:56:24 ===
+closing AMQP connection <0.447.0> (192.168.0.12:42595 -> 192.168.0.10:5672):
+connection_closed_abruptly
+
+=WARNING REPORT==== 16-Feb-2016::21:56:24 ===
+closing AMQP connection <0.673.0> (192.168.0.12:42600 -> 192.168.0.10:5672):
+connection_closed_abruptly
+
+=WARNING REPORT==== 16-Feb-2016::21:56:24 ===
+closing AMQP connection <0.1018.0> (192.168.0.10:33319 -> 192.168.0.10:5672):
+connection_closed_abruptly
+
+=WARNING REPORT==== 16-Feb-2016::21:56:24 ===
+closing AMQP connection <0.460.0> (192.168.0.10:33281 -> 192.168.0.10:5672):
+connection_closed_abruptly
+
+=WARNING REPORT==== 16-Feb-2016::21:56:25 ===
+closing AMQP connection <0.1030.0> (192.168.0.10:33320 -> 192.168.0.10:5672):
+connection_closed_abruptly
+
+=WARNING REPORT==== 16-Feb-2016::21:56:25 ===
+closing AMQP connection <0.1314.0> (192.168.0.10:33335 -> 192.168.0.10:5672):
+connection_closed_abruptly
+
+=WARNING REPORT==== 16-Feb-2016::21:56:25 ===
+closing AMQP connection <0.1407.0> (192.168.0.10:33343 -> 192.168.0.10:5672):
+connection_closed_abruptly
+
+=INFO REPORT==== 16-Feb-2016::21:56:25 ===
+Stopping RabbitMQ
+
+=INFO REPORT==== 16-Feb-2016::21:56:25 ===
+stopped TCP Listener on [::]:5672
+
+=INFO REPORT==== 16-Feb-2016::21:56:26 ===
+Halting Erlang VM
+
+=INFO REPORT==== 22-Feb-2016::19:24:39 ===
+Starting RabbitMQ 3.3.5 on Erlang R16B03-1
+Copyright (C) 2007-2014 GoPivotal, Inc.
+Licensed under the MPL.  See http://www.rabbitmq.com/
+
+=INFO REPORT==== 22-Feb-2016::19:24:39 ===
+node           : rabbit@controller
+home dir       : /var/lib/rabbitmq
+config file(s) : /etc/rabbitmq/rabbitmq.config
+cookie hash    : EYWjNeB+FI1hYD0l+wWVbg==
+log            : /var/log/rabbitmq/rabbit@controller.log
+sasl log       : /var/log/rabbitmq/rabbit@controller-sasl.log
+database dir   : /var/lib/rabbitmq/mnesia/rabbit@controller
+
+=INFO REPORT==== 22-Feb-2016::19:24:40 ===
+Limiting to approx 16284 file handles (14653 sockets)
+
+=INFO REPORT==== 22-Feb-2016::19:24:40 ===
+Memory limit set to 3193MB of 7984MB total.
+
+=INFO REPORT==== 22-Feb-2016::19:24:40 ===
+Disk free limit set to 50MB
+
+=INFO REPORT==== 22-Feb-2016::19:24:40 ===
+msg_store_transient: using rabbit_msg_store_ets_index to provide index
+
+=INFO REPORT==== 22-Feb-2016::19:24:40 ===
+msg_store_persistent: using rabbit_msg_store_ets_index to provide index
+
+=INFO REPORT==== 22-Feb-2016::19:24:40 ===
+started TCP Listener on [::]:5672
+
+=INFO REPORT==== 22-Feb-2016::19:24:40 ===
+Server startup complete; 0 plugins started.
+
+=INFO REPORT==== 22-Feb-2016::19:24:40 ===
+accepting AMQP connection <0.205.0> (192.168.0.11:60484 -> 192.168.0.10:5672)
+
+=INFO REPORT==== 22-Feb-2016::19:24:40 ===
+accepting AMQP connection <0.218.0> (192.168.0.10:47821 -> 192.168.0.10:5672)
+
+=INFO REPORT==== 22-Feb-2016::19:24:40 ===
+accepting AMQP connection <0.227.0> (192.168.0.11:60485 -> 192.168.0.10:5672)
+
+=INFO REPORT==== 22-Feb-2016::19:24:40 ===
+accepting AMQP connection <0.242.0> (192.168.0.10:47822 -> 192.168.0.10:5672)
+
+=INFO REPORT==== 22-Feb-2016::19:24:40 ===
+accepting AMQP connection <0.252.0> (192.168.0.11:60486 -> 192.168.0.10:5672)
+
+=INFO REPORT==== 22-Feb-2016::19:24:40 ===
+accepting AMQP connection <0.264.0> (192.168.0.11:60487 -> 192.168.0.10:5672)
+
+=INFO REPORT==== 22-Feb-2016::19:24:40 ===
+accepting AMQP connection <0.276.0> (192.168.0.11:60488 -> 192.168.0.10:5672)
+
+=INFO REPORT==== 22-Feb-2016::19:24:40 ===
+accepting AMQP connection <0.288.0> (192.168.0.11:60489 -> 192.168.0.10:5672)
+
+=INFO REPORT==== 22-Feb-2016::19:24:40 ===
+accepting AMQP connection <0.297.0> (192.168.0.13:44684 -> 192.168.0.10:5672)
+
+=INFO REPORT==== 22-Feb-2016::19:24:40 ===
+accepting AMQP connection <0.301.0> (192.168.0.11:60490 -> 192.168.0.10:5672)
+
+=INFO REPORT==== 22-Feb-2016::19:24:40 ===
+accepting AMQP connection <0.310.0> (192.168.0.11:60491 -> 192.168.0.10:5672)
+
+=INFO REPORT==== 22-Feb-2016::19:24:40 ===
+accepting AMQP connection <0.327.0> (192.168.0.11:60492 -> 192.168.0.10:5672)
+
+=INFO REPORT==== 22-Feb-2016::19:24:40 ===
+accepting AMQP connection <0.340.0> (192.168.0.13:44685 -> 192.168.0.10:5672)
+
+=INFO REPORT==== 22-Feb-2016::19:24:40 ===
+accepting AMQP connection <0.343.0> (192.168.0.11:60493 -> 192.168.0.10:5672)
+
+=INFO REPORT==== 22-Feb-2016::19:24:40 ===
+accepting AMQP connection <0.349.0> (192.168.0.11:60494 -> 192.168.0.10:5672)
+
+=INFO REPORT==== 22-Feb-2016::19:24:40 ===
+accepting AMQP connection <0.373.0> (192.168.0.11:60495 -> 192.168.0.10:5672)
+
+=INFO REPORT==== 22-Feb-2016::19:24:40 ===
+accepting AMQP connection <0.391.0> (192.168.0.11:60496 -> 192.168.0.10:5672)
+
+=INFO REPORT==== 22-Feb-2016::19:24:40 ===
+accepting AMQP connection <0.403.0> (192.168.0.11:60497 -> 192.168.0.10:5672)
+
+=INFO REPORT==== 22-Feb-2016::19:24:41 ===
+accepting AMQP connection <0.416.0> (192.168.0.11:60498 -> 192.168.0.10:5672)
+
+=INFO REPORT==== 22-Feb-2016::19:24:41 ===
+accepting AMQP connection <0.426.0> (192.168.0.11:60499 -> 192.168.0.10:5672)
+
+=INFO REPORT==== 22-Feb-2016::19:24:41 ===
+accepting AMQP connection <0.429.0> (192.168.0.13:44686 -> 192.168.0.10:5672)
+
+=INFO REPORT==== 22-Feb-2016::19:24:41 ===
+accepting AMQP connection <0.449.0> (192.168.0.13:44687 -> 192.168.0.10:5672)
+
+=INFO REPORT==== 22-Feb-2016::19:24:41 ===
+accepting AMQP connection <0.462.0> (192.168.0.10:47823 -> 192.168.0.10:5672)
+
+=INFO REPORT==== 22-Feb-2016::19:24:41 ===
+accepting AMQP connection <0.472.0> (192.168.0.10:47824 -> 192.168.0.10:5672)
+
+=INFO REPORT==== 22-Feb-2016::19:24:41 ===
+accepting AMQP connection <0.481.0> (192.168.0.13:44688 -> 192.168.0.10:5672)
+
+=INFO REPORT==== 22-Feb-2016::19:24:41 ===
+accepting AMQP connection <0.495.0> (192.168.0.13:44689 -> 192.168.0.10:5672)
+
+=INFO REPORT==== 22-Feb-2016::19:24:41 ===
+accepting AMQP connection <0.506.0> (192.168.0.13:44690 -> 192.168.0.10:5672)
+
+=INFO REPORT==== 22-Feb-2016::19:24:41 ===
+accepting AMQP connection <0.517.0> (192.168.0.13:44691 -> 192.168.0.10:5672)
+
+=INFO REPORT==== 22-Feb-2016::19:24:41 ===
+accepting AMQP connection <0.528.0> (192.168.0.13:44692 -> 192.168.0.10:5672)
+
+=INFO REPORT==== 22-Feb-2016::19:24:41 ===
+accepting AMQP connection <0.539.0> (192.168.0.13:44693 -> 192.168.0.10:5672)
+
+=INFO REPORT==== 22-Feb-2016::19:24:41 ===
+accepting AMQP connection <0.550.0> (192.168.0.13:44694 -> 192.168.0.10:5672)
+
+=INFO REPORT==== 22-Feb-2016::19:24:46 ===
+accepting AMQP connection <0.561.0> (192.168.0.10:47838 -> 192.168.0.10:5672)
+
+=INFO REPORT==== 22-Feb-2016::19:24:46 ===
+accepting AMQP connection <0.573.0> (192.168.0.12:54439 -> 192.168.0.10:5672)
+
+=INFO REPORT==== 22-Feb-2016::19:24:46 ===
+accepting AMQP connection <0.583.0> (192.168.0.12:54440 -> 192.168.0.10:5672)
+
+=INFO REPORT==== 22-Feb-2016::19:24:47 ===
+accepting AMQP connection <0.596.0> (192.168.0.10:47841 -> 192.168.0.10:5672)
+
+=INFO REPORT==== 22-Feb-2016::19:24:48 ===
+accepting AMQP connection <0.609.0> (192.168.0.10:47843 -> 192.168.0.10:5672)
+
+=INFO REPORT==== 22-Feb-2016::19:24:48 ===
+accepting AMQP connection <0.621.0> (192.168.0.10:47845 -> 192.168.0.10:5672)
+
+=INFO REPORT==== 22-Feb-2016::19:24:48 ===
+accepting AMQP connection <0.633.0> (192.168.0.10:47846 -> 192.168.0.10:5672)
+
+=INFO REPORT==== 22-Feb-2016::19:24:48 ===
+accepting AMQP connection <0.642.0> (192.168.0.10:47847 -> 192.168.0.10:5672)
+
+=INFO REPORT==== 22-Feb-2016::19:24:48 ===
+accepting AMQP connection <0.658.0> (192.168.0.10:47848 -> 192.168.0.10:5672)
+
+=INFO REPORT==== 22-Feb-2016::19:24:48 ===
+accepting AMQP connection <0.666.0> (192.168.0.10:47849 -> 192.168.0.10:5672)
+
+=INFO REPORT==== 22-Feb-2016::19:24:48 ===
+accepting AMQP connection <0.672.0> (192.168.0.10:47850 -> 192.168.0.10:5672)
+
+=INFO REPORT==== 22-Feb-2016::19:24:48 ===
+accepting AMQP connection <0.688.0> (192.168.0.10:47851 -> 192.168.0.10:5672)
+
+=INFO REPORT==== 22-Feb-2016::19:24:49 ===
+accepting AMQP connection <0.700.0> (192.168.0.12:54441 -> 192.168.0.10:5672)
+
+=INFO REPORT==== 22-Feb-2016::19:24:49 ===
+accepting AMQP connection <0.710.0> (192.168.0.12:54442 -> 192.168.0.10:5672)
+
+=INFO REPORT==== 22-Feb-2016::19:24:49 ===
+accepting AMQP connection <0.723.0> (192.168.0.10:47853 -> 192.168.0.10:5672)
+
+=INFO REPORT==== 22-Feb-2016::19:24:49 ===
+accepting AMQP connection <0.736.0> (192.168.0.12:54443 -> 192.168.0.10:5672)
+
+=INFO REPORT==== 22-Feb-2016::19:24:49 ===
+accepting AMQP connection <0.747.0> (192.168.0.12:54444 -> 192.168.0.10:5672)
+
+=INFO REPORT==== 22-Feb-2016::19:24:49 ===
+accepting AMQP connection <0.758.0> (192.168.0.12:54445 -> 192.168.0.10:5672)
+
+=INFO REPORT==== 22-Feb-2016::19:24:49 ===
+accepting AMQP connection <0.769.0> (192.168.0.12:54446 -> 192.168.0.10:5672)
+
+=INFO REPORT==== 22-Feb-2016::19:24:49 ===
+accepting AMQP connection <0.780.0> (192.168.0.12:54447 -> 192.168.0.10:5672)
+
+=INFO REPORT==== 22-Feb-2016::19:24:49 ===
+accepting AMQP connection <0.791.0> (192.168.0.12:54448 -> 192.168.0.10:5672)
+
+=INFO REPORT==== 22-Feb-2016::19:24:49 ===
+accepting AMQP connection <0.802.0> (192.168.0.12:54449 -> 192.168.0.10:5672)
+
+=INFO REPORT==== 22-Feb-2016::19:24:52 ===
+accepting AMQP connection <0.818.0> (192.168.0.10:47856 -> 192.168.0.10:5672)
+
+=INFO REPORT==== 22-Feb-2016::19:24:52 ===
+accepting AMQP connection <0.830.0> (192.168.0.10:47859 -> 192.168.0.10:5672)
+
+=INFO REPORT==== 22-Feb-2016::19:24:53 ===
+accepting AMQP connection <0.842.0> (192.168.0.10:47862 -> 192.168.0.10:5672)
+
+=INFO REPORT==== 22-Feb-2016::19:24:53 ===
+accepting AMQP connection <0.854.0> (192.168.0.10:47865 -> 192.168.0.10:5672)
+
+=INFO REPORT==== 22-Feb-2016::19:24:53 ===
+accepting AMQP connection <0.857.0> (192.168.0.10:47866 -> 192.168.0.10:5672)
+
+=INFO REPORT==== 22-Feb-2016::19:24:53 ===
+accepting AMQP connection <0.875.0> (192.168.0.10:47868 -> 192.168.0.10:5672)
+
+=INFO REPORT==== 22-Feb-2016::19:24:53 ===
+accepting AMQP connection <0.887.0> (192.168.0.10:47869 -> 192.168.0.10:5672)
+
+=INFO REPORT==== 22-Feb-2016::19:24:55 ===
+accepting AMQP connection <0.901.0> (192.168.0.10:47870 -> 192.168.0.10:5672)
+
+=INFO REPORT==== 22-Feb-2016::19:24:56 ===
+accepting AMQP connection <0.918.0> (192.168.0.10:47871 -> 192.168.0.10:5672)
+
+=INFO REPORT==== 22-Feb-2016::19:24:56 ===
+accepting AMQP connection <0.935.0> (192.168.0.10:47872 -> 192.168.0.10:5672)
+
+=INFO REPORT==== 22-Feb-2016::19:24:56 ===
+accepting AMQP connection <0.956.0> (192.168.0.10:47873 -> 192.168.0.10:5672)
+
+=INFO REPORT==== 22-Feb-2016::19:24:56 ===
+accepting AMQP connection <0.1025.0> (192.168.0.12:54451 -> 192.168.0.10:5672)
+
+=INFO REPORT==== 22-Feb-2016::19:25:01 ===
+accepting AMQP connection <0.1138.0> (192.168.0.13:44696 -> 192.168.0.10:5672)
+
+=INFO REPORT==== 22-Feb-2016::19:25:40 ===
+accepting AMQP connection <0.1236.0> (192.168.0.10:47881 -> 192.168.0.10:5672)
+
+=INFO REPORT==== 22-Feb-2016::19:25:40 ===
+accepting AMQP connection <0.1266.0> (192.168.0.10:47883 -> 192.168.0.10:5672)
+
+=INFO REPORT==== 22-Feb-2016::19:25:40 ===
+accepting AMQP connection <0.1283.0> (192.168.0.10:47884 -> 192.168.0.10:5672)
+
+=INFO REPORT==== 22-Feb-2016::19:25:41 ===
+accepting AMQP connection <0.1307.0> (192.168.0.11:60500 -> 192.168.0.10:5672)
+
+=INFO REPORT==== 22-Feb-2016::19:25:41 ===
+accepting AMQP connection <0.1340.0> (192.168.0.10:47886 -> 192.168.0.10:5672)
+
+=INFO REPORT==== 22-Feb-2016::19:26:01 ===
+accepting AMQP connection <0.1507.0> (192.168.0.12:54452 -> 192.168.0.10:5672)
+
+=WARNING REPORT==== 22-Feb-2016::19:26:01 ===
+closing AMQP connection <0.1025.0> (192.168.0.12:54451 -> 192.168.0.10:5672):
+connection_closed_abruptly
+
+=WARNING REPORT==== 22-Feb-2016::19:26:01 ===
+closing AMQP connection <0.573.0> (192.168.0.12:54439 -> 192.168.0.10:5672):
+connection_closed_abruptly
+
+=WARNING REPORT==== 22-Feb-2016::19:26:01 ===
+closing AMQP connection <0.583.0> (192.168.0.12:54440 -> 192.168.0.10:5672):
+connection_closed_abruptly
+
+=WARNING REPORT==== 22-Feb-2016::19:26:01 ===
+closing AMQP connection <0.1507.0> (192.168.0.12:54452 -> 192.168.0.10:5672):
+connection_closed_abruptly
+
+=WARNING REPORT==== 22-Feb-2016::19:26:01 ===
+closing AMQP connection <0.596.0> (192.168.0.10:47841 -> 192.168.0.10:5672):
+connection_closed_abruptly
+
+=WARNING REPORT==== 22-Feb-2016::19:26:01 ===
+closing AMQP connection <0.642.0> (192.168.0.10:47847 -> 192.168.0.10:5672):
+connection_closed_abruptly
+
+=INFO REPORT==== 22-Feb-2016::19:26:01 ===
+closing AMQP connection <0.633.0> (192.168.0.10:47846 -> 192.168.0.10:5672)
+
+=WARNING REPORT==== 22-Feb-2016::19:26:01 ===
+closing AMQP connection <0.310.0> (192.168.0.11:60491 -> 192.168.0.10:5672):
+connection_closed_abruptly
+
+=WARNING REPORT==== 22-Feb-2016::19:26:01 ===
+closing AMQP connection <0.301.0> (192.168.0.11:60490 -> 192.168.0.10:5672):
+connection_closed_abruptly
+
+=WARNING REPORT==== 22-Feb-2016::19:26:01 ===
+closing AMQP connection <0.343.0> (192.168.0.11:60493 -> 192.168.0.10:5672):
+connection_closed_abruptly
+
+=WARNING REPORT==== 22-Feb-2016::19:26:02 ===
+closing AMQP connection <0.854.0> (192.168.0.10:47865 -> 192.168.0.10:5672):
+connection_closed_abruptly
+
+=WARNING REPORT==== 22-Feb-2016::19:26:02 ===
+closing AMQP connection <0.918.0> (192.168.0.10:47871 -> 192.168.0.10:5672):
+connection_closed_abruptly
+
+=WARNING REPORT==== 22-Feb-2016::19:26:02 ===
+closing AMQP connection <0.1307.0> (192.168.0.11:60500 -> 192.168.0.10:5672):
+connection_closed_abruptly
+
+=WARNING REPORT==== 22-Feb-2016::19:26:02 ===
+closing AMQP connection <0.391.0> (192.168.0.11:60496 -> 192.168.0.10:5672):
+connection_closed_abruptly
+
+=WARNING REPORT==== 22-Feb-2016::19:26:02 ===
+closing AMQP connection <0.403.0> (192.168.0.11:60497 -> 192.168.0.10:5672):
+connection_closed_abruptly
+
+=WARNING REPORT==== 22-Feb-2016::19:26:02 ===
+closing AMQP connection <0.887.0> (192.168.0.10:47869 -> 192.168.0.10:5672):
+connection_closed_abruptly
+
+=WARNING REPORT==== 22-Feb-2016::19:26:02 ===
+closing AMQP connection <0.956.0> (192.168.0.10:47873 -> 192.168.0.10:5672):
+connection_closed_abruptly
+
+=WARNING REPORT==== 22-Feb-2016::19:26:02 ===
+closing AMQP connection <0.857.0> (192.168.0.10:47866 -> 192.168.0.10:5672):
+connection_closed_abruptly
+
+=WARNING REPORT==== 22-Feb-2016::19:26:02 ===
+closing AMQP connection <0.901.0> (192.168.0.10:47870 -> 192.168.0.10:5672):
+connection_closed_abruptly
+
+=WARNING REPORT==== 22-Feb-2016::19:26:02 ===
+closing AMQP connection <0.416.0> (192.168.0.11:60498 -> 192.168.0.10:5672):
+connection_closed_abruptly
+
+=WARNING REPORT==== 22-Feb-2016::19:26:02 ===
+closing AMQP connection <0.426.0> (192.168.0.11:60499 -> 192.168.0.10:5672):
+connection_closed_abruptly
+
+=WARNING REPORT==== 22-Feb-2016::19:26:02 ===
+closing AMQP connection <0.1138.0> (192.168.0.13:44696 -> 192.168.0.10:5672):
+connection_closed_abruptly
+
+=WARNING REPORT==== 22-Feb-2016::19:26:02 ===
+closing AMQP connection <0.429.0> (192.168.0.13:44686 -> 192.168.0.10:5672):
+connection_closed_abruptly
+
+=WARNING REPORT==== 22-Feb-2016::19:26:02 ===
+closing AMQP connection <0.449.0> (192.168.0.13:44687 -> 192.168.0.10:5672):
+connection_closed_abruptly
+
+=WARNING REPORT==== 22-Feb-2016::19:26:02 ===
+closing AMQP connection <0.875.0> (192.168.0.10:47868 -> 192.168.0.10:5672):
+connection_closed_abruptly
+
+=WARNING REPORT==== 22-Feb-2016::19:26:02 ===
+closing AMQP connection <0.935.0> (192.168.0.10:47872 -> 192.168.0.10:5672):
+connection_closed_abruptly
+
+=WARNING REPORT==== 22-Feb-2016::19:26:02 ===
+closing AMQP connection <0.688.0> (192.168.0.10:47851 -> 192.168.0.10:5672):
+connection_closed_abruptly
+
+=WARNING REPORT==== 22-Feb-2016::19:26:02 ===
+closing AMQP connection <0.1266.0> (192.168.0.10:47883 -> 192.168.0.10:5672):
+connection_closed_abruptly
+
+=WARNING REPORT==== 22-Feb-2016::19:26:02 ===
+closing AMQP connection <0.658.0> (192.168.0.10:47848 -> 192.168.0.10:5672):
+connection_closed_abruptly
+
+=WARNING REPORT==== 22-Feb-2016::19:26:03 ===
+closing AMQP connection <0.723.0> (192.168.0.10:47853 -> 192.168.0.10:5672):
+connection_closed_abruptly
+
+=WARNING REPORT==== 22-Feb-2016::19:26:03 ===
+closing AMQP connection <0.672.0> (192.168.0.10:47850 -> 192.168.0.10:5672):
+connection_closed_abruptly
+
+=WARNING REPORT==== 22-Feb-2016::19:26:03 ===
+closing AMQP connection <0.1236.0> (192.168.0.10:47881 -> 192.168.0.10:5672):
+connection_closed_abruptly
+
+=WARNING REPORT==== 22-Feb-2016::19:26:03 ===
+closing AMQP connection <0.666.0> (192.168.0.10:47849 -> 192.168.0.10:5672):
+connection_closed_abruptly
+
+=WARNING REPORT==== 22-Feb-2016::19:26:03 ===
+closing AMQP connection <0.1340.0> (192.168.0.10:47886 -> 192.168.0.10:5672):
+connection_closed_abruptly
+
+=WARNING REPORT==== 22-Feb-2016::19:26:03 ===
+closing AMQP connection <0.700.0> (192.168.0.12:54441 -> 192.168.0.10:5672):
+connection_closed_abruptly
+
+=WARNING REPORT==== 22-Feb-2016::19:26:03 ===
+closing AMQP connection <0.710.0> (192.168.0.12:54442 -> 192.168.0.10:5672):
+connection_closed_abruptly
+
+=WARNING REPORT==== 22-Feb-2016::19:26:03 ===
+closing AMQP connection <0.736.0> (192.168.0.12:54443 -> 192.168.0.10:5672):
+connection_closed_abruptly
+
+=WARNING REPORT==== 22-Feb-2016::19:26:03 ===
+closing AMQP connection <0.747.0> (192.168.0.12:54444 -> 192.168.0.10:5672):
+connection_closed_abruptly
+
+=WARNING REPORT==== 22-Feb-2016::19:26:03 ===
+closing AMQP connection <0.758.0> (192.168.0.12:54445 -> 192.168.0.10:5672):
+connection_closed_abruptly
+
+=WARNING REPORT==== 22-Feb-2016::19:26:03 ===
+closing AMQP connection <0.769.0> (192.168.0.12:54446 -> 192.168.0.10:5672):
+connection_closed_abruptly
+
+=WARNING REPORT==== 22-Feb-2016::19:26:03 ===
+closing AMQP connection <0.780.0> (192.168.0.12:54447 -> 192.168.0.10:5672):
+connection_closed_abruptly
+
+=WARNING REPORT==== 22-Feb-2016::19:26:03 ===
+closing AMQP connection <0.802.0> (192.168.0.12:54449 -> 192.168.0.10:5672):
+connection_closed_abruptly
+
+=WARNING REPORT==== 22-Feb-2016::19:26:03 ===
+closing AMQP connection <0.791.0> (192.168.0.12:54448 -> 192.168.0.10:5672):
+connection_closed_abruptly
+
+=WARNING REPORT==== 22-Feb-2016::19:26:03 ===
+closing AMQP connection <0.205.0> (192.168.0.11:60484 -> 192.168.0.10:5672):
+connection_closed_abruptly
+
+=WARNING REPORT==== 22-Feb-2016::19:26:03 ===
+closing AMQP connection <0.227.0> (192.168.0.11:60485 -> 192.168.0.10:5672):
+connection_closed_abruptly
+
+=WARNING REPORT==== 22-Feb-2016::19:26:03 ===
+closing AMQP connection <0.252.0> (192.168.0.11:60486 -> 192.168.0.10:5672):
+connection_closed_abruptly
+
+=WARNING REPORT==== 22-Feb-2016::19:26:03 ===
+closing AMQP connection <0.264.0> (192.168.0.11:60487 -> 192.168.0.10:5672):
+connection_closed_abruptly
+
+=WARNING REPORT==== 22-Feb-2016::19:26:03 ===
+closing AMQP connection <0.288.0> (192.168.0.11:60489 -> 192.168.0.10:5672):
+connection_closed_abruptly
+
+=WARNING REPORT==== 22-Feb-2016::19:26:03 ===
+closing AMQP connection <0.276.0> (192.168.0.11:60488 -> 192.168.0.10:5672):
+connection_closed_abruptly
+
+=WARNING REPORT==== 22-Feb-2016::19:26:04 ===
+closing AMQP connection <0.327.0> (192.168.0.11:60492 -> 192.168.0.10:5672):
+connection_closed_abruptly
+
+=WARNING REPORT==== 22-Feb-2016::19:26:04 ===
+closing AMQP connection <0.349.0> (192.168.0.11:60494 -> 192.168.0.10:5672):
+connection_closed_abruptly
+
+=WARNING REPORT==== 22-Feb-2016::19:26:04 ===
+closing AMQP connection <0.373.0> (192.168.0.11:60495 -> 192.168.0.10:5672):
+connection_closed_abruptly
+
+=WARNING REPORT==== 22-Feb-2016::19:26:04 ===
+closing AMQP connection <0.462.0> (192.168.0.10:47823 -> 192.168.0.10:5672):
+connection_closed_abruptly
+
+=WARNING REPORT==== 22-Feb-2016::19:26:04 ===
+closing AMQP connection <0.340.0> (192.168.0.13:44685 -> 192.168.0.10:5672):
+connection_closed_abruptly
+
+=WARNING REPORT==== 22-Feb-2016::19:26:04 ===
+closing AMQP connection <0.481.0> (192.168.0.13:44688 -> 192.168.0.10:5672):
+connection_closed_abruptly
+
+=WARNING REPORT==== 22-Feb-2016::19:26:04 ===
+closing AMQP connection <0.495.0> (192.168.0.13:44689 -> 192.168.0.10:5672):
+connection_closed_abruptly
+
+=WARNING REPORT==== 22-Feb-2016::19:26:04 ===
+closing AMQP connection <0.506.0> (192.168.0.13:44690 -> 192.168.0.10:5672):
+connection_closed_abruptly
+
+=WARNING REPORT==== 22-Feb-2016::19:26:04 ===
+closing AMQP connection <0.517.0> (192.168.0.13:44691 -> 192.168.0.10:5672):
+connection_closed_abruptly
+
+=WARNING REPORT==== 22-Feb-2016::19:26:04 ===
+closing AMQP connection <0.528.0> (192.168.0.13:44692 -> 192.168.0.10:5672):
+connection_closed_abruptly
+
+=WARNING REPORT==== 22-Feb-2016::19:26:04 ===
+closing AMQP connection <0.539.0> (192.168.0.13:44693 -> 192.168.0.10:5672):
+connection_closed_abruptly
+
+=WARNING REPORT==== 22-Feb-2016::19:26:04 ===
+closing AMQP connection <0.297.0> (192.168.0.13:44684 -> 192.168.0.10:5672):
+connection_closed_abruptly
+
+=WARNING REPORT==== 22-Feb-2016::19:26:04 ===
+closing AMQP connection <0.550.0> (192.168.0.13:44694 -> 192.168.0.10:5672):
+connection_closed_abruptly
+
+=WARNING REPORT==== 22-Feb-2016::19:26:04 ===
+closing AMQP connection <0.472.0> (192.168.0.10:47824 -> 192.168.0.10:5672):
+connection_closed_abruptly
+
+=WARNING REPORT==== 22-Feb-2016::19:26:04 ===
+closing AMQP connection <0.242.0> (192.168.0.10:47822 -> 192.168.0.10:5672):
+connection_closed_abruptly
+
+=WARNING REPORT==== 22-Feb-2016::19:26:04 ===
+closing AMQP connection <0.830.0> (192.168.0.10:47859 -> 192.168.0.10:5672):
+connection_closed_abruptly
+
+=WARNING REPORT==== 22-Feb-2016::19:26:04 ===
+closing AMQP connection <0.818.0> (192.168.0.10:47856 -> 192.168.0.10:5672):
+connection_closed_abruptly
+
+=WARNING REPORT==== 22-Feb-2016::19:26:04 ===
+closing AMQP connection <0.842.0> (192.168.0.10:47862 -> 192.168.0.10:5672):
+connection_closed_abruptly
+
+=WARNING REPORT==== 22-Feb-2016::19:26:04 ===
+closing AMQP connection <0.561.0> (192.168.0.10:47838 -> 192.168.0.10:5672):
+connection_closed_abruptly
+
+=WARNING REPORT==== 22-Feb-2016::19:26:05 ===
+closing AMQP connection <0.218.0> (192.168.0.10:47821 -> 192.168.0.10:5672):
+connection_closed_abruptly
+
+=WARNING REPORT==== 22-Feb-2016::19:26:05 ===
+closing AMQP connection <0.621.0> (192.168.0.10:47845 -> 192.168.0.10:5672):
+connection_closed_abruptly
+
+=WARNING REPORT==== 22-Feb-2016::19:26:05 ===
+closing AMQP connection <0.609.0> (192.168.0.10:47843 -> 192.168.0.10:5672):
+connection_closed_abruptly
+
+=WARNING REPORT==== 22-Feb-2016::19:26:05 ===
+closing AMQP connection <0.1283.0> (192.168.0.10:47884 -> 192.168.0.10:5672):
+connection_closed_abruptly
+
+=INFO REPORT==== 22-Feb-2016::19:26:06 ===
+Stopping RabbitMQ
+
+=INFO REPORT==== 22-Feb-2016::19:26:06 ===
+stopped TCP Listener on [::]:5672
+
+=INFO REPORT==== 22-Feb-2016::19:26:06 ===
+Halting Erlang VM
+
+=INFO REPORT==== 22-Feb-2016::19:39:53 ===
+Starting RabbitMQ 3.3.5 on Erlang R16B03-1
+Copyright (C) 2007-2014 GoPivotal, Inc.
+Licensed under the MPL.  See http://www.rabbitmq.com/
+
+=INFO REPORT==== 22-Feb-2016::19:39:53 ===
+node           : rabbit@controller
+home dir       : /var/lib/rabbitmq
+config file(s) : /etc/rabbitmq/rabbitmq.config
+cookie hash    : EYWjNeB+FI1hYD0l+wWVbg==
+log            : /var/log/rabbitmq/rabbit@controller.log
+sasl log       : /var/log/rabbitmq/rabbit@controller-sasl.log
+database dir   : /var/lib/rabbitmq/mnesia/rabbit@controller
+
+=INFO REPORT==== 22-Feb-2016::19:39:53 ===
+Limiting to approx 16284 file handles (14653 sockets)
+
+=INFO REPORT==== 22-Feb-2016::19:39:54 ===
+Memory limit set to 3193MB of 7984MB total.
+
+=INFO REPORT==== 22-Feb-2016::19:39:54 ===
+Disk free limit set to 50MB
+
+=INFO REPORT==== 22-Feb-2016::19:39:54 ===
+msg_store_transient: using rabbit_msg_store_ets_index to provide index
+
+=INFO REPORT==== 22-Feb-2016::19:39:54 ===
+msg_store_persistent: using rabbit_msg_store_ets_index to provide index
+
+=INFO REPORT==== 22-Feb-2016::19:39:54 ===
+started TCP Listener on [::]:5672
+
+=INFO REPORT==== 22-Feb-2016::19:39:54 ===
+accepting AMQP connection <0.204.0> (192.168.0.13:43865 -> 192.168.0.10:5672)
+
+=INFO REPORT==== 22-Feb-2016::19:39:54 ===
+accepting AMQP connection <0.208.0> (192.168.0.13:43866 -> 192.168.0.10:5672)
+
+=INFO REPORT==== 22-Feb-2016::19:39:54 ===
+accepting AMQP connection <0.225.0> (192.168.0.13:43867 -> 192.168.0.10:5672)
+
+=INFO REPORT==== 22-Feb-2016::19:39:54 ===
+accepting AMQP connection <0.228.0> (192.168.0.13:43868 -> 192.168.0.10:5672)
+
+=INFO REPORT==== 22-Feb-2016::19:39:54 ===
+Server startup complete; 0 plugins started.
+
+=INFO REPORT==== 22-Feb-2016::19:39:54 ===
+accepting AMQP connection <0.252.0> (192.168.0.12:54064 -> 192.168.0.10:5672)
+
+=INFO REPORT==== 22-Feb-2016::19:39:54 ===
+accepting AMQP connection <0.262.0> (192.168.0.12:54065 -> 192.168.0.10:5672)
+
+=INFO REPORT==== 22-Feb-2016::19:39:54 ===
+accepting AMQP connection <0.271.0> (192.168.0.12:54066 -> 192.168.0.10:5672)
+
+=INFO REPORT==== 22-Feb-2016::19:39:55 ===
+accepting AMQP connection <0.285.0> (192.168.0.12:54067 -> 192.168.0.10:5672)
+
+=INFO REPORT==== 22-Feb-2016::19:39:55 ===
+accepting AMQP connection <0.293.0> (192.168.0.10:49753 -> 192.168.0.10:5672)
+
+=INFO REPORT==== 22-Feb-2016::19:39:55 ===
+accepting AMQP connection <0.308.0> (192.168.0.13:43869 -> 192.168.0.10:5672)
+
+=INFO REPORT==== 22-Feb-2016::19:39:55 ===
+accepting AMQP connection <0.321.0> (192.168.0.11:42911 -> 192.168.0.10:5672)
+
+=INFO REPORT==== 22-Feb-2016::19:39:55 ===
+accepting AMQP connection <0.324.0> (192.168.0.10:49756 -> 192.168.0.10:5672)
+
+=INFO REPORT==== 22-Feb-2016::19:39:55 ===
+accepting AMQP connection <0.334.0> (192.168.0.11:42912 -> 192.168.0.10:5672)
+
+=INFO REPORT==== 22-Feb-2016::19:39:55 ===
+accepting AMQP connection <0.351.0> (192.168.0.13:43870 -> 192.168.0.10:5672)
+
+=INFO REPORT==== 22-Feb-2016::19:39:55 ===
+accepting AMQP connection <0.355.0> (192.168.0.11:42913 -> 192.168.0.10:5672)
+
+=INFO REPORT==== 22-Feb-2016::19:39:55 ===
+accepting AMQP connection <0.371.0> (192.168.0.11:42914 -> 192.168.0.10:5672)
+
+=INFO REPORT==== 22-Feb-2016::19:39:55 ===
+accepting AMQP connection <0.390.0> (192.168.0.13:43871 -> 192.168.0.10:5672)
+
+=INFO REPORT==== 22-Feb-2016::19:39:55 ===
+accepting AMQP connection <0.402.0> (192.168.0.11:42915 -> 192.168.0.10:5672)
+
+=INFO REPORT==== 22-Feb-2016::19:39:55 ===
+accepting AMQP connection <0.405.0> (192.168.0.13:43872 -> 192.168.0.10:5672)
+
+=INFO REPORT==== 22-Feb-2016::19:39:55 ===
+accepting AMQP connection <0.408.0> (192.168.0.11:42916 -> 192.168.0.10:5672)
+
+=INFO REPORT==== 22-Feb-2016::19:39:55 ===
+accepting AMQP connection <0.413.0> (192.168.0.10:49757 -> 192.168.0.10:5672)
+
+=INFO REPORT==== 22-Feb-2016::19:39:55 ===
+accepting AMQP connection <0.445.0> (192.168.0.11:42917 -> 192.168.0.10:5672)
+
+=INFO REPORT==== 22-Feb-2016::19:39:55 ===
+accepting AMQP connection <0.449.0> (192.168.0.10:49758 -> 192.168.0.10:5672)
+
+=INFO REPORT==== 22-Feb-2016::19:39:55 ===
+accepting AMQP connection <0.453.0> (192.168.0.13:43873 -> 192.168.0.10:5672)
+
+=INFO REPORT==== 22-Feb-2016::19:39:55 ===
+accepting AMQP connection <0.466.0> (192.168.0.11:42918 -> 192.168.0.10:5672)
+
+=INFO REPORT==== 22-Feb-2016::19:39:55 ===
+accepting AMQP connection <0.492.0> (192.168.0.13:43874 -> 192.168.0.10:5672)
+
+=INFO REPORT==== 22-Feb-2016::19:39:55 ===
+accepting AMQP connection <0.496.0> (192.168.0.11:42919 -> 192.168.0.10:5672)
+
+=INFO REPORT==== 22-Feb-2016::19:39:55 ===
+accepting AMQP connection <0.499.0> (192.168.0.11:42920 -> 192.168.0.10:5672)
+
+=INFO REPORT==== 22-Feb-2016::19:39:55 ===
+accepting AMQP connection <0.502.0> (192.168.0.12:54068 -> 192.168.0.10:5672)
+
+=INFO REPORT==== 22-Feb-2016::19:39:55 ===
+accepting AMQP connection <0.512.0> (192.168.0.11:42921 -> 192.168.0.10:5672)
+
+=INFO REPORT==== 22-Feb-2016::19:39:55 ===
+accepting AMQP connection <0.546.0> (192.168.0.13:43875 -> 192.168.0.10:5672)
+
+=INFO REPORT==== 22-Feb-2016::19:39:55 ===
+accepting AMQP connection <0.549.0> (192.168.0.11:42922 -> 192.168.0.10:5672)
+
+=INFO REPORT==== 22-Feb-2016::19:39:55 ===
+accepting AMQP connection <0.553.0> (192.168.0.12:54069 -> 192.168.0.10:5672)
+
+=INFO REPORT==== 22-Feb-2016::19:39:55 ===
+accepting AMQP connection <0.581.0> (192.168.0.11:42923 -> 192.168.0.10:5672)
+
+=INFO REPORT==== 22-Feb-2016::19:39:55 ===
+accepting AMQP connection <0.595.0> (192.168.0.12:54070 -> 192.168.0.10:5672)
+
+=INFO REPORT==== 22-Feb-2016::19:39:55 ===
+accepting AMQP connection <0.607.0> (192.168.0.11:42924 -> 192.168.0.10:5672)
+
+=INFO REPORT==== 22-Feb-2016::19:39:55 ===
+accepting AMQP connection <0.616.0> (192.168.0.12:54071 -> 192.168.0.10:5672)
+
+=INFO REPORT==== 22-Feb-2016::19:39:55 ===
+accepting AMQP connection <0.629.0> (192.168.0.11:42925 -> 192.168.0.10:5672)
+
+=INFO REPORT==== 22-Feb-2016::19:39:55 ===
+accepting AMQP connection <0.638.0> (192.168.0.12:54072 -> 192.168.0.10:5672)
+
+=INFO REPORT==== 22-Feb-2016::19:39:56 ===
+accepting AMQP connection <0.650.0> (192.168.0.11:42926 -> 192.168.0.10:5672)
+
+=INFO REPORT==== 22-Feb-2016::19:39:56 ===
+accepting AMQP connection <0.660.0> (192.168.0.12:54073 -> 192.168.0.10:5672)
+
+=INFO REPORT==== 22-Feb-2016::19:39:56 ===
+accepting AMQP connection <0.673.0> (192.168.0.12:54074 -> 192.168.0.10:5672)
+
+=INFO REPORT==== 22-Feb-2016::19:40:04 ===
+accepting AMQP connection <0.685.0> (192.168.0.10:49768 -> 192.168.0.10:5672)
+
+=INFO REPORT==== 22-Feb-2016::19:40:05 ===
+accepting AMQP connection <0.705.0> (192.168.0.10:49774 -> 192.168.0.10:5672)
+
+=INFO REPORT==== 22-Feb-2016::19:40:05 ===
+accepting AMQP connection <0.717.0> (192.168.0.10:49775 -> 192.168.0.10:5672)
+
+=INFO REPORT==== 22-Feb-2016::19:40:06 ===
+accepting AMQP connection <0.729.0> (192.168.0.10:49776 -> 192.168.0.10:5672)
+
+=INFO REPORT==== 22-Feb-2016::19:40:06 ===
+accepting AMQP connection <0.737.0> (192.168.0.10:49777 -> 192.168.0.10:5672)
+
+=INFO REPORT==== 22-Feb-2016::19:40:06 ===
+accepting AMQP connection <0.752.0> (192.168.0.10:49778 -> 192.168.0.10:5672)
+
+=INFO REPORT==== 22-Feb-2016::19:40:06 ===
+accepting AMQP connection <0.762.0> (192.168.0.10:49779 -> 192.168.0.10:5672)
+
+=INFO REPORT==== 22-Feb-2016::19:40:11 ===
+accepting AMQP connection <0.772.0> (192.168.0.10:49787 -> 192.168.0.10:5672)
+
+=INFO REPORT==== 22-Feb-2016::19:40:11 ===
+accepting AMQP connection <0.784.0> (192.168.0.10:49788 -> 192.168.0.10:5672)
+
+=INFO REPORT==== 22-Feb-2016::19:40:11 ===
+accepting AMQP connection <0.796.0> (192.168.0.10:49790 -> 192.168.0.10:5672)
+
+=INFO REPORT==== 22-Feb-2016::19:40:11 ===
+accepting AMQP connection <0.805.0> (192.168.0.10:49792 -> 192.168.0.10:5672)
+
+=INFO REPORT==== 22-Feb-2016::19:40:12 ===
+accepting AMQP connection <0.818.0> (192.168.0.10:49793 -> 192.168.0.10:5672)
+
+=INFO REPORT==== 22-Feb-2016::19:40:12 ===
+accepting AMQP connection <0.828.0> (192.168.0.10:49794 -> 192.168.0.10:5672)
+
+=INFO REPORT==== 22-Feb-2016::19:40:12 ===
+accepting AMQP connection <0.838.0> (192.168.0.10:49796 -> 192.168.0.10:5672)
+
+=INFO REPORT==== 22-Feb-2016::19:40:12 ===
+accepting AMQP connection <0.850.0> (192.168.0.10:49797 -> 192.168.0.10:5672)
+
+=INFO REPORT==== 22-Feb-2016::19:40:12 ===
+accepting AMQP connection <0.863.0> (192.168.0.10:49798 -> 192.168.0.10:5672)
+
+=INFO REPORT==== 22-Feb-2016::19:40:13 ===
+accepting AMQP connection <0.876.0> (192.168.0.10:49799 -> 192.168.0.10:5672)
+
+=INFO REPORT==== 22-Feb-2016::19:40:14 ===
+accepting AMQP connection <0.893.0> (192.168.0.10:49800 -> 192.168.0.10:5672)
+
+=INFO REPORT==== 22-Feb-2016::19:40:14 ===
+accepting AMQP connection <0.910.0> (192.168.0.10:49801 -> 192.168.0.10:5672)
+
+=INFO REPORT==== 22-Feb-2016::19:40:14 ===
+accepting AMQP connection <0.927.0> (192.168.0.10:49802 -> 192.168.0.10:5672)
+
+=INFO REPORT==== 22-Feb-2016::19:40:14 ===
+accepting AMQP connection <0.948.0> (192.168.0.10:49803 -> 192.168.0.10:5672)
+
+=INFO REPORT==== 22-Feb-2016::19:40:15 ===
+accepting AMQP connection <0.1025.0> (192.168.0.12:54076 -> 192.168.0.10:5672)
+
+=INFO REPORT==== 22-Feb-2016::19:40:15 ===
+accepting AMQP connection <0.1121.0> (192.168.0.13:43877 -> 192.168.0.10:5672)
+
+=INFO REPORT==== 22-Feb-2016::19:40:54 ===
+accepting AMQP connection <0.1300.0> (192.168.0.10:49809 -> 192.168.0.10:5672)
+
+=INFO REPORT==== 22-Feb-2016::19:40:55 ===
+accepting AMQP connection <0.1317.0> (192.168.0.10:49811 -> 192.168.0.10:5672)
+
+=INFO REPORT==== 22-Feb-2016::19:40:55 ===
+accepting AMQP connection <0.1338.0> (192.168.0.10:49812 -> 192.168.0.10:5672)
+
+=INFO REPORT==== 22-Feb-2016::19:40:55 ===
+accepting AMQP connection <0.1354.0> (192.168.0.11:42927 -> 192.168.0.10:5672)
+
+=INFO REPORT==== 22-Feb-2016::19:40:55 ===
+accepting AMQP connection <0.1367.0> (192.168.0.10:49814 -> 192.168.0.10:5672)
+
+=INFO REPORT==== 22-Feb-2016::19:40:56 ===
+accepting AMQP connection <0.1380.0> (192.168.0.11:42928 -> 192.168.0.10:5672)
+
+=INFO REPORT==== 22-Feb-2016::19:40:56 ===
+accepting AMQP connection <0.1405.0> (192.168.0.10:49816 -> 192.168.0.10:5672)
+
+=INFO REPORT==== 22-Feb-2016::19:40:56 ===
+accepting AMQP connection <0.1430.0> (192.168.0.10:49819 -> 192.168.0.10:5672)
+
+=INFO REPORT==== 22-Feb-2016::19:49:51 ===
+accepting AMQP connection <0.3683.0> (192.168.0.10:49900 -> 192.168.0.10:5672)
+
+=INFO REPORT==== 22-Feb-2016::20:16:11 ===
+accepting AMQP connection <0.10330.0> (192.168.0.13:43885 -> 192.168.0.10:5672)
+
+=INFO REPORT==== 22-Feb-2016::20:33:30 ===
+accepting AMQP connection <0.14728.0> (192.168.0.12:54088 -> 192.168.0.10:5672)
+
+=INFO REPORT==== 22-Feb-2016::21:18:04 ===
+accepting AMQP connection <0.25966.0> (192.168.0.10:51247 -> 192.168.0.10:5672)
+
+=INFO REPORT==== 22-Feb-2016::21:18:04 ===
+accepting AMQP connection <0.25979.0> (192.168.0.10:51248 -> 192.168.0.10:5672)
+
+=INFO REPORT==== 22-Feb-2016::21:18:04 ===
+accepting AMQP connection <0.25993.0> (192.168.0.10:51249 -> 192.168.0.10:5672)
+
+=INFO REPORT==== 22-Feb-2016::21:18:05 ===
+accepting AMQP connection <0.26114.0> (192.168.0.10:51267 -> 192.168.0.10:5672)
+
+=INFO REPORT==== 22-Feb-2016::21:18:05 ===
+accepting AMQP connection <0.26135.0> (192.168.0.10:51268 -> 192.168.0.10:5672)
+
+=INFO REPORT==== 22-Feb-2016::21:18:06 ===
+accepting AMQP connection <0.26172.0> (192.168.0.10:51270 -> 192.168.0.10:5672)
+
+=INFO REPORT==== 22-Feb-2016::21:19:20 ===
+accepting AMQP connection <0.26422.0> (192.168.0.13:43907 -> 192.168.0.10:5672)
+
+=INFO REPORT==== 22-Feb-2016::21:21:01 ===
+accepting AMQP connection <0.26901.0> (192.168.0.10:51419 -> 192.168.0.10:5672)
+
+=INFO REPORT==== 22-Feb-2016::21:23:56 ===
+accepting AMQP connection <0.27860.0> (192.168.0.10:51556 -> 192.168.0.10:5672)
+
+=INFO REPORT==== 22-Feb-2016::21:23:56 ===
+accepting AMQP connection <0.27873.0> (192.168.0.10:51557 -> 192.168.0.10:5672)
+
+=INFO REPORT==== 22-Feb-2016::21:23:58 ===
+accepting AMQP connection <0.28015.0> (192.168.0.10:51576 -> 192.168.0.10:5672)
+
+=INFO REPORT==== 22-Feb-2016::21:29:42 ===
+accepting AMQP connection <0.29789.0> (192.168.0.12:54108 -> 192.168.0.10:5672)
+
+=INFO REPORT==== 22-Feb-2016::21:31:52 ===
+accepting AMQP connection <0.30511.0> (192.168.0.10:51832 -> 192.168.0.10:5672)
+
+=INFO REPORT==== 22-Feb-2016::21:35:40 ===
+accepting AMQP connection <0.31753.0> (192.168.0.10:51913 -> 192.168.0.10:5672)
+
+=INFO REPORT==== 22-Feb-2016::21:35:45 ===
+accepting AMQP connection <0.31843.0> (192.168.0.10:51942 -> 192.168.0.10:5672)
+
+=WARNING REPORT==== 22-Feb-2016::22:27:51 ===
+closing AMQP connection <0.26422.0> (192.168.0.13:43907 -> 192.168.0.10:5672):
+connection_closed_abruptly
+
+=WARNING REPORT==== 22-Feb-2016::22:27:51 ===
+closing AMQP connection <0.29789.0> (192.168.0.12:54108 -> 192.168.0.10:5672):
+connection_closed_abruptly
+
+=WARNING REPORT==== 22-Feb-2016::22:27:51 ===
+closing AMQP connection <0.1354.0> (192.168.0.11:42927 -> 192.168.0.10:5672):
+connection_closed_abruptly
+
+=WARNING REPORT==== 22-Feb-2016::22:27:51 ===
+closing AMQP connection <0.334.0> (192.168.0.11:42912 -> 192.168.0.10:5672):
+connection_closed_abruptly
+
+=WARNING REPORT==== 22-Feb-2016::22:27:51 ===
+closing AMQP connection <0.371.0> (192.168.0.11:42914 -> 192.168.0.10:5672):
+connection_closed_abruptly
+
+=WARNING REPORT==== 22-Feb-2016::22:27:51 ===
+closing AMQP connection <0.496.0> (192.168.0.11:42919 -> 192.168.0.10:5672):
+connection_closed_abruptly
+
+=WARNING REPORT==== 22-Feb-2016::22:27:51 ===
+closing AMQP connection <0.1380.0> (192.168.0.11:42928 -> 192.168.0.10:5672):
+connection_closed_abruptly
+
+=WARNING REPORT==== 22-Feb-2016::22:27:51 ===
+closing AMQP connection <0.499.0> (192.168.0.11:42920 -> 192.168.0.10:5672):
+connection_closed_abruptly
+
+=WARNING REPORT==== 22-Feb-2016::22:27:51 ===
+closing AMQP connection <0.549.0> (192.168.0.11:42922 -> 192.168.0.10:5672):
+connection_closed_abruptly
+
+=WARNING REPORT==== 22-Feb-2016::22:27:52 ===
+closing AMQP connection <0.355.0> (192.168.0.11:42913 -> 192.168.0.10:5672):
+connection_closed_abruptly
+
+=WARNING REPORT==== 22-Feb-2016::22:27:52 ===
+closing AMQP connection <0.321.0> (192.168.0.11:42911 -> 192.168.0.10:5672):
+connection_closed_abruptly
+
+=WARNING REPORT==== 22-Feb-2016::22:27:52 ===
+closing AMQP connection <0.1025.0> (192.168.0.12:54076 -> 192.168.0.10:5672):
+connection_closed_abruptly
+
+=WARNING REPORT==== 22-Feb-2016::22:27:52 ===
+closing AMQP connection <0.252.0> (192.168.0.12:54064 -> 192.168.0.10:5672):
+connection_closed_abruptly
+
+=WARNING REPORT==== 22-Feb-2016::22:27:52 ===
+closing AMQP connection <0.262.0> (192.168.0.12:54065 -> 192.168.0.10:5672):
+connection_closed_abruptly
+
+=WARNING REPORT==== 22-Feb-2016::22:27:52 ===
+closing AMQP connection <0.14728.0> (192.168.0.12:54088 -> 192.168.0.10:5672):
+connection_closed_abruptly
+
+=INFO REPORT==== 22-Feb-2016::22:27:52 ===
+closing AMQP connection <0.850.0> (192.168.0.10:49797 -> 192.168.0.10:5672)
+
+=WARNING REPORT==== 22-Feb-2016::22:27:52 ===
+closing AMQP connection <0.863.0> (192.168.0.10:49798 -> 192.168.0.10:5672):
+connection_closed_abruptly
+
+=WARNING REPORT==== 22-Feb-2016::22:27:52 ===
+closing AMQP connection <0.876.0> (192.168.0.10:49799 -> 192.168.0.10:5672):
+connection_closed_abruptly
+
+=WARNING REPORT==== 22-Feb-2016::22:27:52 ===
+closing AMQP connection <0.28015.0> (192.168.0.10:51576 -> 192.168.0.10:5672):
+connection_closed_abruptly
+
+=WARNING REPORT==== 22-Feb-2016::22:27:52 ===
+closing AMQP connection <0.26172.0> (192.168.0.10:51270 -> 192.168.0.10:5672):
+connection_closed_abruptly
+
+=WARNING REPORT==== 22-Feb-2016::22:27:52 ===
+closing AMQP connection <0.729.0> (192.168.0.10:49776 -> 192.168.0.10:5672):
+connection_closed_abruptly
+
+=WARNING REPORT==== 22-Feb-2016::22:27:52 ===
+closing AMQP connection <0.910.0> (192.168.0.10:49801 -> 192.168.0.10:5672):
+connection_closed_abruptly
+
+=WARNING REPORT==== 22-Feb-2016::22:27:52 ===
+closing AMQP connection <0.1121.0> (192.168.0.13:43877 -> 192.168.0.10:5672):
+connection_closed_abruptly
+
+=WARNING REPORT==== 22-Feb-2016::22:27:52 ===
+closing AMQP connection <0.204.0> (192.168.0.13:43865 -> 192.168.0.10:5672):
+connection_closed_abruptly
+
+=WARNING REPORT==== 22-Feb-2016::22:27:52 ===
+closing AMQP connection <0.225.0> (192.168.0.13:43867 -> 192.168.0.10:5672):
+connection_closed_abruptly
+
+=WARNING REPORT==== 22-Feb-2016::22:27:52 ===
+closing AMQP connection <0.10330.0> (192.168.0.13:43885 -> 192.168.0.10:5672):
+connection_closed_abruptly
+
+=WARNING REPORT==== 22-Feb-2016::22:27:52 ===
+closing AMQP connection <0.737.0> (192.168.0.10:49777 -> 192.168.0.10:5672):
+connection_closed_abruptly
+
+=WARNING REPORT==== 22-Feb-2016::22:27:52 ===
+closing AMQP connection <0.893.0> (192.168.0.10:49800 -> 192.168.0.10:5672):
+connection_closed_abruptly
+
+=WARNING REPORT==== 22-Feb-2016::22:27:52 ===
+closing AMQP connection <0.27873.0> (192.168.0.10:51557 -> 192.168.0.10:5672):
+connection_closed_abruptly
+
+=WARNING REPORT==== 22-Feb-2016::22:27:52 ===
+closing AMQP connection <0.1317.0> (192.168.0.10:49811 -> 192.168.0.10:5672):
+connection_closed_abruptly
+
+=WARNING REPORT==== 22-Feb-2016::22:27:52 ===
+closing AMQP connection <0.805.0> (192.168.0.10:49792 -> 192.168.0.10:5672):
+connection_closed_abruptly
+
+=WARNING REPORT==== 22-Feb-2016::22:27:52 ===
+closing AMQP connection <0.30511.0> (192.168.0.10:51832 -> 192.168.0.10:5672):
+connection_closed_abruptly
+
+=WARNING REPORT==== 22-Feb-2016::22:27:52 ===
+closing AMQP connection <0.31753.0> (192.168.0.10:51913 -> 192.168.0.10:5672):
+connection_closed_abruptly
+
+=WARNING REPORT==== 22-Feb-2016::22:27:52 ===
+closing AMQP connection <0.26901.0> (192.168.0.10:51419 -> 192.168.0.10:5672):
+connection_closed_abruptly
+
+=WARNING REPORT==== 22-Feb-2016::22:27:52 ===
+closing AMQP connection <0.818.0> (192.168.0.10:49793 -> 192.168.0.10:5672):
+connection_closed_abruptly
+
+=WARNING REPORT==== 22-Feb-2016::22:27:52 ===
+closing AMQP connection <0.25966.0> (192.168.0.10:51247 -> 192.168.0.10:5672):
+connection_closed_abruptly
+
+=WARNING REPORT==== 22-Feb-2016::22:27:53 ===
+closing AMQP connection <0.828.0> (192.168.0.10:49794 -> 192.168.0.10:5672):
+connection_closed_abruptly
+
+=WARNING REPORT==== 22-Feb-2016::22:27:53 ===
+closing AMQP connection <0.796.0> (192.168.0.10:49790 -> 192.168.0.10:5672):
+connection_closed_abruptly
+
+=WARNING REPORT==== 22-Feb-2016::22:27:53 ===
+closing AMQP connection <0.1300.0> (192.168.0.10:49809 -> 192.168.0.10:5672):
+connection_closed_abruptly
+
+=WARNING REPORT==== 22-Feb-2016::22:27:53 ===
+closing AMQP connection <0.1367.0> (192.168.0.10:49814 -> 192.168.0.10:5672):
+connection_closed_abruptly
+
+=WARNING REPORT==== 22-Feb-2016::22:27:53 ===
+closing AMQP connection <0.1405.0> (192.168.0.10:49816 -> 192.168.0.10:5672):
+connection_closed_abruptly
+
+=WARNING REPORT==== 22-Feb-2016::22:27:53 ===
+closing AMQP connection <0.27860.0> (192.168.0.10:51556 -> 192.168.0.10:5672):
+connection_closed_abruptly
+
+=WARNING REPORT==== 22-Feb-2016::22:27:53 ===
+closing AMQP connection <0.285.0> (192.168.0.12:54067 -> 192.168.0.10:5672):
+connection_closed_abruptly
+
+=WARNING REPORT==== 22-Feb-2016::22:27:53 ===
+closing AMQP connection <0.271.0> (192.168.0.12:54066 -> 192.168.0.10:5672):
+connection_closed_abruptly
+
+=WARNING REPORT==== 22-Feb-2016::22:27:53 ===
+closing AMQP connection <0.502.0> (192.168.0.12:54068 -> 192.168.0.10:5672):
+connection_closed_abruptly
+
+=WARNING REPORT==== 22-Feb-2016::22:27:53 ===
+closing AMQP connection <0.553.0> (192.168.0.12:54069 -> 192.168.0.10:5672):
+connection_closed_abruptly
+
+=WARNING REPORT==== 22-Feb-2016::22:27:53 ===
+closing AMQP connection <0.660.0> (192.168.0.12:54073 -> 192.168.0.10:5672):
+connection_closed_abruptly
+
+=WARNING REPORT==== 22-Feb-2016::22:27:53 ===
+closing AMQP connection <0.595.0> (192.168.0.12:54070 -> 192.168.0.10:5672):
+connection_closed_abruptly
+
+=WARNING REPORT==== 22-Feb-2016::22:27:53 ===
+closing AMQP connection <0.616.0> (192.168.0.12:54071 -> 192.168.0.10:5672):
+connection_closed_abruptly
+
+=WARNING REPORT==== 22-Feb-2016::22:27:53 ===
+closing AMQP connection <0.638.0> (192.168.0.12:54072 -> 192.168.0.10:5672):
+connection_closed_abruptly
+
+=WARNING REPORT==== 22-Feb-2016::22:27:53 ===
+closing AMQP connection <0.673.0> (192.168.0.12:54074 -> 192.168.0.10:5672):
+connection_closed_abruptly
+
+=WARNING REPORT==== 22-Feb-2016::22:27:53 ===
+closing AMQP connection <0.26114.0> (192.168.0.10:51267 -> 192.168.0.10:5672):
+connection_closed_abruptly
+
+=WARNING REPORT==== 22-Feb-2016::22:27:53 ===
+closing AMQP connection <0.31843.0> (192.168.0.10:51942 -> 192.168.0.10:5672):
+connection_closed_abruptly
+
+=WARNING REPORT==== 22-Feb-2016::22:27:53 ===
+closing AMQP connection <0.752.0> (192.168.0.10:49778 -> 192.168.0.10:5672):
+connection_closed_abruptly
+
+=WARNING REPORT==== 22-Feb-2016::22:27:53 ===
+closing AMQP connection <0.927.0> (192.168.0.10:49802 -> 192.168.0.10:5672):
+connection_closed_abruptly
+
+=WARNING REPORT==== 22-Feb-2016::22:27:53 ===
+closing AMQP connection <0.25979.0> (192.168.0.10:51248 -> 192.168.0.10:5672):
+connection_closed_abruptly
+
+=WARNING REPORT==== 22-Feb-2016::22:27:53 ===
+closing AMQP connection <0.208.0> (192.168.0.13:43866 -> 192.168.0.10:5672):
+connection_closed_abruptly
+
+=WARNING REPORT==== 22-Feb-2016::22:27:53 ===
+closing AMQP connection <0.308.0> (192.168.0.13:43869 -> 192.168.0.10:5672):
+connection_closed_abruptly
+
+=WARNING REPORT==== 22-Feb-2016::22:27:53 ===
+closing AMQP connection <0.228.0> (192.168.0.13:43868 -> 192.168.0.10:5672):
+connection_closed_abruptly
+
+=WARNING REPORT==== 22-Feb-2016::22:27:53 ===
+closing AMQP connection <0.351.0> (192.168.0.13:43870 -> 192.168.0.10:5672):
+connection_closed_abruptly
+
+=WARNING REPORT==== 22-Feb-2016::22:27:53 ===
+closing AMQP connection <0.405.0> (192.168.0.13:43872 -> 192.168.0.10:5672):
+connection_closed_abruptly
+
+=WARNING REPORT==== 22-Feb-2016::22:27:53 ===
+closing AMQP connection <0.390.0> (192.168.0.13:43871 -> 192.168.0.10:5672):
+connection_closed_abruptly
+
+=WARNING REPORT==== 22-Feb-2016::22:27:53 ===
+closing AMQP connection <0.492.0> (192.168.0.13:43874 -> 192.168.0.10:5672):
+connection_closed_abruptly
+
+=WARNING REPORT==== 22-Feb-2016::22:27:53 ===
+closing AMQP connection <0.546.0> (192.168.0.13:43875 -> 192.168.0.10:5672):
+connection_closed_abruptly
+
+=WARNING REPORT==== 22-Feb-2016::22:27:53 ===
+closing AMQP connection <0.453.0> (192.168.0.13:43873 -> 192.168.0.10:5672):
+connection_closed_abruptly
+
+=WARNING REPORT==== 22-Feb-2016::22:27:53 ===
+closing AMQP connection <0.449.0> (192.168.0.10:49758 -> 192.168.0.10:5672):
+connection_closed_abruptly
+
+=WARNING REPORT==== 22-Feb-2016::22:27:53 ===
+closing AMQP connection <0.445.0> (192.168.0.11:42917 -> 192.168.0.10:5672):
+connection_closed_abruptly
+
+=WARNING REPORT==== 22-Feb-2016::22:27:53 ===
+closing AMQP connection <0.466.0> (192.168.0.11:42918 -> 192.168.0.10:5672):
+connection_closed_abruptly
+
+=WARNING REPORT==== 22-Feb-2016::22:27:53 ===
+closing AMQP connection <0.512.0> (192.168.0.11:42921 -> 192.168.0.10:5672):
+connection_closed_abruptly
+
+=WARNING REPORT==== 22-Feb-2016::22:27:53 ===
+closing AMQP connection <0.629.0> (192.168.0.11:42925 -> 192.168.0.10:5672):
+connection_closed_abruptly
+
+=WARNING REPORT==== 22-Feb-2016::22:27:53 ===
+closing AMQP connection <0.402.0> (192.168.0.11:42915 -> 192.168.0.10:5672):
+connection_closed_abruptly
+
+=WARNING REPORT==== 22-Feb-2016::22:27:53 ===
+closing AMQP connection <0.408.0> (192.168.0.11:42916 -> 192.168.0.10:5672):
+connection_closed_abruptly
+
+=WARNING REPORT==== 22-Feb-2016::22:27:53 ===
+closing AMQP connection <0.581.0> (192.168.0.11:42923 -> 192.168.0.10:5672):
+connection_closed_abruptly
+
+=WARNING REPORT==== 22-Feb-2016::22:27:53 ===
+closing AMQP connection <0.607.0> (192.168.0.11:42924 -> 192.168.0.10:5672):
+connection_closed_abruptly
+
+=WARNING REPORT==== 22-Feb-2016::22:27:53 ===
+closing AMQP connection <0.650.0> (192.168.0.11:42926 -> 192.168.0.10:5672):
+connection_closed_abruptly
+
+=WARNING REPORT==== 22-Feb-2016::22:27:54 ===
+closing AMQP connection <0.324.0> (192.168.0.10:49756 -> 192.168.0.10:5672):
+connection_closed_abruptly
+
+=WARNING REPORT==== 22-Feb-2016::22:27:55 ===
+closing AMQP connection <0.413.0> (192.168.0.10:49757 -> 192.168.0.10:5672):
+connection_closed_abruptly
+
+=WARNING REPORT==== 22-Feb-2016::22:27:55 ===
+closing AMQP connection <0.26135.0> (192.168.0.10:51268 -> 192.168.0.10:5672):
+connection_closed_abruptly
+
+=WARNING REPORT==== 22-Feb-2016::22:27:55 ===
+closing AMQP connection <0.293.0> (192.168.0.10:49753 -> 192.168.0.10:5672):
+connection_closed_abruptly
+
+=WARNING REPORT==== 22-Feb-2016::22:27:55 ===
+closing AMQP connection <0.3683.0> (192.168.0.10:49900 -> 192.168.0.10:5672):
+connection_closed_abruptly
+
+=WARNING REPORT==== 22-Feb-2016::22:27:55 ===
+closing AMQP connection <0.784.0> (192.168.0.10:49788 -> 192.168.0.10:5672):
+connection_closed_abruptly
+
+=WARNING REPORT==== 22-Feb-2016::22:27:56 ===
+closing AMQP connection <0.685.0> (192.168.0.10:49768 -> 192.168.0.10:5672):
+connection_closed_abruptly
+
+=WARNING REPORT==== 22-Feb-2016::22:27:56 ===
+closing AMQP connection <0.717.0> (192.168.0.10:49775 -> 192.168.0.10:5672):
+connection_closed_abruptly
+
+=WARNING REPORT==== 22-Feb-2016::22:27:56 ===
+closing AMQP connection <0.705.0> (192.168.0.10:49774 -> 192.168.0.10:5672):
+connection_closed_abruptly
+
+=WARNING REPORT==== 22-Feb-2016::22:27:56 ===
+closing AMQP connection <0.838.0> (192.168.0.10:49796 -> 192.168.0.10:5672):
+connection_closed_abruptly
+
+=WARNING REPORT==== 22-Feb-2016::22:27:57 ===
+closing AMQP connection <0.25993.0> (192.168.0.10:51249 -> 192.168.0.10:5672):
+connection_closed_abruptly
+
+=WARNING REPORT==== 22-Feb-2016::22:27:57 ===
+closing AMQP connection <0.772.0> (192.168.0.10:49787 -> 192.168.0.10:5672):
+connection_closed_abruptly
+
+=WARNING REPORT==== 22-Feb-2016::22:27:57 ===
+closing AMQP connection <0.1338.0> (192.168.0.10:49812 -> 192.168.0.10:5672):
+connection_closed_abruptly
+
+=WARNING REPORT==== 22-Feb-2016::22:27:57 ===
+closing AMQP connection <0.1430.0> (192.168.0.10:49819 -> 192.168.0.10:5672):
+connection_closed_abruptly
+
+=INFO REPORT==== 22-Feb-2016::22:27:57 ===
+Stopping RabbitMQ
+
+=INFO REPORT==== 22-Feb-2016::22:27:57 ===
+stopped TCP Listener on [::]:5672
+
+=ERROR REPORT==== 22-Feb-2016::22:27:57 ===
+AMQP connection <0.948.0> (running), channel 0 - error:
+{amqp_error,connection_forced,
+            "broker forced connection closure with reason 'shutdown'",none}
+
+=ERROR REPORT==== 22-Feb-2016::22:27:57 ===
+AMQP connection <0.762.0> (running), channel 0 - error:
+{amqp_error,connection_forced,
+            "broker forced connection closure with reason 'shutdown'",none}
+
+=INFO REPORT==== 22-Feb-2016::22:27:57 ===
+Halting Erlang VM
