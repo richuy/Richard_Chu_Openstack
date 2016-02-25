@@ -645,3 +645,42 @@
   645  vi git*
   646  ls -ltr
   647  ./git_cmd.txt
+  648  cd /var/log
+  649  ls -ltr
+  650  pwd
+  651  cd 
+  652  cd root
+  653  ls -ltr
+  654  cd myopenstack
+  655  ls -tlr
+  656  pwd
+  657  cd /var/log/nova
+  658  ls -tlr
+  659  cd ..
+  660  ls -tlr
+  661  cd keystone
+  662  ls -ltr
+  663  cd ../swift
+  664  ls -ltr
+  665  cd ../cinder
+  666  ls -tlr
+  667  cd ../glance
+  668  ls -ltr
+  669  cd ..
+  670  ls -ltr
+  671  cd rabbitmq
+  672  ls -ltr
+  673  cd ..
+  674  pwd
+  675  cd /root/my*
+  676  ls -ltr
+  677  mkdir nova
+  678  mkdir keystone
+  679  mkdir swift
+  680  mkdir cinder
+  681  mkdir glance
+  682  mkdir rabbitmq
+  683  ls -ltr
+  684  vi git_cmd*
+  685  ls -ltr
+  686  ./git_cmd.txt
