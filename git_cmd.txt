@@ -1,0 +1,6 @@
+git add *.*
+git commit -m "This is supposed to add all files"
+git remote add origin  https://github.com/richuy/Richard_Chu_Openstack.git
+git remote remove origin
+git remote add origin  https://github.com/richuy/Richard_Chu_Openstack.git
+git push origin master
